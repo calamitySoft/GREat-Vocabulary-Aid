@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Front</key>
+		<string>Cat</string>
+		<key>Back</key>
+		<string>Furry house pet</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Orange</string>
+		<key>Back</key>
+		<string>Tart melon</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Buzz Lightyear</string>
+		<key>Back</key>
+		<string>Fictional action figure from the movie &quot;Toy Story&quot;</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Four</string>
+		<key>Back</key>
+		<string>Ordinal number following three</string>
+	</dict>
+</array>
+</plist>

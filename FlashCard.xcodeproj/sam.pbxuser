@@ -1,0 +1,830 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* FlashCardAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1015, 455}}";
+			sepNavSelRange = "{463, 0}";
+			sepNavVisRange = "{3, 794}";
+			sepNavWindowFrame = "{{38, 53}, {1089, 699}}";
+		};
+	};
+	1D3623250D0F684500981E51 /* FlashCardAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1015, 1469}}";
+			sepNavSelRange = "{1539, 0}";
+			sepNavVisRange = "{1286, 722}";
+			sepNavWindowFrame = "{{109, 21}, {1089, 699}}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* FlashCard */ = {
+		activeExec = 0;
+		executables = (
+			2288CBD211D4ACA900AFC0EA /* FlashCard */,
+		);
+	};
+	22238EE911D5B11500B202D3 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Class 'MainViewController' does not fully implement the 'FlipsideViewControllerDelegate' protocol";
+		fRef = 289233A90DB2D0DB0083E9F9 /* MainViewController.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 160;
+		rType = 1;
+	};
+	22238EEA11D5B11500B202D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 289233A90DB2D0DB0083E9F9 /* MainViewController.m */;
+		name = "MainViewController.m: 152";
+		rLen = 0;
+		rLoc = 3849;
+		rType = 0;
+		vrLen = 653;
+		vrLoc = 3130;
+	};
+	22238EEF11D5B32000B202D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 289233A90DB2D0DB0083E9F9 /* MainViewController.m */;
+		name = "MainViewController.m: 164";
+		rLen = 0;
+		rLoc = 3856;
+		rType = 0;
+		vrLen = 720;
+		vrLoc = 2713;
+	};
+	22238EF011D5B32000B202D3 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Class 'FlashCardAppDelegate' does not fully implement the 'FlipsideViewControllerDelegate' protocol";
+		fRef = 1D3623250D0F684500981E51 /* FlashCardAppDelegate.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 113;
+		rType = 1;
+	};
+	22238EF111D5B32000B202D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* FlashCardAppDelegate.m */;
+		name = "FlashCardAppDelegate.m: 113";
+		rLen = 0;
+		rLoc = 2452;
+		rType = 0;
+		vrLen = 490;
+		vrLoc = 1873;
+	};
+	22238EF511D5B33D00B202D3 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Method definition for '-flipsideViewControllerDidFinish:' not found";
+		fRef = 1D3623250D0F684500981E51 /* FlashCardAppDelegate.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 113;
+		rType = 1;
+	};
+	22238EF611D5B33D00B202D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* FlashCardAppDelegate.m */;
+		name = "FlashCardAppDelegate.m: 113";
+		rLen = 0;
+		rLoc = 2452;
+		rType = 0;
+		vrLen = 490;
+		vrLoc = 1873;
+	};
+	22238F0511D5B42D00B202D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 363;
+		vrLoc = 0;
+	};
+	22238F0611D5B42D00B202D3 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 70A0271D11CEFD46001796A4 /* notebook_paper.jpg */;
+	};
+	22238F0711D5B42D00B202D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 289233AC0DB2D0DB0083E9F9 /* FlipsideViewController.h */;
+		name = "FlipsideViewController.h: 15";
+		rLen = 0;
+		rLoc = 322;
+		rType = 0;
+		vrLen = 881;
+		vrLoc = 152;
+	};
+	22238F0811D5B42D00B202D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 289233AD0DB2D0DB0083E9F9 /* FlipsideViewController.m */;
+		name = "FlipsideViewController.m: 71";
+		rLen = 0;
+		rLoc = 1743;
+		rType = 0;
+		vrLen = 1042;
+		vrLoc = 1131;
+	};
+	22238F0911D5B42D00B202D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 289233A80DB2D0DB0083E9F9 /* MainViewController.h */;
+		name = "MainViewController.h: 33";
+		rLen = 0;
+		rLoc = 859;
+		rType = 0;
+		vrLen = 890;
+		vrLoc = 0;
+	};
+	22238F0A11D5B42D00B202D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 289233A90DB2D0DB0083E9F9 /* MainViewController.m */;
+		name = "MainViewController.m: 91";
+		rLen = 0;
+		rLoc = 2093;
+		rType = 0;
+		vrLen = 607;
+		vrLoc = 1582;
+	};
+	22238F0B11D5B42D00B202D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* FlashCardAppDelegate.h */;
+		name = "FlashCardAppDelegate.h: 15";
+		rLen = 0;
+		rLoc = 362;
+		rType = 0;
+		vrLen = 795;
+		vrLoc = 3;
+	};
+	22238F0C11D5B42D00B202D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* FlashCardAppDelegate.m */;
+		name = "FlashCardAppDelegate.m: 113";
+		rLen = 0;
+		rLoc = 2452;
+		rType = 0;
+		vrLen = 877;
+		vrLoc = 0;
+	};
+	22238F0D11D5B42D00B202D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* FlashCardAppDelegate.m */;
+		name = "FlashCardAppDelegate.m: 72";
+		rLen = 0;
+		rLoc = 1776;
+		rType = 0;
+		vrLen = 675;
+		vrLoc = 1249;
+	};
+	22238F1411D5B49B00B202D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 289233A90DB2D0DB0083E9F9 /* MainViewController.m */;
+		name = "MainViewController.m: 104";
+		rLen = 2;
+		rLoc = 2476;
+		rType = 0;
+		vrLen = 978;
+		vrLoc = 2160;
+	};
+	22238F1511D5B49B00B202D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* FlashCardAppDelegate.m */;
+		name = "FlashCardAppDelegate.m: 72";
+		rLen = 0;
+		rLoc = 1776;
+		rType = 0;
+		vrLen = 716;
+		vrLoc = 1249;
+	};
+	22238F1611D5B49B00B202D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* FlashCardAppDelegate.m */;
+		name = "FlashCardAppDelegate.m: 77";
+		rLen = 0;
+		rLoc = 1893;
+		rType = 0;
+		vrLen = 704;
+		vrLoc = 1477;
+	};
+	22238F1F11D5B58100B202D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* FlashCardAppDelegate.m */;
+		name = "FlashCardAppDelegate.m: 33";
+		rLen = 0;
+		rLoc = 862;
+		rType = 0;
+		vrLen = 746;
+		vrLoc = 775;
+	};
+	22238F2411D5B5EB00B202D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* FlashCardAppDelegate.h */;
+		name = "FlashCardAppDelegate.h: 20";
+		rLen = 0;
+		rLoc = 463;
+		rType = 0;
+		vrLen = 794;
+		vrLoc = 3;
+	};
+	22238F2511D5B5EB00B202D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* FlashCardAppDelegate.m */;
+		name = "FlashCardAppDelegate.m: 74";
+		rLen = 0;
+		rLoc = 1804;
+		rType = 0;
+		vrLen = 1013;
+		vrLoc = 330;
+	};
+	22238F2611D5B5EB00B202D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* FlashCardAppDelegate.m */;
+		name = "FlashCardAppDelegate.m: 74";
+		rLen = 0;
+		rLoc = 1804;
+		rType = 0;
+		vrLen = 681;
+		vrLoc = 1286;
+	};
+	22238F2911D5B62A00B202D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* FlashCardAppDelegate.m */;
+		name = "FlashCardAppDelegate.m: 114";
+		rLen = 0;
+		rLoc = 2452;
+		rType = 0;
+		vrLen = 490;
+		vrLoc = 1967;
+	};
+	22238F2C11D5B69000B202D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* FlashCardAppDelegate.m */;
+		name = "FlashCardAppDelegate.m: 61";
+		rLen = 0;
+		rLoc = 1539;
+		rType = 0;
+		vrLen = 722;
+		vrLoc = 1286;
+	};
+	22238F2D11D5B69000B202D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 289233AC0DB2D0DB0083E9F9 /* FlipsideViewController.h */;
+		name = "FlipsideViewController.h: 15";
+		rLen = 0;
+		rLoc = 322;
+		rType = 0;
+		vrLen = 857;
+		vrLoc = 176;
+	};
+	22238F2E11D5B69000B202D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 289233AD0DB2D0DB0083E9F9 /* FlipsideViewController.m */;
+		name = "FlipsideViewController.m: 71";
+		rLen = 0;
+		rLoc = 1743;
+		rType = 0;
+		vrLen = 1013;
+		vrLoc = 1100;
+	};
+	22238F2F11D5B69000B202D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 289233A90DB2D0DB0083E9F9 /* MainViewController.m */;
+		name = "MainViewController.m: 50";
+		rLen = 0;
+		rLoc = 1272;
+		rType = 0;
+		vrLen = 899;
+		vrLoc = 833;
+	};
+	22238F3211D5B6BA00B202D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 289233A90DB2D0DB0083E9F9 /* MainViewController.m */;
+		name = "MainViewController.m: 17";
+		rLen = 0;
+		rLoc = 332;
+		rType = 0;
+		vrLen = 834;
+		vrLoc = 180;
+	};
+	22238F3311D5B6BA00B202D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 289233AD0DB2D0DB0083E9F9 /* FlipsideViewController.m */;
+		name = "FlipsideViewController.m: 71";
+		rLen = 0;
+		rLoc = 1743;
+		rType = 0;
+		vrLen = 1013;
+		vrLoc = 1100;
+	};
+	22238F3411D5B6BA00B202D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 289233AD0DB2D0DB0083E9F9 /* FlipsideViewController.m */;
+		name = "FlipsideViewController.m: 17";
+		rLen = 0;
+		rLoc = 332;
+		rType = 0;
+		vrLen = 652;
+		vrLoc = 228;
+	};
+	22661C0B11D569E7003BA4F6 /* FlipsideViewController.m:70 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 289233AD0DB2D0DB0083E9F9 /* FlipsideViewController.m */;
+		functionName = "-touchesMoved:withEvent:";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 70;
+		location = FlashCard;
+		modificationTime = 299217788.980362;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	22661C0D11D569E9003BA4F6 /* FlipsideViewController.m:72 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 289233AD0DB2D0DB0083E9F9 /* FlipsideViewController.m */;
+		functionName = "-touchesMoved:withEvent:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 72;
+		location = FlashCard;
+		modificationTime = 299217781.413842;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	22661C0F11D569EB003BA4F6 /* FlipsideViewController.m:75 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 289233AD0DB2D0DB0083E9F9 /* FlipsideViewController.m */;
+		functionName = "-touchesMoved:withEvent:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 75;
+		location = FlashCard;
+		modificationTime = 299217781.413944;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	22661C1111D569F0003BA4F6 /* FlipsideViewController.m:45 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 289233AD0DB2D0DB0083E9F9 /* FlipsideViewController.m */;
+		functionName = "-replaceWithLast";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 45;
+		location = FlashCard;
+		modificationTime = 299217781.414103;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	22661C1311D569F0003BA4F6 /* FlipsideViewController.m:46 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 289233AD0DB2D0DB0083E9F9 /* FlipsideViewController.m */;
+		functionName = "-replaceWithLast";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 46;
+		location = FlashCard;
+		modificationTime = 299217781.414241;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	22661C1511D569F2003BA4F6 /* FlipsideViewController.m:48 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 289233AD0DB2D0DB0083E9F9 /* FlipsideViewController.m */;
+		functionName = "-replaceWithLast";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 48;
+		location = FlashCard;
+		modificationTime = 299217781.414396;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	22661C1711D569FB003BA4F6 /* FlipsideViewController.m:38 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 289233AD0DB2D0DB0083E9F9 /* FlipsideViewController.m */;
+		functionName = "-replaceWithNext";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 38;
+		location = FlashCard;
+		modificationTime = 299217781.414558;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	22661C1911D569FC003BA4F6 /* FlipsideViewController.m:37 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 289233AD0DB2D0DB0083E9F9 /* FlipsideViewController.m */;
+		functionName = "-replaceWithNext";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 37;
+		location = FlashCard;
+		modificationTime = 299217781.414734;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	22661C1B11D569FD003BA4F6 /* FlipsideViewController.m:39 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 289233AD0DB2D0DB0083E9F9 /* FlipsideViewController.m */;
+		functionName = "-replaceWithNext";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 39;
+		location = FlashCard;
+		modificationTime = 299217781.414897;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	22661C1D11D56A00003BA4F6 /* FlipsideViewController.m:41 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 289233AD0DB2D0DB0083E9F9 /* FlipsideViewController.m */;
+		functionName = "-replaceWithNext";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 41;
+		location = FlashCard;
+		modificationTime = 299217781.4151;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	22661C2A11D56CE9003BA4F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* FlashCardAppDelegate.h */;
+		name = "FlashCardAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 711;
+		vrLoc = 47;
+	};
+	22661C2B11D56CE9003BA4F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* FlashCardAppDelegate.m */;
+		name = "FlashCardAppDelegate.m: 75";
+		rLen = 0;
+		rLoc = 1821;
+		rType = 0;
+		vrLen = 472;
+		vrLoc = 1444;
+	};
+	22661C2C11D56CE9003BA4F6 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 70A027DC11CF2F62001796A4 /* words.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/sam/Desktop/FlashCard/words.plist;
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	22661C2D11D56CE9003BA4F6 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 70A0271D11CEFD46001796A4 /* notebook_paper.jpg */;
+	};
+	22661C3311D56CE9003BA4F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* FlashCardAppDelegate.h */;
+		name = "FlashCardAppDelegate.h: 20";
+		rLen = 0;
+		rLoc = 459;
+		rType = 0;
+		vrLen = 879;
+		vrLoc = 0;
+	};
+	22661C3B11D57A08003BA4F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 289233AD0DB2D0DB0083E9F9 /* FlipsideViewController.m */;
+		name = "FlipsideViewController.m: 48";
+		rLen = 0;
+		rLoc = 1011;
+		rType = 0;
+		vrLen = 656;
+		vrLoc = 604;
+	};
+	22661C3C11D57A08003BA4F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 289233A90DB2D0DB0083E9F9 /* MainViewController.m */;
+		name = "MainViewController.m: 48";
+		rLen = 0;
+		rLoc = 1199;
+		rType = 0;
+		vrLen = 936;
+		vrLoc = 702;
+	};
+	22661C3D11D57A08003BA4F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 289233A80DB2D0DB0083E9F9 /* MainViewController.h */;
+		name = "MainViewController.h: 43";
+		rLen = 0;
+		rLoc = 1166;
+		rType = 0;
+		vrLen = 905;
+		vrLoc = 223;
+	};
+	2288CBD211D4ACA900AFC0EA /* FlashCard */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = FlashCard;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	2288CBE611D4ACCB00AFC0EA /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	2288CBE711D4ACCB00AFC0EA /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	2288CC2311D4B08E00AFC0EA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* FlashCard_Prefix.pch */;
+		name = "FlashCard_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 324;
+		vrLoc = 0;
+	};
+	2291E4B511D5B02F00B916E0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 289233AC0DB2D0DB0083E9F9 /* FlipsideViewController.h */;
+		name = "FlipsideViewController.h: 39";
+		rLen = 0;
+		rLoc = 967;
+		rType = 0;
+		vrLen = 814;
+		vrLoc = 219;
+	};
+	2291E4B611D5B02F00B916E0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* FlashCardAppDelegate.m */;
+		name = "FlashCardAppDelegate.m: 24";
+		rLen = 0;
+		rLoc = 625;
+		rType = 0;
+		vrLen = 1129;
+		vrLoc = 44;
+	};
+	22A821D111D4B18D009FAE09 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 363;
+		vrLoc = 0;
+	};
+	22C5DCA111D57A1900675CC1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 289233AC0DB2D0DB0083E9F9 /* FlipsideViewController.h */;
+		name = "FlipsideViewController.h: 39";
+		rLen = 0;
+		rLoc = 967;
+		rType = 0;
+		vrLen = 857;
+		vrLoc = 176;
+	};
+	22C5DCA211D57A1900675CC1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* FlashCardAppDelegate.m */;
+		name = "FlashCardAppDelegate.m: 24";
+		rLen = 0;
+		rLoc = 625;
+		rType = 0;
+		vrLen = 1129;
+		vrLoc = 44;
+	};
+	289233A80DB2D0DB0083E9F9 /* MainViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1015, 598}}";
+			sepNavSelRange = "{859, 0}";
+			sepNavVisRange = "{0, 890}";
+			sepNavWindowFrame = "{{38, 53}, {1089, 699}}";
+		};
+	};
+	289233A90DB2D0DB0083E9F9 /* MainViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1015, 2067}}";
+			sepNavSelRange = "{332, 0}";
+			sepNavVisRange = "{180, 834}";
+			sepNavWindowFrame = "{{25, 67}, {1089, 699}}";
+		};
+	};
+	289233AC0DB2D0DB0083E9F9 /* FlipsideViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1015, 559}}";
+			sepNavSelRange = "{322, 0}";
+			sepNavVisRange = "{176, 857}";
+		};
+	};
+	289233AD0DB2D0DB0083E9F9 /* FlipsideViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1015, 1677}}";
+			sepNavSelRange = "{332, 0}";
+			sepNavVisRange = "{228, 652}";
+			sepNavWindowFrame = "{{15, 74}, {1089, 699}}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 2288CBD211D4ACA900AFC0EA /* FlashCard */;
+		activeSDKPreference = iphonesimulator3.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* FlashCard */;
+		breakpoints = (
+			22661C0B11D569E7003BA4F6 /* FlipsideViewController.m:70 */,
+			22661C0D11D569E9003BA4F6 /* FlipsideViewController.m:72 */,
+			22661C0F11D569EB003BA4F6 /* FlipsideViewController.m:75 */,
+			22661C1111D569F0003BA4F6 /* FlipsideViewController.m:45 */,
+			22661C1311D569F0003BA4F6 /* FlipsideViewController.m:46 */,
+			22661C1511D569F2003BA4F6 /* FlipsideViewController.m:48 */,
+			22661C1711D569FB003BA4F6 /* FlipsideViewController.m:38 */,
+			22661C1911D569FC003BA4F6 /* FlipsideViewController.m:37 */,
+			22661C1B11D569FD003BA4F6 /* FlipsideViewController.m:39 */,
+			22661C1D11D56A00003BA4F6 /* FlipsideViewController.m:41 */,
+		);
+		codeSenseManager = 2288CBE711D4ACCB00AFC0EA /* Code sense */;
+		executables = (
+			2288CBD211D4ACA900AFC0EA /* FlashCard */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					837,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 299216989;
+			PBXWorkspaceStateSaveDate = 299216989;
+		};
+		perUserProjectItems = {
+			22238EE911D5B11500B202D3 /* XCBuildMessageTextBookmark */ = 22238EE911D5B11500B202D3 /* XCBuildMessageTextBookmark */;
+			22238EEA11D5B11500B202D3 /* PBXTextBookmark */ = 22238EEA11D5B11500B202D3 /* PBXTextBookmark */;
+			22238EEF11D5B32000B202D3 /* PBXTextBookmark */ = 22238EEF11D5B32000B202D3 /* PBXTextBookmark */;
+			22238EF011D5B32000B202D3 /* XCBuildMessageTextBookmark */ = 22238EF011D5B32000B202D3 /* XCBuildMessageTextBookmark */;
+			22238EF111D5B32000B202D3 /* PBXTextBookmark */ = 22238EF111D5B32000B202D3 /* PBXTextBookmark */;
+			22238EF511D5B33D00B202D3 /* XCBuildMessageTextBookmark */ = 22238EF511D5B33D00B202D3 /* XCBuildMessageTextBookmark */;
+			22238EF611D5B33D00B202D3 /* PBXTextBookmark */ = 22238EF611D5B33D00B202D3 /* PBXTextBookmark */;
+			22238F0511D5B42D00B202D3 /* PBXTextBookmark */ = 22238F0511D5B42D00B202D3 /* PBXTextBookmark */;
+			22238F0611D5B42D00B202D3 /* PBXBookmark */ = 22238F0611D5B42D00B202D3 /* PBXBookmark */;
+			22238F0711D5B42D00B202D3 /* PBXTextBookmark */ = 22238F0711D5B42D00B202D3 /* PBXTextBookmark */;
+			22238F0811D5B42D00B202D3 /* PBXTextBookmark */ = 22238F0811D5B42D00B202D3 /* PBXTextBookmark */;
+			22238F0911D5B42D00B202D3 /* PBXTextBookmark */ = 22238F0911D5B42D00B202D3 /* PBXTextBookmark */;
+			22238F0A11D5B42D00B202D3 /* PBXTextBookmark */ = 22238F0A11D5B42D00B202D3 /* PBXTextBookmark */;
+			22238F0B11D5B42D00B202D3 /* PBXTextBookmark */ = 22238F0B11D5B42D00B202D3 /* PBXTextBookmark */;
+			22238F0C11D5B42D00B202D3 /* PBXTextBookmark */ = 22238F0C11D5B42D00B202D3 /* PBXTextBookmark */;
+			22238F0D11D5B42D00B202D3 /* PBXTextBookmark */ = 22238F0D11D5B42D00B202D3 /* PBXTextBookmark */;
+			22238F1411D5B49B00B202D3 /* PBXTextBookmark */ = 22238F1411D5B49B00B202D3 /* PBXTextBookmark */;
+			22238F1511D5B49B00B202D3 /* PBXTextBookmark */ = 22238F1511D5B49B00B202D3 /* PBXTextBookmark */;
+			22238F1611D5B49B00B202D3 /* PBXTextBookmark */ = 22238F1611D5B49B00B202D3 /* PBXTextBookmark */;
+			22238F1F11D5B58100B202D3 /* PBXTextBookmark */ = 22238F1F11D5B58100B202D3 /* PBXTextBookmark */;
+			22238F2411D5B5EB00B202D3 /* PBXTextBookmark */ = 22238F2411D5B5EB00B202D3 /* PBXTextBookmark */;
+			22238F2511D5B5EB00B202D3 /* PBXTextBookmark */ = 22238F2511D5B5EB00B202D3 /* PBXTextBookmark */;
+			22238F2611D5B5EB00B202D3 /* PBXTextBookmark */ = 22238F2611D5B5EB00B202D3 /* PBXTextBookmark */;
+			22238F2911D5B62A00B202D3 /* PBXTextBookmark */ = 22238F2911D5B62A00B202D3 /* PBXTextBookmark */;
+			22238F2C11D5B69000B202D3 /* PBXTextBookmark */ = 22238F2C11D5B69000B202D3 /* PBXTextBookmark */;
+			22238F2D11D5B69000B202D3 /* PBXTextBookmark */ = 22238F2D11D5B69000B202D3 /* PBXTextBookmark */;
+			22238F2E11D5B69000B202D3 /* PBXTextBookmark */ = 22238F2E11D5B69000B202D3 /* PBXTextBookmark */;
+			22238F2F11D5B69000B202D3 /* PBXTextBookmark */ = 22238F2F11D5B69000B202D3 /* PBXTextBookmark */;
+			22238F3211D5B6BA00B202D3 /* PBXTextBookmark */ = 22238F3211D5B6BA00B202D3 /* PBXTextBookmark */;
+			22238F3311D5B6BA00B202D3 /* PBXTextBookmark */ = 22238F3311D5B6BA00B202D3 /* PBXTextBookmark */;
+			22238F3411D5B6BA00B202D3 /* PBXTextBookmark */ = 22238F3411D5B6BA00B202D3 /* PBXTextBookmark */;
+			22661C2A11D56CE9003BA4F6 = 22661C2A11D56CE9003BA4F6 /* PBXTextBookmark */;
+			22661C2B11D56CE9003BA4F6 = 22661C2B11D56CE9003BA4F6 /* PBXTextBookmark */;
+			22661C2C11D56CE9003BA4F6 = 22661C2C11D56CE9003BA4F6 /* PlistBookmark */;
+			22661C2D11D56CE9003BA4F6 = 22661C2D11D56CE9003BA4F6 /* PBXBookmark */;
+			22661C3311D56CE9003BA4F6 = 22661C3311D56CE9003BA4F6 /* PBXTextBookmark */;
+			22661C3B11D57A08003BA4F6 = 22661C3B11D57A08003BA4F6 /* PBXTextBookmark */;
+			22661C3C11D57A08003BA4F6 = 22661C3C11D57A08003BA4F6 /* PBXTextBookmark */;
+			22661C3D11D57A08003BA4F6 = 22661C3D11D57A08003BA4F6 /* PBXTextBookmark */;
+			2288CC2311D4B08E00AFC0EA = 2288CC2311D4B08E00AFC0EA /* PBXTextBookmark */;
+			2291E4B511D5B02F00B916E0 = 2291E4B511D5B02F00B916E0 /* PBXTextBookmark */;
+			2291E4B611D5B02F00B916E0 = 2291E4B611D5B02F00B916E0 /* PBXTextBookmark */;
+			22A821D111D4B18D009FAE09 = 22A821D111D4B18D009FAE09 /* PBXTextBookmark */;
+			22C5DCA111D57A1900675CC1 = 22C5DCA111D57A1900675CC1 /* PBXTextBookmark */;
+			22C5DCA211D57A1900675CC1 = 22C5DCA211D57A1900675CC1 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 2288CBE611D4ACCB00AFC0EA /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1015, 405}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 363}";
+		};
+	};
+	32CA4F630368D1EE00C91783 /* FlashCard_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {728, 381}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 324}";
+		};
+	};
+}

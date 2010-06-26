@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Cat</key>
+	<string>Furry house pet</string>
+	<key>Orange</key>
+	<string>Tart melon</string>
+	<key>Buzz Lightyear</key>
+	<string>Fictional action figure from the movie &quot;Toy Story&quot;</string>
+	<key>Four</key>
+	<string>Ordinal number following three</string>
+</dict>
+</plist>
