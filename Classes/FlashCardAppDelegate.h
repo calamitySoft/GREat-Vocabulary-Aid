@@ -1,3 +1,7 @@
+// MY EDIT not from the server
+
+
+
 //
 //  FlashCardAppDelegate.h
 //  FlashCard
@@ -18,6 +22,7 @@
 	NSMutableArray *cardArray;
 	
 	NSInteger currCard;
+	NSInteger DeleteMe;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
