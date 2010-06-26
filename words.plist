@@ -1,0 +1,4559 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN""http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version = "1.0"><array>
+	<dict>
+		<key>Front</key>
+		<string>Abase</string>
+		<key>Back</key>
+		<string>To humble; disgrace</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Abate</string>
+		<key>Back</key>
+		<string>To lessen in intensity or degree</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Abdicate</string>
+		<key>Back</key>
+		<string>To give up a position, right, or power</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Aberrant</string>
+		<key>Back</key>
+		<string>Deviating from what is normal or expected</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Abeyance</string>
+		<key>Back</key>
+		<string>Temporary suppression or suspension</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Abjure</string>
+		<key>Back</key>
+		<string>To renounce or reject solemnly; to recant; to avoid</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Abridge</string>
+		<key>Back</key>
+		<string>To condense; shorten</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Abrogate</string>
+		<key>Back</key>
+		<string>To abolish or invalidate by authority</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Abscond</string>
+		<key>Back</key>
+		<string>To depart clandestinely; to steal off and hide</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Abstain</string>
+		<key>Back</key>
+		<string>To chose not to do something</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Abstemious</string>
+		<key>Back</key>
+		<string>Moderate in appetite</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Abyss</string>
+		<key>Back</key>
+		<string>An extremely deep hole</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Accolade</string>
+		<key>Back</key>
+		<string>An expression of praise</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Accretion</string>
+		<key>Back</key>
+		<string>A growth in size; an increase in amount</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Acerbic</string>
+		<key>Back</key>
+		<string>Having a sour or bitter taste or character; sharp; biting</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Acidulous</string>
+		<key>Back</key>
+		<string>Sour in taste or manner</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Acme</string>
+		<key>Back</key>
+		<string>Highest point; summit; apex; zenith</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Acumen</string>
+		<key>Back</key>
+		<string>Keen, accurate judgment or insight</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Adulation</string>
+		<key>Back</key>
+		<string>Excessive praise; intense adoration</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Adulterate</string>
+		<key>Back</key>
+		<string>To reduce purity by combining with inferior ingredients</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Adumbrate</string>
+		<key>Back</key>
+		<string>To foreshadow vaguely or intimate; to suggest or outline sketchily; to obscure or overshadow</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Advocate</string>
+		<key>Back</key>
+		<string>To speak in favor of</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Aerie</string>
+		<key>Back</key>
+		<string>A nest built high in the air; an elevated, often secluded dwelling</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Aesthetic</string>
+		<key>Back</key>
+		<string>Dealing with, appreciative of, or responsive to art or things beautiful</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Affected</string>
+		<key>Back</key>
+		<string>Phony, artificial</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Aggrandize</string>
+		<key>Back</key>
+		<string>To increase in intensity, power, influence, or prestige</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Alacrity</string>
+		<key>Back</key>
+		<string>Eager and enthusiastic willingness</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Alchemy</string>
+		<key>Back</key>
+		<string>A medieval science aimed at the transmutation of metals, esp. into gold</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Alleviate</string>
+		<key>Back</key>
+		<string>To ease, to make more bearable</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Alloy</string>
+		<key>Back</key>
+		<string>To commingle; to debase by mixing with something inferior</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Amalgamate</string>
+		<key>Back</key>
+		<string>To combine several elements into a whole</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Ambiguous</string>
+		<key>Back</key>
+		<string>Doubtful or uncertain; can be interpreted in several different ways</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Ameliorate</string>
+		<key>Back</key>
+		<string>To make better or more tolerable</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Amenable</string>
+		<key>Back</key>
+		<string>Agreeable; responsive to suggestion</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Amortize</string>
+		<key>Back</key>
+		<string>To diminish by installment payments</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Amulet</string>
+		<key>Back</key>
+		<string>Ornament worn as a charm against evil spirits</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Anachronism</string>
+		<key>Back</key>
+		<string>Someone or something out of place in terms of historical or chronological context</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Analgesia</string>
+		<key>Back</key>
+		<string>A lessening of pain without loss of consciousness</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Analogous</string>
+		<key>Back</key>
+		<string>Similar or alike in some way; equivalent to</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Anathema</string>
+		<key>Back</key>
+		<string>A solemn or ecclesiastical curse; accursed or loathed person or thing</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Anodyne</string>
+		<key>Back</key>
+		<string>Soothing; something that assuages pain or comforts</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Anomaly</string>
+		<key>Back</key>
+		<string>Deviation from the normal order, form, or rule</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Antagonize</string>
+		<key>Back</key>
+		<string>To annoy or provoke to anger</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Antipathy</string>
+		<key>Back</key>
+		<string>Extreme dislike</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Apathy</string>
+		<key>Back</key>
+		<string>Lack of interest or enjoyment</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Apocryphal</string>
+		<key>Back</key>
+		<string>Of questionable authority or authenticity</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Apogee</string>
+		<key>Back</key>
+		<string>Farthest or highest point; culmination; zenith</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Apostate</string>
+		<key>Back</key>
+		<string>One who abandons long-held religious or political convictions</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Apotheosis</string>
+		<key>Back</key>
+		<string>Deification, glorification, or godliness; a model of excellence or perfection</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Approbation</string>
+		<key>Back</key>
+		<string>An expression of approval or praise</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Appropriate</string>
+		<key>Back</key>
+		<string>To take for one’s own use; confiscate</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Arbitrary</string>
+		<key>Back</key>
+		<string>Determined by chance or impulse</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Arbitrate</string>
+		<key>Back</key>
+		<string>To judge a dispute between two opposing parties</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Archaic</string>
+		<key>Back</key>
+		<string>Outdated; associated with an earlier, perhaps more primitive, time</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Ardor</string>
+		<key>Back</key>
+		<string>Intense and passionate feeling</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Arduous</string>
+		<key>Back</key>
+		<string>Strenuous, taxing; requiring significant effort</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Arrest/Arresting</string>
+		<key>Back</key>
+		<string>To suspend; to engage; holding one’s attention</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Arrogate</string>
+		<key>Back</key>
+		<string>To claim without justification; to claim for oneself without right</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Articulate</string>
+		<key>Back</key>
+		<string>Able to speak clearly and expressively </string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Ascetic</string>
+		<key>Back</key>
+		<string>One who practices rigid self-denial, esp. as an act of religious devotion</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Asperity</string>
+		<key>Back</key>
+		<string>Severity, rigor; roughness, harshness</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Assail</string>
+		<key>Back</key>
+		<string>To attack or assault</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Asseverate</string>
+		<key>Back</key>
+		<string>To aver, allege, or assert</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Assiduous</string>
+		<key>Back</key>
+		<string>Diligent; hard-working; sedulous</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Assuage</string>
+		<key>Back</key>
+		<string>To ease or lessen; to appease or pacify</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Astringent</string>
+		<key>Back</key>
+		<string>Having a tightening effect on living tissue; harsh; severe</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Attenuate</string>
+		<key>Back</key>
+		<string>To reduce in force or degree; to weaken</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Audacious</string>
+		<key>Back</key>
+		<string>Daring and fearless; recklessly bold</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Augury</string>
+		<key>Back</key>
+		<string>Omen, portent</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>August</string>
+		<key>Back</key>
+		<string>Majestic; venerable</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Austere</string>
+		<key>Back</key>
+		<string>Without adornment; bare; severely simple; ascetic</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Avarice</string>
+		<key>Back</key>
+		<string>Greed, esp. for wealth</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Aver</string>
+		<key>Back</key>
+		<string>To state as fact; to declare or assert</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Axiom</string>
+		<key>Back</key>
+		<string>A universally recognized principle</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Axiomatic</string>
+		<key>Back</key>
+		<string>Taken as given; possessing self evident truth</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Baleful</string>
+		<key>Back</key>
+		<string>Harmful; with evil intentions</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Banal</string>
+		<key>Back</key>
+		<string>Predictable, clichéd, boring</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Belfry</string>
+		<key>Back</key>
+		<string>Bell tower; room in which a bell is hung</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Bellicose</string>
+		<key>Back</key>
+		<string>Belligerent, pugnacious, warlike</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Bent</string>
+		<key>Back</key>
+		<string>Leaning, inclination, proclivity, tendency</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Bevy</string>
+		<key>Back</key>
+		<string>Group</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Bifurcate</string>
+		<key>Back</key>
+		<string>Divide into two parts</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Bilk</string>
+		<key>Back</key>
+		<string>To cheat; defraud</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Blight</string>
+		<key>Back</key>
+		<string>To afflict; to destroy</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Blithe</string>
+		<key>Back</key>
+		<string>Joful, cheerful, or without appropriate thought</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Bolster</string>
+		<key>Back</key>
+		<string>To provide support or reinforcement</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Bombastic</string>
+		<key>Back</key>
+		<string>Pompous; grandiloquent</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Bonhomie</string>
+		<key>Back</key>
+		<string>Good-natured geniality; atmosphere of good cheer</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Boor</string>
+		<key>Back</key>
+		<string>Crude person; one lacking manners or taste</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Broach</string>
+		<key>Back</key>
+		<string>Bring up, announce; begin to talk about</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Brook</string>
+		<key>Back</key>
+		<string>To tolerate, endure; countenance</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Burgeon</string>
+		<key>Back</key>
+		<string>To grow rapidly or flourish</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Bucolic</string>
+		<key>Back</key>
+		<string>Rustic and pastoral; characteristic of rural areas and their inhabitants</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Cabal</string>
+		<key>Back</key>
+		<string>A secret group seeking to overturn something</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Cacophony</string>
+		<key>Back</key>
+		<string>Harsh, jarring, discordant sound; dissonance</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Calumniate</string>
+		<key>Back</key>
+		<string>To slander, make a false accusation</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Calumny</string>
+		<key>Back</key>
+		<string>A false and malicious accusation; misrepresentation</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Canard</string>
+		<key>Back</key>
+		<string>A lie</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Candid</string>
+		<key>Back</key>
+		<string>Impartial and honest in speech</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Canon</string>
+		<key>Back</key>
+		<string>An established set of principles or code of laws, often religious in nature</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Canonical</string>
+		<key>Back</key>
+		<string>Following or in agreement with accepted, traditional standards</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Capricious</string>
+		<key>Back</key>
+		<string>Inclined to change one’s mind impulsively; erratic; unpredictable</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Captious</string>
+		<key>Back</key>
+		<string>Disposed to point out trivial faults; calculated to confuse or entrap in argument</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Cardinal</string>
+		<key>Back</key>
+		<string>Major; most important</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Cartography</string>
+		<key>Back</key>
+		<string>Science or art of making maps</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Castigation</string>
+		<key>Back</key>
+		<string>Severe criticism or punishment</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Catalyst</string>
+		<key>Back</key>
+		<string>A substance that accelerates the rate of a chemical reaction without itself changing</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Catholic</string>
+		<key>Back</key>
+		<string>Universal; broad and comprehensive</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Caustic</string>
+		<key>Back</key>
+		<string>Burning or stinging; causing corrosion</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Cavil</string>
+		<key>Back</key>
+		<string>To find fault without good reason</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Celerity</string>
+		<key>Back</key>
+		<string>Speed, alacrity</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Censure</string>
+		<key>Back</key>
+		<string>To criticize severely; to officially rebuke</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Chaos</string>
+		<key>Back</key>
+		<string>Great disorder or confused situation</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Chary</string>
+		<key>Back</key>
+		<string>Wary; cautious, sparing</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Chauvinist</string>
+		<key>Back</key>
+		<string>A blindly devoted patriot</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Chicanery</string>
+		<key>Back</key>
+		<string>Trickery or subterfuge</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Chimera</string>
+		<key>Back</key>
+		<string>An illusion</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Circumspect</string>
+		<key>Back</key>
+		<string>Cautious, aware of potential consequences</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Cloying</string>
+		<key>Back</key>
+		<string>Sickly sweet; excessive</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Coalesce</string>
+		<key>Back</key>
+		<string>To grow together to form a single whole</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Coffer</string>
+		<key>Back</key>
+		<string>Strongbox; large chest of money</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Cogent</string>
+		<key>Back</key>
+		<string>Appealing forcibly to the mind or reason; convincing</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Collusion</string>
+		<key>Back</key>
+		<string>Collaboration, complicity, conspiracy</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Color</string>
+		<key>Back</key>
+		<string>To change as if by dyeing; to distort, gloss, or affect</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Complaisance</string>
+		<key>Back</key>
+		<string>The willingness to comply with the wishes of others</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Condone</string>
+		<key>Back</key>
+		<string>To overlook, to pardon, to disregard</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Connoisseur</string>
+		<key>Back</key>
+		<string>An informed and astute judge in matters of taste; expert</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Consequential</string>
+		<key>Back</key>
+		<string>Pompous, self-important</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Contentious</string>
+		<key>Back</key>
+		<string>Argumentative; quarrelsome; causing controversy or disagreement</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Contiguous</string>
+		<key>Back</key>
+		<string>Sharing a border; touching; adjacent</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Contrite</string>
+		<key>Back</key>
+		<string>Regretful; penitent; seeking forgiveness</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Contumacious</string>
+		<key>Back</key>
+		<string>Insubordinate; rebellious</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Convention</string>
+		<key>Back</key>
+		<string>A generally agreed-upon practice or attitude</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Convoluted</string>
+		<key>Back</key>
+		<string>Complex or complicated</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Corroborate</string>
+		<key>Back</key>
+		<string>To support with evidence</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Cosset</string>
+		<key>Back</key>
+		<string>To pamper; to treat with great care</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Coterie</string>
+		<key>Back</key>
+		<string>An intimate group of persons with a similar purpose</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Craven</string>
+		<key>Back</key>
+		<string>Lacking courage</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Credulous</string>
+		<key>Back</key>
+		<string>Tending to believe to readily; gullible</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Crescendo</string>
+		<key>Back</key>
+		<string>Steadily increasing in volume or force</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Culpable</string>
+		<key>Back</key>
+		<string>Deserving blame</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Cupidity</string>
+		<key>Back</key>
+		<string>Greed; strong desire</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Curmudgeon</string>
+		<key>Back</key>
+		<string>Cranky person, usually old</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Cynicism</string>
+		<key>Back</key>
+		<string>An attitude or quality of belief that all people are motivated by selfishness</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Damp</string>
+		<key>Back</key>
+		<string>To diminish the intensity of or check the vibration of a sound</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Dearth</string>
+		<key>Back</key>
+		<string>Smallness of quantity or number; scarcity; lack</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Debacle</string>
+		<key>Back</key>
+		<string>Rout, fiasco, complete failure</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Debutante</string>
+		<key>Back</key>
+		<string>Young woman making her debut in high society</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Declivity</string>
+		<key>Back</key>
+		<string>Downward slope</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Decorous</string>
+		<key>Back</key>
+		<string>Proper, tasteful, socially correct</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Decorum</string>
+		<key>Back</key>
+		<string>Polite or appropriate conduct or behavior</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Deface</string>
+		<key>Back</key>
+		<string>To mar the appearance of; to vandalize</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Deference</string>
+		<key>Back</key>
+		<string>Respect; courtesy</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Deleterious</string>
+		<key>Back</key>
+		<string>Subtly or unexpectedly harmful</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Demagogue</string>
+		<key>Back</key>
+		<string>A leader, rabble-rouser, usually appealing to emotion or prejudice</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Demur</string>
+		<key>Back</key>
+		<string>To question or oppose</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Denouement</string>
+		<key>Back</key>
+		<string>An outcome or solution; the unraveling of a plot</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Deride</string>
+		<key>Back</key>
+		<string>To speak of or treat with contempt; to mock</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Derision</string>
+		<key>Back</key>
+		<string>Scorn, ridicule, contemptuous treatment</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Descry</string>
+		<key>Back</key>
+		<string>To discriminate or discern</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Desiccate</string>
+		<key>Back</key>
+		<string>To dry out or dehydrate; to make dry or dull</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Desuetude</string>
+		<key>Back</key>
+		<string>Disuse</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Desultory</string>
+		<key>Back</key>
+		<string>Random; aimless; marked by a lack or plan or purpose</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Diaphanous</string>
+		<key>Back</key>
+		<string>Transparent, gauzy</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Diatribe</string>
+		<key>Back</key>
+		<string>A harsh denunciation</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Dictum</string>
+		<key>Back</key>
+		<string>Authoritative statement</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Didactic</string>
+		<key>Back</key>
+		<string>Intended to teach or instruct</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Die</string>
+		<key>Back</key>
+		<string>A tool used for shaping</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Diffident</string>
+		<key>Back</key>
+		<string>Reserved, shy unassuming; lacking in self-confidence</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Dilate</string>
+		<key>Back</key>
+		<string>To make larger; to expand</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Dilatory</string>
+		<key>Back</key>
+		<string>Intended to delay; procrastinating</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Dilettante</string>
+		<key>Back</key>
+		<string>One with an amateurish or superficial interest in the arts or a branch of knowledge</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Dirge</string>
+		<key>Back</key>
+		<string>A song of grief or lamentation</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Disabuse</string>
+		<key>Back</key>
+		<string>To undeceive; to set right</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Discern</string>
+		<key>Back</key>
+		<string>To perceive, to recognize</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Discordant</string>
+		<key>Back</key>
+		<string>Conflicting; dissonant or harsh in sound</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Discretion</string>
+		<key>Back</key>
+		<string>Cautious reserve in speech; ability to make responsible decisions</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Disinterested</string>
+		<key>Back</key>
+		<string>Free of bias or self-interest; impartial</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Disparage</string>
+		<key>Back</key>
+		<string>To slight or belittle</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Disparate</string>
+		<key>Back</key>
+		<string>Fundamentally distinct or dissimilar</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Dissemble</string>
+		<key>Back</key>
+		<string>To disguise or conceal; to mislead</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Dissonance</string>
+		<key>Back</key>
+		<string>A harsh and disagreeable combination, especially of sounds</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Distaff</string>
+		<key>Back</key>
+		<string>The female branch of a family</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Distend</string>
+		<key>Back</key>
+		<string>To swell, inflate, bloat</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Dither</string>
+		<key>Back</key>
+		<string>To act confusedly or without clear purpose</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Diurnal</string>
+		<key>Back</key>
+		<string>Existing during the day</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Divine</string>
+		<key>Back</key>
+		<string>To foretell or know by inspiration</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Divulge</string>
+		<key>Back</key>
+		<string>To disclose something secret</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Doctrinaire</string>
+		<key>Back</key>
+		<string>Rigidly devoted to theories without regard for practicality; dogmatic</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Dogma</string>
+		<key>Back</key>
+		<string>A firmly held opinion, especially a religious belief</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Dogmatic</string>
+		<key>Back</key>
+		<string>Expressing a rigid opinion based on unproved or improvable principles</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Droll</string>
+		<key>Back</key>
+		<string>Amusing in a wry, subtle way</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Dupe</string>
+		<key>Back</key>
+		<string>To deceive</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Dyspeptic</string>
+		<key>Back</key>
+		<string>Suffering from indigestion; gloomy and irritable</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Ebullience</string>
+		<key>Back</key>
+		<string>The quality of lively or enthusiastic expression of thoughts and feelings</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Ebullient</string>
+		<key>Back</key>
+		<string>Exhilarated, full of enthusiasm</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Eccentric</string>
+		<key>Back</key>
+		<string>Departing from norms or conventions</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Eclectic</string>
+		<key>Back</key>
+		<string>Composed of elements drawn from various sources </string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Edify</string>
+		<key>Back</key>
+		<string>To instruct morally and spiritually</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Efficacy</string>
+		<key>Back</key>
+		<string>Effectiveness</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Effigy</string>
+		<key>Back</key>
+		<string>Stuffed doll; likeness of a person</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Effrontery</string>
+		<key>Back</key>
+		<string>Extreme boldness; presumptuousness</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Elegy</string>
+		<key>Back</key>
+		<string>A mournful poem, esp. one lamenting the dead</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Eloquent</string>
+		<key>Back</key>
+		<string>Well spoken, expressive, articulate</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Embellish</string>
+		<key>Back</key>
+		<string>To add ornamental or fictitious details</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Emollient</string>
+		<key>Back</key>
+		<string>Soothing, esp. to the skin; making less harsh; mollifying</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Empirical</string>
+		<key>Back</key>
+		<string>Based on observation or experiment</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Emulate</string>
+		<key>Back</key>
+		<string>To copy; to try to equal or excel</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Encomium</string>
+		<key>Back</key>
+		<string>Glowing and enthusiastic praise</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Endemic</string>
+		<key>Back</key>
+		<string>Characteristic of or often found in a particular locality, region, or people</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Enervate</string>
+		<key>Back</key>
+		<string>To weaken; to reduce in vitality</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Engender</string>
+		<key>Back</key>
+		<string>To produce, cause, or bring about</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Enigma</string>
+		<key>Back</key>
+		<string>A puzzle; a mystery</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Enigmatic</string>
+		<key>Back</key>
+		<string>Mysterious; obscure; difficult to understand</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Ennui</string>
+		<key>Back</key>
+		<string>Dissatisfaction and restlessness resulting from boredom or apathy</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Enumerate</string>
+		<key>Back</key>
+		<string>To count, lit, or itemize</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Ephemeral</string>
+		<key>Back</key>
+		<string>Brief; fleeting</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Epicure</string>
+		<key>Back</key>
+		<string>Person with refined taste in food and wine</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Equivocate</string>
+		<key>Back</key>
+		<string>To use ambiguous language with a deceptive intent</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Erratic</string>
+		<key>Back</key>
+		<string>Wandering and unpredictable</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Ersatz</string>
+		<key>Back</key>
+		<string>Fake; artificial</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Erudite</string>
+		<key>Back</key>
+		<string>Very learned; scholarly</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Eschew</string>
+		<key>Back</key>
+		<string>To shun or avoid</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Esoteric</string>
+		<key>Back</key>
+		<string>Intended for or understood by a small, specific group</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Essay</string>
+		<key>Back</key>
+		<string>To test or try; attempt; experiment</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Estimable</string>
+		<key>Back</key>
+		<string>Admirable</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Ethos</string>
+		<key>Back</key>
+		<string>Beliefs or character of a group</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Eulogy</string>
+		<key>Back</key>
+		<string>A speech honoring the dead</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Euphemism</string>
+		<key>Back</key>
+		<string>Use of an inoffensive word or phrase in place of a more distasteful one</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string> Euphony</string>
+		<key>Back</key>
+		<string>Pleasant, harmonious sound</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Evanescent</string>
+		<key>Back</key>
+		<string>Tending to disappear like vapor; vanishing</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Exacerbate</string>
+		<key>Back</key>
+		<string>To make worse or more severe</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Exact</string>
+		<key>Back</key>
+		<string>To demand, call for, or require</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Excoriate</string>
+		<key>Back</key>
+		<string>To censure scathingly; to upbraid</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Exculpate</string>
+		<key>Back</key>
+		<string>Exonerate; to clear of blame</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Execrate</string>
+		<key>Back</key>
+		<string>Denounce, feel loathing for; curse, declare to be evil</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Exegesis</string>
+		<key>Back</key>
+		<string>Critical examination, explication</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Exigent</string>
+		<key>Back</key>
+		<string>Urgent, pressing; requiring immediate action or attention</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Exonerate</string>
+		<key>Back</key>
+		<string>To remove blame</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Expiate</string>
+		<key>Back</key>
+		<string>To atone or make amends for</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Explicit</string>
+		<key>Back</key>
+		<string>Clearly stated or shown; forthright in expression</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Exponent</string>
+		<key>Back</key>
+		<string>One who champions or advocates</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Expurgate</string>
+		<key>Back</key>
+		<string>To censor</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Extemporaneous</string>
+		<key>Back</key>
+		<string>Improvised; done without preparation</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Extirpate</string>
+		<key>Back</key>
+		<string>To destroy, exterminate, cut out, exscind</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Facetious</string>
+		<key>Back</key>
+		<string>Playful; humorous</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Fallacy</string>
+		<key>Back</key>
+		<string>An invalid or incorrect notion; a mistaken belief</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Fallow</string>
+		<key>Back</key>
+		<string>Dormant, unused</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Fanatical</string>
+		<key>Back</key>
+		<string>Acting excessively enthusiastic; filled with unquestioned devotion</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Fatuous</string>
+		<key>Back</key>
+		<string>Silly; inanely foolish</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Fawn</string>
+		<key>Back</key>
+		<string>To flatter or praise excessively</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Fecund</string>
+		<key>Back</key>
+		<string>Fertile, fruitful, productive</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Fell</string>
+		<key>Back</key>
+		<string>To cause to fall by striking</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Fell</string>
+		<key>Back</key>
+		<string>Inhumanely cruel</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Fervent</string>
+		<key>Back</key>
+		<string>Greatly emotional or zealous</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Fervid</string>
+		<key>Back</key>
+		<string>Intensely emotional; feverish</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Fetid</string>
+		<key>Back</key>
+		<string>Foul-smelling, putrid</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Filibuster</string>
+		<key>Back</key>
+		<string>Intentional obstruction, esp. using prolonged speechmaking to delay legislative action</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Flag</string>
+		<key>Back</key>
+		<string>To sag or droop; to become spiritless</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Flip</string>
+		<key>Back</key>
+		<string>Sarcastic; impertinent</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Florid</string>
+		<key>Back</key>
+		<string>Excessively decorated or embellished</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Flout</string>
+		<key>Back</key>
+		<string>To show contempt for, as in a rule or convention</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Foment</string>
+		<key>Back</key>
+		<string>To arouse or incite</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Ford</string>
+		<key>Back</key>
+		<string>To wade across the shallow part of a river or stream</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Forestall</string>
+		<key>Back</key>
+		<string>To prevent or delay; anticipate</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Fortuitous</string>
+		<key>Back</key>
+		<string>Happening by accident or chance</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Fractious</string>
+		<key>Back</key>
+		<string>Quarrelsome, rebellious, unruly</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Frenetic</string>
+		<key>Back</key>
+		<string>Frantic, frenzied</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Frugality</string>
+		<key>Back</key>
+		<string>Tendency to be thrifty or cheap</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Fulminate</string>
+		<key>Back</key>
+		<string>To loudly attack or denounce</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Furtive</string>
+		<key>Back</key>
+		<string>Marked by stealth; covert; surreptitious</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Gainsay</string>
+		<key>Back</key>
+		<string>To deny, dispute, contradict</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Gambol</string>
+		<key>Back</key>
+		<string>To dance or skip around playfully</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Garner</string>
+		<key>Back</key>
+		<string>To gather and store</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Garrulous</string>
+		<key>Back</key>
+		<string>Pointlessly talkative; talking too much</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Germane</string>
+		<key>Back</key>
+		<string>Relevant to the subject at hand; appropriate in subject matter</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Gestation</string>
+		<key>Back</key>
+		<string>Growth process from conception to birth</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Glib</string>
+		<key>Back</key>
+		<string>Marked by ease or informality; nonchalant; lacking in depth; superficial</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Glower</string>
+		<key>Back</key>
+		<string>To glare; stare angrily and intensely</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Gradation</string>
+		<key>Back</key>
+		<string>Process occurring by regular degrees or stages; variations in color</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Grandiloquence</string>
+		<key>Back</key>
+		<string>Pompous speech or expression</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Gregarious</string>
+		<key>Back</key>
+		<string>Sociable; outgoing; enjoying the company of other people</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Grievous</string>
+		<key>Back</key>
+		<string>Causing grief or sorrow; serious and distressing</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Grouse</string>
+		<key>Back</key>
+		<string>To complain or grumble</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Grovel</string>
+		<key>Back</key>
+		<string>To humble oneself in a demeaning way</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Guile</string>
+		<key>Back</key>
+		<string>Deceit; trickery</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Gullible</string>
+		<key>Back</key>
+		<string>Easily deceived</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Guy</string>
+		<key>Back</key>
+		<string>A rope, cord, or cable attached as a brace or guide; to steady or reinforce using a guy</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Hackneyed</string>
+		<key>Back</key>
+		<string>Rendered trite or commonplace by frequent usage</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Halcyon</string>
+		<key>Back</key>
+		<string>Calm and peaceful</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Hapless</string>
+		<key>Back</key>
+		<string>Unfortunate; having bad luck</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Harangue</string>
+		<key>Back</key>
+		<string>To deliver a pompous speech or tirade; a long, pompous speech</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Hedonism</string>
+		<key>Back</key>
+		<string>Devotion to pleasurable pursuits, esp. to the pleasure of the senses</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Hegemony</string>
+		<key>Back</key>
+		<string>The consistent dominance of one state or ideology over others</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Hermetic</string>
+		<key>Back</key>
+		<string>Tightly sealed</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Heterodox</string>
+		<key>Back</key>
+		<string>Unorthodox, heretical, iconoclast</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Heterogeneous</string>
+		<key>Back</key>
+		<string>Composed of unlike parts; different; diverse</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Hoary</string>
+		<key>Back</key>
+		<string>Very old; whitish or gray from age</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Homogenous</string>
+		<key>Back</key>
+		<string>Of a similar kind</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Hubris</string>
+		<key>Back</key>
+		<string>Overbearing presumption or pride; arrogance </string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Husband</string>
+		<key>Back</key>
+		<string>To manage economically; to use sparingly</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Hyperbole</string>
+		<key>Back</key>
+		<string>An exaggerated statement, often used as a figure of speech</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Iconoclast</string>
+		<key>Back</key>
+		<string>One who attacks or undermines traditional conventions or institutions</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Idiosyncrasy</string>
+		<key>Back</key>
+		<string>Peculiarity of temperament, eccentricity</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Idolatrous</string>
+		<key>Back</key>
+		<string>Given to intense or excessive devotion to something</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Ignoble</string>
+		<key>Back</key>
+		<string>Having low moral standards; not noble in character; mean</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Imbroglio</string>
+		<key>Back</key>
+		<string>Difficult or embarrassing situation</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Imbue</string>
+		<key>Back</key>
+		<string>To infuse; dye, wet, moisten</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Imminent</string>
+		<key>Back</key>
+		<string>About to happen; impending</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Immutable</string>
+		<key>Back</key>
+		<string>Not capable of change</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Impasse</string>
+		<key>Back</key>
+		<string>Blocked path; dilemma with no solution</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Impassive</string>
+		<key>Back</key>
+		<string>Revealing no emotion</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Impecunious</string>
+		<key>Back</key>
+		<string>Lacking funds; without money</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Imperturbable</string>
+		<key>Back</key>
+		<string>Marked by extreme calm, impassivity, and steadiness</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Impervious</string>
+		<key>Back</key>
+		<string>Impossible to penetrate; incapable of being affected</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Impetuous</string>
+		<key>Back</key>
+		<string>Hastily or rashly energetic; impulsive and vehement</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Impious</string>
+		<key>Back</key>
+		<string>Not devout in religion</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Implacable</string>
+		<key>Back</key>
+		<string>Not capable of being appeased or significantly changed</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Imprecation</string>
+		<key>Back</key>
+		<string>A curse</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Impugn</string>
+		<key>Back</key>
+		<string>To call into question; to attack verbally</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Impunity</string>
+		<key>Back</key>
+		<string>Immunity from punishment or penalty</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Incarnadine</string>
+		<key>Back</key>
+		<string>Blood-red in color</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Inchoate</string>
+		<key>Back</key>
+		<string>In an intial stage; not fully formed</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Incipient</string>
+		<key>Back</key>
+		<string>Beginning to come into being to become apparent</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Inculcate</string>
+		<key>Back</key>
+		<string>To teach, impress in the mind</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Indefatigable</string>
+		<key>Back</key>
+		<string>Not easily exhaustible; tireless, dogged</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Indifferent</string>
+		<key>Back</key>
+		<string>Having no interest or concern; showing no bias or prejudice</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Indolent</string>
+		<key>Back</key>
+		<string>Habitually lazy; idle</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Ineluctable</string>
+		<key>Back</key>
+		<string>Certain, inevitable</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Inert</string>
+		<key>Back</key>
+		<string>Unmoving; lethargic; sluggish</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Inexorable</string>
+		<key>Back</key>
+		<string>Inflexible; unyielding</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Infelicitous</string>
+		<key>Back</key>
+		<string>Unfortunate; inappropriate</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Ingenuous</string>
+		<key>Back</key>
+		<string>Artless; frank and candid; lacking in sophistication</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Ingrate</string>
+		<key>Back</key>
+		<string>Ungrateful person</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Ingratiate</string>
+		<key>Back</key>
+		<string>To gain favor via deliberate effort; to seek to please as to gain an advantage</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Inimical</string>
+		<key>Back</key>
+		<string>Damaging; harmful; injurious</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Inimitable</string>
+		<key>Back</key>
+		<string>One of a kind; peerless</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Iniquity</string>
+		<key>Back</key>
+		<string>Sin; an evil act</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Innocuous</string>
+		<key>Back</key>
+		<string>Harmless; causing no damage</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Inquest</string>
+		<key>Back</key>
+		<string>An investigation; an inquiry</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Insipid</string>
+		<key>Back</key>
+		<string>Without taste or flavor; lacking in spirit; bland</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Insouciant</string>
+		<key>Back</key>
+		<string>Unconcerned, carefree, heedless</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Insurrection</string>
+		<key>Back</key>
+		<string>Rebellion</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Inter</string>
+		<key>Back</key>
+		<string>To bury</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Interregnum</string>
+		<key>Back</key>
+		<string>Interval between reigns</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Intimate</string>
+		<key>Back</key>
+		<string>To imply, suggest, or insinuate</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Intractable</string>
+		<key>Back</key>
+		<string>Not easily managed or directed; stubborn; obstinate</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Intransigent</string>
+		<key>Back</key>
+		<string>Refusing to compromise</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Intrepid</string>
+		<key>Back</key>
+		<string>Steadfast and courageous</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Inundate</string>
+		<key>Back</key>
+		<string>To overwhelm; to cover with water</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Inure</string>
+		<key>Back</key>
+		<string>To harden; accustom, become used to</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Inured</string>
+		<key>Back</key>
+		<string>Accustomed to accepting something undesirable</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Invective</string>
+		<key>Back</key>
+		<string>Abusive language</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Inveigle</string>
+		<key>Back</key>
+		<string>To obtain by deception or flattery</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Investiture</string>
+		<key>Back</key>
+		<string>Ceremony conferring authority</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Inveterate</string>
+		<key>Back</key>
+		<string>Deep rooted, ingrained, habitual</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Invidious</string>
+		<key>Back</key>
+		<string>Envious, obnoxious, offensive; likely to promote ill-will</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Irascible</string>
+		<key>Back</key>
+		<string>Easily angered; prone to temperamental outbursts</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Itinerant</string>
+		<key>Back</key>
+		<string>Wandering from place to place; unsettled</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Jargon</string>
+		<key>Back</key>
+		<string>Nonsensical talk; specialized language</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Jejune</string>
+		<key>Back</key>
+		<string>Vapid, uninteresting, nugatory; childish, immature, puerile</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Jettison</string>
+		<key>Back</key>
+		<string>To discard; to get rid of as unnecessary or encumbering</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Jingoism</string>
+		<key>Back</key>
+		<string>Belligerent support of one’s country</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Jocular</string>
+		<key>Back</key>
+		<string>Playful; humorous</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Judicious</string>
+		<key>Back</key>
+		<string>Sensible; showing good judgement</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Juncture</string>
+		<key>Back</key>
+		<string>Point of time, especially where two things are joined</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Keen</string>
+		<key>Back</key>
+		<string>Having a sharp edge; intellectually sharp; perceptive</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Kindle</string>
+		<key>Back</key>
+		<string>To set fire to or ignite; excite or inspire</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Kinetic</string>
+		<key>Back</key>
+		<string>Relating to motion; characterized by movement</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Knell</string>
+		<key>Back</key>
+		<string>Sound of a funeral bell; omen of death or failure</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Kudos</string>
+		<key>Back</key>
+		<string>Fame, glory, honor</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Lachrymose</string>
+		<key>Back</key>
+		<string>Tearful; weepy</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Laconic</string>
+		<key>Back</key>
+		<string>Using few words; terse</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Lament</string>
+		<key>Back</key>
+		<string>To express sorrow; to grieve</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Lampoon</string>
+		<key>Back</key>
+		<string>To ridicule with satire</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Languid</string>
+		<key>Back</key>
+		<string>Lacking energy; slow; indifferent</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Lapidary</string>
+		<key>Back</key>
+		<string>Relating to precious stones or the art of cutting them</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Larceny</string>
+		<key>Back</key>
+		<string>Theft of property</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Largess</string>
+		<key>Back</key>
+		<string>Generous giving (as of money) to others who may seem inferior</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Lassitude</string>
+		<key>Back</key>
+		<string>A state of diminished energy</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Latent</string>
+		<key>Back</key>
+		<string>Potential that is not readily apparent</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Laud</string>
+		<key>Back</key>
+		<string>To praise highly</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Lavish</string>
+		<key>Back</key>
+		<string>Extremely generous or extravagant</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Leery</string>
+		<key>Back</key>
+		<string>Suspicious</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Legerdemain</string>
+		<key>Back</key>
+		<string>Trickery</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Lethargic</string>
+		<key>Back</key>
+		<string>Acting in an indifferent or slow, sluggish manner</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Levity</string>
+		<key>Back</key>
+		<string>An inappropriate lack of seriousness; overly casual</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Liberal</string>
+		<key>Back</key>
+		<string>Tolerant, broad-minded; generous, lavish</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Libertine</string>
+		<key>Back</key>
+		<string>A free thinker, usually used disparagingly; one without moral restraint</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Licentious</string>
+		<key>Back</key>
+		<string>Immoral; unrestrained by society</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Limpid</string>
+		<key>Back</key>
+		<string>Clear, transparent</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Lionize</string>
+		<key>Back</key>
+		<string>To treat as a celebrity</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Lissome</string>
+		<key>Back</key>
+		<string>Easily flexed; limber; agile</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>List</string>
+		<key>Back</key>
+		<string>To tilt or lean to one side</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Listless</string>
+		<key>Back</key>
+		<string>Lacking energy and enthusiasm</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Livid</string>
+		<key>Back</key>
+		<string>Discolored from a bruise; pale or reddened with anger</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Loquacious</string>
+		<key>Back</key>
+		<string>Extremely talkative</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Lubricious</string>
+		<key>Back</key>
+		<string>Lewd, wanton, greasy, slippery</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Lucid</string>
+		<key>Back</key>
+		<string>Clear; easily understood</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Lugubrious</string>
+		<key>Back</key>
+		<string>Sorrowful, mournful, dismal</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Lumber</string>
+		<key>Back</key>
+		<string>To move heavily or clumsily</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Luminous</string>
+		<key>Back</key>
+		<string>Characterized by brightness and the emission of light</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Machination</string>
+		<key>Back</key>
+		<string>Plot or scheme </string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Maelstrom</string>
+		<key>Back</key>
+		<string>Whirlpool; turmoil; agitated state of mind</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Magnanimity</string>
+		<key>Back</key>
+		<string>The quality of being generously noble in mind and heart, esp. in forgiving</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Magnate</string>
+		<key>Back</key>
+		<string>Powerful or influential person</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Malediction</string>
+		<key>Back</key>
+		<string>A curse; wish of evil upon another</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Malevolent</string>
+		<key>Back</key>
+		<string>Having or showing often vicious ill-will, spite, or hatred</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Malinger</string>
+		<key>Back</key>
+		<string>To evade responsibility by pretending to be ill</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Malleable</string>
+		<key>Back</key>
+		<string>Capable of being shaped or formed; tractable; pliable</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Mannered</string>
+		<key>Back</key>
+		<string>Artificial or stilted in character</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Mar</string>
+		<key>Back</key>
+		<string>To damage, deface; soil</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Martial</string>
+		<key>Back</key>
+		<string>Associated with war and the armed forces</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Martinet</string>
+		<key>Back</key>
+		<string>Strict disciplinarian; one who rigidly follows rules</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Maudlin</string>
+		<key>Back</key>
+		<string>Overly sentimental</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Maverick</string>
+		<key>Back</key>
+		<string>An independent individual who does not go along with a group or party</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Meet</string>
+		<key>Back</key>
+		<string>Fitting; proper</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Mendacious</string>
+		<key>Back</key>
+		<string>Dishonest</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Mendacity</string>
+		<key>Back</key>
+		<string>The condition of being untruthful; dishonesty</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Mendicant</string>
+		<key>Back</key>
+		<string>A beggar, supplicant </string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Mercurial</string>
+		<key>Back</key>
+		<string>Characterized by rapid and unpredictable changes in mood</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Meretricious</string>
+		<key>Back</key>
+		<string>Cheap, gaudy, tawdry, flashy, showy</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Metaphor</string>
+		<key>Back</key>
+		<string>Figure of speech comparing two different things</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Meticulous</string>
+		<key>Back</key>
+		<string>Characterized by extreme care and precision; attentive to detail</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Militate</string>
+		<key>Back</key>
+		<string>To operate against, work against</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Milk</string>
+		<key>Back</key>
+		<string>To exploit; to squeeze every last drop from</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Minatory</string>
+		<key>Back</key>
+		<string>Menacing or threatening </string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Mince</string>
+		<key>Back</key>
+		<string>Pronounce or speak affectedly; euphemize; speak too carefully</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Mirth</string>
+		<key>Back</key>
+		<string>Frivolity; gaiety; laughter</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Misanthrope</string>
+		<key>Back</key>
+		<string>One who hates all other humans</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Missive</string>
+		<key>Back</key>
+		<string>A written note or letter</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Mitigate</string>
+		<key>Back</key>
+		<string>To make or become less severe or intense; to moderate</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Mollify</string>
+		<key>Back</key>
+		<string>To calm or soothe; to reduce in emotional intensity</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Molt</string>
+		<key>Back</key>
+		<string>To shed hair, skin, or an outer layer periodically</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Monastic</string>
+		<key>Back</key>
+		<string>No variation; tediously the same</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Mores</string>
+		<key>Back</key>
+		<string>Fixed customs or manners; moral attitudes</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Morose</string>
+		<key>Back</key>
+		<string>Sad; sullen; melancholy</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Multifarious</string>
+		<key>Back</key>
+		<string>Diverse</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Mundane</string>
+		<key>Back</key>
+		<string>Of the world; typical of or concerned with the ordinary</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Myopic</string>
+		<key>Back</key>
+		<string>Lacking foresight; having a narrow view</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Nadir</string>
+		<key>Back</key>
+		<string>Low point, perigee</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Naïve</string>
+		<key>Back</key>
+		<string>Lacking sophistication or experience</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Nascent</string>
+		<key>Back</key>
+		<string>Coming into being; in early developmental stages</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Nebulous</string>
+		<key>Back</key>
+		<string>Vague; cloudy; lacking clearly defined form</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Neologism</string>
+		<key>Back</key>
+		<string>A new word, expression, or usage; the creation of or use of new words or senses</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Neophyte</string>
+		<key>Back</key>
+		<string>A recent convert; a beginner; a novice</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Nettle</string>
+		<key>Back</key>
+		<string>To irritate</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Nice</string>
+		<key>Back</key>
+		<string>Exacting; fastidious; extremely precise</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Noisome</string>
+		<key>Back</key>
+		<string>Stinking; putrid</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Nominal</string>
+		<key>Back</key>
+		<string>Existing in name only; neligible</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Nonplussed</string>
+		<key>Back</key>
+		<string>Baffled, bewildered, at a loss for what to do or think</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Noxious</string>
+		<key>Back</key>
+		<string>Harmful, injurious</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Nuance</string>
+		<key>Back</key>
+		<string>A subtle expression of meaning or quality</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Numismatics</string>
+		<key>Back</key>
+		<string>Coin collecting</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Obdurate</string>
+		<key>Back</key>
+		<string>Unyielding; hardhearted; intractable</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Obfuscate</string>
+		<key>Back</key>
+		<string>To deliberately obscure; to make confusing</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Oblique</string>
+		<key>Back</key>
+		<string>Indirect, evasive; misleading, devious</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Obsequious</string>
+		<key>Back</key>
+		<string>Exhibiting a fawning attentiveness</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Obstinate</string>
+		<key>Back</key>
+		<string>Stubborn; hardheaded; uncompromising</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Obstreperous</string>
+		<key>Back</key>
+		<string>Noisily and stubbornly defiant</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Obtain</string>
+		<key>Back</key>
+		<string>To be established, customary, or accepted</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Obtuse</string>
+		<key>Back</key>
+		<string>Lacking sharpness of intellect; not clear or precise in thought or expression</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Obviate</string>
+		<key>Back</key>
+		<string>To anticipate and make unnecessary</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Occlude</string>
+		<key>Back</key>
+		<string>To obstruct or block</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Occult</string>
+		<key>Back</key>
+		<string>Hidden; concealed; beyond comprehension</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Odious</string>
+		<key>Back</key>
+		<string>Evoking intense aversion or dislike</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Officious</string>
+		<key>Back</key>
+		<string>Too helpful; meddlesome</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Onerous</string>
+		<key>Back</key>
+		<string>Troubling; burdensome</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Opaque</string>
+		<key>Back</key>
+		<string>Impenetrable by light; not reflecting light</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Opine</string>
+		<key>Back</key>
+		<string>To express an opinion</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Opprobrium</string>
+		<key>Back</key>
+		<string>Disgrace; contempt; scorn</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Orotund</string>
+		<key>Back</key>
+		<string>Pompous</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Oscillation</string>
+		<key>Back</key>
+		<string>The act or state of swinging back and forth with a steady, uninterrupted rhythm</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Ossified</string>
+		<key>Back</key>
+		<string>Literally, turned into bone; tending to become more rigid</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Ossify</string>
+		<key>Back</key>
+		<string>To change into bone; to become set in a rigidly conventional pattern</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Ostensible</string>
+		<key>Back</key>
+		<string>Apparent</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Ostentation</string>
+		<key>Back</key>
+		<string>Excessive showiness</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Ostentatious</string>
+		<key>Back</key>
+		<string>Characterized or given over to pretentions display; showy</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Overwrought</string>
+		<key>Back</key>
+		<string>Agitated; overdone</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Paean</string>
+		<key>Back</key>
+		<string>A song or hymn of praise and thanksgiving</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Palatial</string>
+		<key>Back</key>
+		<string>Relating to a palace; magnificent</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Palliate</string>
+		<key>Back</key>
+		<string>To make something less serious, to gloss over</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Pallid</string>
+		<key>Back</key>
+		<string>Lacking color or liveliness</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Panache</string>
+		<key>Back</key>
+		<string>Flamboyance or dash in style and action;  verve</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Panegyric</string>
+		<key>Back</key>
+		<string>Formal praise, eulogy, encomium</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Panoply</string>
+		<key>Back</key>
+		<string>Impressive array</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Paradox</string>
+		<key>Back</key>
+		<string>A contradiction or dilemma</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Paragon</string>
+		<key>Back</key>
+		<string>Model of excellence or perfection</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Pare</string>
+		<key>Back</key>
+		<string>To trim off excess; reduce</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Pariah</string>
+		<key>Back</key>
+		<string>An outcast</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Parley</string>
+		<key>Back</key>
+		<string>Discussion, usually between enemies</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Parody</string>
+		<key>Back</key>
+		<string>A humorous imitation intended to ridicule for comic effect, esp. in literature and arts</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Parry</string>
+		<key>Back</key>
+		<string>To ward off or deflect, especially by a quick-witted answer</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Parsimonious</string>
+		<key>Back</key>
+		<string>Cheap, miserly</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Pastiche</string>
+		<key>Back</key>
+		<string>Piece of literature or music imitating other works</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Pathogenic</string>
+		<key>Back</key>
+		<string>Causing disease</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Peccadillo</string>
+		<key>Back</key>
+		<string>Minor sin or offense</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Pedagogy</string>
+		<key>Back</key>
+		<string>The profession or principles of teaching, or instructing</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Pendant</string>
+		<key>Back</key>
+		<string>Someone who shows off learning</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Pedantic</string>
+		<key>Back</key>
+		<string>Overly concerned with the trivial details of learning or education; show-off with knowledge</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Pedestrian</string>
+		<key>Back</key>
+		<string>Commonplace; trite; unremarkable; quotidian</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Pejorative</string>
+		<key>Back</key>
+		<string>Having bad connotations; disparaging</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Pellucid</string>
+		<key>Back</key>
+		<string>Transparent, easy to understand</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Penurious</string>
+		<key>Back</key>
+		<string>Penny-pinching; excessively thrifty; ungenerous</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Penury</string>
+		<key>Back</key>
+		<string>Poverty; destitution</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Peregrinate</string>
+		<key>Back</key>
+		<string>To wander from place to place; to travel, especially on foot</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Perennial</string>
+		<key>Back</key>
+		<string>Recurrent through the year or many years; happening repeatedly</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Perfidious</string>
+		<key>Back</key>
+		<string>Willing to betray one’s trust</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Perfidy</string>
+		<key>Back</key>
+		<string>Intentional breach of faith; treachery</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Perfunctory</string>
+		<key>Back</key>
+		<string>Cursory, done without care or interest</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Peripatetic</string>
+		<key>Back</key>
+		<string>Wandering form place to place, especially on foot</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Permeate</string>
+		<key>Back</key>
+		<string>To penetrate</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Pernicious</string>
+		<key>Back</key>
+		<string>Extremely harmful; potentially causing death</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Peroration</string>
+		<key>Back</key>
+		<string>The concluding part of a speech; flowery, rhetorical speech</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Perspicacious</string>
+		<key>Back</key>
+		<string>Acutely perceptive; having keen discernment</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Peruse</string>
+		<key>Back</key>
+		<string>To examine with great care</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Pervade</string>
+		<key>Back</key>
+		<string>To permeate throughout</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Pervasive</string>
+		<key>Back</key>
+		<string>Having the tendency to permeate or spread throughout</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Phalanx</string>
+		<key>Back</key>
+		<string>A compact or close-knit body of people, animals, or things</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Philanthropy</string>
+		<key>Back</key>
+		<string>Charity; a desire or effort to promote goodness</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Philistine</string>
+		<key>Back</key>
+		<string>A person who is guided by materialism and disdains intellectual or artistic value</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Phlegmatic</string>
+		<key>Back</key>
+		<string>Calm; sluggish; unemotional</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Pied</string>
+		<key>Back</key>
+		<string>Multicolored, usually in blotches</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Pine</string>
+		<key>Back</key>
+		<string>To yearn intensely; to languish; top lose vigor</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Pious</string>
+		<key>Back</key>
+		<string>Extremely reverent or devout; showing strong religious devotion</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Pirate</string>
+		<key>Back</key>
+		<string>To illegally use or reproduce</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Pith</string>
+		<key>Back</key>
+		<string>The essential or central part</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Pithy</string>
+		<key>Back</key>
+		<string>Precise and brief</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Placate</string>
+		<key>Back</key>
+		<string>To appease; to calm by making concessions</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Plangent</string>
+		<key>Back</key>
+		<string>Pounding, thundering, resounding</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Plastic</string>
+		<key>Back</key>
+		<string>Moldable or pliable; not rigid</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Platitude</string>
+		<key>Back</key>
+		<string>A superficial remark, esp. one offered as meaningful</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Plebeian</string>
+		<key>Back</key>
+		<string>Crude or coarse; characteristic of commoners</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Plethora</string>
+		<key>Back</key>
+		<string>An overabundance; a surplus</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Pluck</string>
+		<key>Back</key>
+		<string>Courage, spunk, fortitude</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Plucky</string>
+		<key>Back</key>
+		<string>Courageous; spunky</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Plummet</string>
+		<key>Back</key>
+		<string>To plunge or drop straight down</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Polemic</string>
+		<key>Back</key>
+		<string>Controversy; argument; verbal attack</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Polemical</string>
+		<key>Back</key>
+		<string>Controversial; argumentative</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Politic</string>
+		<key>Back</key>
+		<string>Shrewd and practical in managing or dealing with things; diplomatic</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Polyglot</string>
+		<key>Back</key>
+		<string>A speaker of many languages</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Posit</string>
+		<key>Back</key>
+		<string>To assume as real or conceded; propose as an explanation</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Potentate</string>
+		<key>Back</key>
+		<string>A monarch or ruler with great power</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Pragmatic</string>
+		<key>Back</key>
+		<string>Practical rather than idealistic</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Prattle</string>
+		<key>Back</key>
+		<string>To babble meaninglessly; to talk in an empty or idle manner</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Precipitate</string>
+		<key>Back</key>
+		<string>Acting with excessive haste or impulse</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Precipitate</string>
+		<key>Back</key>
+		<string>To cause or happen before anticipated or required</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Precis</string>
+		<key>Back</key>
+		<string>Short summary of facts</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Precursor</string>
+		<key>Back</key>
+		<string>One that precedes and indicates or announces another</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Predilection</string>
+		<key>Back</key>
+		<string>A disposition in favor of something; preference</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Preen</string>
+		<key>Back</key>
+		<string>To dress up; to primp; to groom oneself with elaborate care</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Prescience</string>
+		<key>Back</key>
+		<string>Foreknowledge of events; knowing of events prior to their occurring</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Prescient</string>
+		<key>Back</key>
+		<string>Having foresight</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Presumptuous</string>
+		<key>Back</key>
+		<string>Overstepping due bounds; taking liberties</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Prevaricate</string>
+		<key>Back</key>
+		<string>To deliberately avoid the truth; to mislead</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Pristine</string>
+		<key>Back</key>
+		<string>Pure; uncorrupted; clean</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Prize</string>
+		<key>Back</key>
+		<string>To pry, to press or force with a lever; something taken by force; spoils</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Probity</string>
+		<key>Back</key>
+		<string>Adherence to highest principles; complete and confirmed integrity; uprightness</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Proclivity</string>
+		<key>Back</key>
+		<string>A natural predisposition or inclination</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Prodigal</string>
+		<key>Back</key>
+		<string>Recklessly wasteful; extravagant; profuse; lavish</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Prodigious</string>
+		<key>Back</key>
+		<string>Abundant in size, force, or extent; extraordinary</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Profligate</string>
+		<key>Back</key>
+		<string>Excessively wasteful; recklessly extravagant</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Profuse</string>
+		<key>Back</key>
+		<string>Given or coming forth abundantly; extravagant</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Proliferate</string>
+		<key>Back</key>
+		<string>To grow or increase swiftly and abundantly</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Prolific</string>
+		<key>Back</key>
+		<string>Producing large volumes or amounts; productive</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Prolix</string>
+		<key>Back</key>
+		<string>Long-winded, verbose</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Propensity</string>
+		<key>Back</key>
+		<string>A natural inclination or tendency; a penchant</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Propitiate</string>
+		<key>Back</key>
+		<string>To appease; to conciliate</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Propriety</string>
+		<key>Back</key>
+		<string>The quality of behaving in a proper manner; obeying rules or customs</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Prosaic</string>
+		<key>Back</key>
+		<string>Dull; lacking in spirit or imagination</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Prudence</string>
+		<key>Back</key>
+		<string>Wisdom; caution or restraint</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Puerile</string>
+		<key>Back</key>
+		<string>Childish, immature, jejune</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Puissance</string>
+		<key>Back</key>
+		<string>Power, strength</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Pungent</string>
+		<key>Back</key>
+		<string>Characterized by a strong, sharp smell or taste</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Pugilism</string>
+		<key>Back</key>
+		<string>Boxing</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Pulchritude</string>
+		<key>Back</key>
+		<string>Beauty</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Pungent</string>
+		<key>Back</key>
+		<string>Sharp and irritating to the senses</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Pusillanimous</string>
+		<key>Back</key>
+		<string>Cowardly, craven</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Putrefy</string>
+		<key>Back</key>
+		<string>To rot; to decay and give off a foul odor</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Quaff</string>
+		<key>Back</key>
+		<string>To drink deeply</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Quail</string>
+		<key>Back</key>
+		<string>To lose courage or turn frightened</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Qualify</string>
+		<key>Back</key>
+		<string>To limit</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Qualms</string>
+		<key>Back</key>
+		<string>Misgivings; reservations; causes for hesitancy</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Queries</string>
+		<key>Back</key>
+		<string>Questions; inquiries; doubts in the mind; reservations</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Querulous</string>
+		<key>Back</key>
+		<string>Prone to complaining or grumbling; peevish</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Quiescence</string>
+		<key>Back</key>
+		<string>Stillness; motionlessness; quality of being at rest</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Quiescent</string>
+		<key>Back</key>
+		<string>Motionless</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Quixotic</string>
+		<key>Back</key>
+		<string>Foolishly impractical; marked by lofty, romantic ideals</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Quotidian</string>
+		<key>Back</key>
+		<string>Occurring or recurring daily; commonplace</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Raconteur</string>
+		<key>Back</key>
+		<string>Witty, skillful storyteller</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Rail</string>
+		<key>Back</key>
+		<string>To complain about bitterly</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Rancorous</string>
+		<key>Back</key>
+		<string>Characterized by bitter, long-lasting resentment</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Rarify</string>
+		<key>Back</key>
+		<string>To make or become thin, less dense; to refine</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Recalcitrant</string>
+		<key>Back</key>
+		<string>Obstinately defiant of authority; difficult to manage</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Recant</string>
+		<key>Back</key>
+		<string>To retract, esp. a previously held belief</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Recondite</string>
+		<key>Back</key>
+		<string>Hidden; concealed; difficult to understand; obscure</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Redoubtable</string>
+		<key>Back</key>
+		<string>Awe-inspiring; worthy of honor</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Redress</string>
+		<key>Back</key>
+		<string>Relief from wrong or injury</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Refulgent</string>
+		<key>Back</key>
+		<string>Radiant; shiny; brilliant</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Refute</string>
+		<key>Back</key>
+		<string>To disprove; to successfully argue against</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Rejoinder</string>
+		<key>Back</key>
+		<string>Response</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Relegate</string>
+		<key>Back</key>
+		<string>To forcibly assign, esp. to a lower place or position</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Remonstrate</string>
+		<key>Back</key>
+		<string>To protest, object</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Renege</string>
+		<key>Back</key>
+		<string>To fail to honor a commitment; to go back on a promise</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Rent</string>
+		<key>Back</key>
+		<string>Torn, past of rend; an opening or tear caused by such</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Repast</string>
+		<key>Back</key>
+		<string>Meal or mealtime</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Replete</string>
+		<key>Back</key>
+		<string>Abundantly supplied; complete</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Repose</string>
+		<key>Back</key>
+		<string>Relaxation; leisure</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Repudiate</string>
+		<key>Back</key>
+		<string>To refuse to have anything to do with; disown</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Requite</string>
+		<key>Back</key>
+		<string>A return or repay</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Rescind</string>
+		<key>Back</key>
+		<string>To invalidate; to repeal; to retract</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Restive</string>
+		<key>Back</key>
+		<string>Impatient; uneasy; restless</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Reticent</string>
+		<key>Back</key>
+		<string>Quiet; reserved; reluctant to express thoughts or feelings</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Reverent</string>
+		<key>Back</key>
+		<string>Marked by, feeling, or expressing a feeling of profound awe and respect</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Rhetoric</string>
+		<key>Back</key>
+		<string>The act or study of effective use of language for communication and persuasion</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Ribald</string>
+		<key>Back</key>
+		<string>Humorous in a vulgar way</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Rococo</string>
+		<key>Back</key>
+		<string>Very highly ornamented; relating to an 18th century artistic style of elaborate ornamentation</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Rustic</string>
+		<key>Back</key>
+		<string>Rural</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Sacrosanct</string>
+		<key>Back</key>
+		<string>Extremely sacred; beyond criticism</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Sagacious</string>
+		<key>Back</key>
+		<string>Having sound judgment; perceptive; wise</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Salacious</string>
+		<key>Back</key>
+		<string>Lustful, lascivious, bawdy</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Salient</string>
+		<key>Back</key>
+		<string>Prominent; of notable significance</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Salubrious</string>
+		<key>Back</key>
+		<string>Promoting health or well-being</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Salutary</string>
+		<key>Back</key>
+		<string>Remedial, wholesome, causing improvement</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Sanction</string>
+		<key>Back</key>
+		<string> A penalty intended to enforce compliance; to give permission or authority to</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Sanguine</string>
+		<key>Back</key>
+		<string>Cheerful, confident, optimistic</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Sap</string>
+		<key>Back</key>
+		<string>A fool or nitwit; to enervate or weaken the vitality of</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Sardonic</string>
+		<key>Back</key>
+		<string>Cynical; scornfully mocking</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Satiate</string>
+		<key>Back</key>
+		<string>To satisfy fully or overindulge</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Satire</string>
+		<key>Back</key>
+		<string>A literary work that ridicules or criticizes a human vice through humor or derision</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Saturnine</string>
+		<key>Back</key>
+		<string>Gloomy, dark, sullen, morose</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Scintilla</string>
+		<key>Back</key>
+		<string>Trace amount</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Scurvy</string>
+		<key>Back</key>
+		<string>Contemptible; despicable</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Sedition</string>
+		<key>Back</key>
+		<string>Behavior that promotes rebellion or civil disorder against the state</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Sedulous</string>
+		<key>Back</key>
+		<string>Diligent; persistent; hard-working</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Sententious</string>
+		<key>Back</key>
+		<string>Aphoristic or moralistic; tending to moralize obsessively</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Sentient</string>
+		<key>Back</key>
+		<string>Aware; conscious; able to perceive</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Seraphic</string>
+		<key>Back</key>
+		<string>Angelic; sweet</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Shard</string>
+		<key>Back</key>
+		<string>A piece of broken pottery or glass</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Singular</string>
+		<key>Back</key>
+		<string>Exceptional, unusual, or odd</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Sinecure</string>
+		<key>Back</key>
+		<string>A well-paying job or office that requires little or no work</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Slake</string>
+		<key>Back</key>
+		<string>To calm down or moderate</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Sobriquet</string>
+		<key>Back</key>
+		<string>Nickname</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Solecism</string>
+		<key>Back</key>
+		<string>Grammatical mistake; a blunder in speech</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Solicitous</string>
+		<key>Back</key>
+		<string>Concerned and attentive; eager</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Solvent</string>
+		<key>Back</key>
+		<string>Able to meet financial obligations; able to dissolve another substance</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Soporific</string>
+		<key>Back</key>
+		<string>Causing drowsiness; tending to induce sleep</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Sordid</string>
+		<key>Back</key>
+		<string>Characterized by filth, grime, or squalor; foul</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Sparse</string>
+		<key>Back</key>
+		<string>Thin; not dense; arranged at highly spaced intervals</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Spartan</string>
+		<key>Back</key>
+		<string>Highly self-disciplined; frugal; austere</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Specious</string>
+		<key>Back</key>
+		<string>Seeming true, but actually being fallacious; misleadingly attractive; plausible but false</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Spendthrift</string>
+		<key>Back</key>
+		<string>One who spends money wastefully</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Sporadic</string>
+		<key>Back</key>
+		<string>Occurring only occasionally or in scattered instances</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Sportive</string>
+		<key>Back</key>
+		<string>Frolicsome; playful</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Spurious</string>
+		<key>Back</key>
+		<string>Lacking authenticity or validity; false; counterfeit</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Squalid</string>
+		<key>Back</key>
+		<string>Sordid; wretched and dirty as from neglect</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Squander </string>
+		<key>Back</key>
+		<string>To waste y spending or using irresponsibly</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Stand</string>
+		<key>Back</key>
+		<string>A group of trees</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Stasis</string>
+		<key>Back</key>
+		<string>A state of static balance or equilibrium; stagnation</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Static</string>
+		<key>Back</key>
+		<string>Not moving, active, or in motion; at rest</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Steep</string>
+		<key>Back</key>
+		<string>To saturate or completely soak</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Stentorian</string>
+		<key>Back</key>
+		<string>Extremely loud and powerful</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Stigma</string>
+		<key>Back</key>
+		<string>A mark of shame or discredit</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Stoic</string>
+		<key>Back</key>
+		<string>Indifferent to or unaffected by pleasure or pain; steadfast</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Stolid</string>
+		<key>Back</key>
+		<string>Unemotional; lacking sensitivity</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Stratagem</string>
+		<key>Back</key>
+		<string>Trick designed to deceive an enemy</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Strut</string>
+		<key>Back</key>
+		<string>The supporting structural cross-part of a wing</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Stupefy</string>
+		<key>Back</key>
+		<string>To stun, baffle, or amaze</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Stygian</string>
+		<key>Back</key>
+		<string>Gloomy, dark</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Stymie</string>
+		<key>Back</key>
+		<string>To black; thwart</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Sublime</string>
+		<key>Back</key>
+		<string>Lofty or grand</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Subpoena</string>
+		<key>Back</key>
+		<string>A court order requiring appearance and/or testimony</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Subtle</string>
+		<key>Back</key>
+		<string>Not obvious; elusive; difficult to discern</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Succinct</string>
+		<key>Back</key>
+		<string>Brief; concise</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Sully</string>
+		<key>Back</key>
+		<string>To tarnish or taint</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Superfluous</string>
+		<key>Back</key>
+		<string>Exceeding what is sufficient or necessary</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Supplant</string>
+		<key>Back</key>
+		<string>To take the place of; supersede</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Surfeit</string>
+		<key>Back</key>
+		<string>An overabundant supply; excess; to feed or supply to excess</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Surly</string>
+		<key>Back</key>
+		<string>Rude and bad-tempered</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Sybarite</string>
+		<key>Back</key>
+		<string>A person devoted to pleasure and luxury</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Sycophant</string>
+		<key>Back</key>
+		<string>Toady, servile, self-seeking flatterer</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Symbiosis</string>
+		<key>Back</key>
+		<string>Cooperation; mutual helpfulness</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Syncopation</string>
+		<key>Back</key>
+		<string>Temporary irregularity in musical rhythm</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Synthesis</string>
+		<key>Back</key>
+		<string>The combination of parts to make a whole</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Table</string>
+		<key>Back</key>
+		<string>To remove from consideration</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Tacit</string>
+		<key>Back</key>
+		<string>Implied; not explicitly stated</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Taciturn</string>
+		<key>Back</key>
+		<string>Silent; not talkative</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Talon</string>
+		<key>Back</key>
+		<string>Claw of an animal, esp. a bird of prey</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Tangential</string>
+		<key>Back</key>
+		<string>Digressing; diverting</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Tawdry</string>
+		<key>Back</key>
+		<string>Gaudy; cheap; showy</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Tenacity</string>
+		<key>Back</key>
+		<string>The quality of adherence or persistence to something valued; persistent determination</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Tendentious</string>
+		<key>Back</key>
+		<string>Biased; showing marked tendency</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Tender</string>
+		<key>Back</key>
+		<string>To proffer or offer</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Tenuous</string>
+		<key>Back</key>
+		<string>Having little substance or strength; flimsy; weak</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Terrestrial</string>
+		<key>Back</key>
+		<string>Earthly; down-to-earth; commonplace</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Terse</string>
+		<key>Back</key>
+		<string>Brief and concise in wording</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Timorous</string>
+		<key>Back</key>
+		<string>Timid, fearful, diffident</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Tirade</string>
+		<key>Back</key>
+		<string>A long and extremely critical speech; a harsh denunciation</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Toady</string>
+		<key>Back</key>
+		<string>One who flatters in hope of gaining favors; bootlick</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Tome</string>
+		<key>Back</key>
+		<string>A book, usually large and academic in nature</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Torpid</string>
+		<key>Back</key>
+		<string>Lethargic; sluggish; dormant</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Torpor</string>
+		<key>Back</key>
+		<string>Extreme mental and physical sluggishness</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Torque</string>
+		<key>Back</key>
+		<string>A force that causes rotation</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Tortuous</string>
+		<key>Back</key>
+		<string>Winding, twisting; excessively complicated</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Tout</string>
+		<key>Back</key>
+		<string>To publicly praise or promote</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Transient</string>
+		<key>Back</key>
+		<string>Fleeting; passing quickly; brief</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Transitory</string>
+		<key>Back</key>
+		<string>Temporary; lasting a brief time</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Trenchant</string>
+		<key>Back</key>
+		<string>Sharply perceptive; keen; penetrating</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Truculent</string>
+		<key>Back</key>
+		<string>Fierce and cruel; eager to fight</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Turgid</string>
+		<key>Back</key>
+		<string>Swollen, as from fluid; bloated</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Tyro</string>
+		<key>Back</key>
+		<string>Novice, greenhorn, rank amateur</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Ubiquitous</string>
+		<key>Back</key>
+		<string>Existing everywhere at the same time; constantly encountered; widespread; prominent</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Umbrage</string>
+		<key>Back</key>
+		<string>Offense; resentment</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Unconscionable</string>
+		<key>Back</key>
+		<string>Unscrupulous; shockingly unfair or unjust</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Unequivocal</string>
+		<key>Back</key>
+		<string>Absolute; certain</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Unfeigned</string>
+		<key>Back</key>
+		<string>Genuine; not false or hypocritical</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Untenable</string>
+		<key>Back</key>
+		<string>Indefensible; not viable; uninhabitable</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Upbraid</string>
+		<key>Back</key>
+		<string>To scold sharply</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Urbane</string>
+		<key>Back</key>
+		<string>Sophisticated; refined; elegant</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Usury</string>
+		<key>Back</key>
+		<string>The practice of lending money at exorbitant rates</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Vacillate</string>
+		<key>Back</key>
+		<string>To waver indecisively between one course of action or opinion and another; waver</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Variegated</string>
+		<key>Back</key>
+		<string>Multicolored; characterized by a variety of patches of different color</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Venerable</string>
+		<key>Back</key>
+		<string>Respected because of age</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Venerate</string>
+		<key>Back</key>
+		<string>To respect deeply</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Veracity</string>
+		<key>Back</key>
+		<string>Truthfulness, honesty</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Verbose</string>
+		<key>Back</key>
+		<string>Wordy</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Verdant</string>
+		<key>Back</key>
+		<string>Green with vegetation; inexperienced</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Vernal</string>
+		<key>Back</key>
+		<string>Related to spring; fresh</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Vestige</string>
+		<key>Back</key>
+		<string>Trace; remnant</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Vex</string>
+		<key>Back</key>
+		<string>To annoy, irritate, puzzle, or confuse</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Vexation</string>
+		<key>Back</key>
+		<string>Annoyance; irritation</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Vicissitude</string>
+		<key>Back</key>
+		<string>A change or variation; ups and downs</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Vigilant</string>
+		<key>Back</key>
+		<string>Alertly watchful</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Vilify</string>
+		<key>Back</key>
+		<string>To defame; to characterize harshly</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Vim</string>
+		<key>Back</key>
+		<string>Vitality and energy</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Virulent</string>
+		<key>Back</key>
+		<string>Extremely harmful or poisonous; bitterly hostile or antagonistic</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Viscous</string>
+		<key>Back</key>
+		<string>Thick; sticky</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Vitiate</string>
+		<key>Back</key>
+		<string>To corrupt, debase, spoil</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Vituperate</string>
+		<key>Back</key>
+		<string>To use harsh, condemnatory language; to abuse or censure severely or abusively; berate</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Volatile</string>
+		<key>Back</key>
+		<string>Readily changing to vapor; changeable; fickle; explosive</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Voluble</string>
+		<key>Back</key>
+		<string>Fluent, verbal, having easy use of spoken language</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Voracious</string>
+		<key>Back</key>
+		<string>Having an insatiable appetite for an activity or pursuit; ravenous</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Waffle</string>
+		<key>Back</key>
+		<string>To equivocate; to change one’s position</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Wag</string>
+		<key>Back</key>
+		<string>Wit, joker</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Wan</string>
+		<key>Back</key>
+		<string>	Sickly pale</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Wanton</string>
+		<key>Back</key>
+		<string>Undisciplined; unrestrained; reckless</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Waver</string>
+		<key>Back</key>
+		<string>To move to and fro; to sway; to be unsettled in opinion</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Whimsical</string>
+		<key>Back</key>
+		<string>Lightly acting in a fanciful or capricious manner; unpredictable</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Wily</string>
+		<key>Back</key>
+		<string>Clever; deceptive</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Winsome</string>
+		<key>Back</key>
+		<string>Charming; happily engaging</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Wizened</string>
+		<key>Back</key>
+		<string>Shriveled; withered; wrinkled</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Wraith</string>
+		<key>Back</key>
+		<string>A ghost or specter</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Xenophobia</string>
+		<key>Back</key>
+		<string>A fear or hatred of foreigners or strangers</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Yoke</string>
+		<key>Back</key>
+		<string>To join together</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Zeal</string>
+		<key>Back</key>
+		<string>Passion; excitement</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Zealot</string>
+		<key>Back</key>
+		<string>Someone passionately devoted to a cause</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Zealous</string>
+		<key>Back</key>
+		<string>Fervent; ardent; impassioned, devoted to a cause</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Zenith</string>
+		<key>Back</key>
+		<string>The point of culmination; peak</string>
+	</dict>
+	<dict>
+		<key>Front</key>
+		<string>Zephyr</string>
+		<key>Back</key>
+		<string>A gentle breeze; something airy or unsubstantial</string>
+	</dict>
+</array>
+</plist>

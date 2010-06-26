@@ -1,0 +1,721 @@
+TFlashCard
+v7
+r0
+t299218618.319757
+cCheck dependencies
+cProcessInfoPlistFile /Users/sam/Desktop/FlashCard/build/Debug-iphonesimulator/FlashCard.app/Info.plist FlashCard-Info.plist
+cCompileXIB /Users/sam/Desktop/FlashCard/FlipsideView.xib
+cCompileXIB /Users/sam/Desktop/FlashCard/MainView.xib
+cCompileXIB /Users/sam/Desktop/FlashCard/MainWindow.xib
+cCpResource build/Debug-iphonesimulator/FlashCard.app/notebook_paper.jpg notebook_paper.jpg
+cCopyPlistFile /Users/sam/Desktop/FlashCard/build/Debug-iphonesimulator/FlashCard.app/words.plist words.plist
+cProcessPCH /var/folders/nF/nFiF2St+GQOo6ey1cwOKwU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlashCard_Prefix-bzlmodwsloffdqfpryiuxrdxamqt/FlashCard_Prefix.pch.gch FlashCard_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/Objects-normal/i386/main.o /Users/sam/Desktop/FlashCard/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/Objects-normal/i386/FlashCardAppDelegate.o /Users/sam/Desktop/FlashCard/Classes/FlashCardAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/Objects-normal/i386/MainViewController.o /Users/sam/Desktop/FlashCard/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/Objects-normal/i386/FlipsideViewController.o /Users/sam/Desktop/FlashCard/Classes/FlipsideViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/sam/Desktop/FlashCard/build/Debug-iphonesimulator/FlashCard.app/FlashCard normal i386
+cGenerateDSYMFile /Users/sam/Desktop/FlashCard/build/Debug-iphonesimulator/FlashCard.app.dSYM /Users/sam/Desktop/FlashCard/build/Debug-iphonesimulator/FlashCard.app/FlashCard
+cTouch /Users/sam/Desktop/FlashCard/build/Debug-iphonesimulator/FlashCard.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk
+c000000004B69B45C00000000000000EE
+t1265218652
+s238
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+c000000004B2B4E070000000000185440
+t1261129223
+s1594432
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.h
+c000000004B2B4DFB000000000000046B
+t1261129211
+s1131
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004B2B4CC3000000000026EE30
+t1261128899
+s2551344
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004B2B4DC8000000000027E880
+t1261129160
+s2615424
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004B2B4DAE0000000000001355
+t1261129134
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004B2B61620000000000000788
+t1261134178
+s1928
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004B2B62B500000000016721E0
+t1261134517
+s23536096
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/include/Availability.h
+c000000004B2B4EE200000000000019F9
+t1261129442
+s6649
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk
+c000000004C12BDA20000000000000110
+t1276296610
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+c000000004B9F1E230000000000198F10
+t1268719139
+s1675024
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BA03AB3000000000026F020
+t1268791987
+s2551840
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004B9F1DE40000000000289C20
+t1268719076
+s2661408
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004B9F1DD60000000000001355
+t1268719062
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004BA6CAEC000000000000098F
+t1269222124
+s2447
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004BA6CB31000000000214E400
+t1269222193
+s34923520
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/Availability.h
+c000000004B9F1E7D0000000000001A1A
+t1268719229
+s6682
+
+N/Users/loganmoseley/Projects/FlashCard/CardDictionary.plist
+c000000004C1D1A3500000000000002C4
+t1276975669
+s708
+
+N/Users/loganmoseley/Projects/FlashCard/Classes/FlashCardAppDelegate.h
+c000000004C22883D00000000000002FC
+t1277331517
+s764
+i<UIKit/UIKit.h>
+i"MainViewController.h"
+
+N/Users/loganmoseley/Projects/FlashCard/Classes/FlashCardAppDelegate.m
+c000000004C22886D000000000000089F
+t1277331565
+s2207
+i"FlashCardAppDelegate.h"
+i"MainViewController.h"
+
+N/Users/loganmoseley/Projects/FlashCard/Classes/FlipsideViewController.h
+c000000004C21942600000000000003C9
+t1277269030
+s969
+i<UIKit/UIKit.h>
+
+N/Users/loganmoseley/Projects/FlashCard/Classes/FlipsideViewController.m
+c000000004C22877A000000000000099E
+t1277331322
+s2462
+i"FlipsideViewController.h"
+
+N/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.h
+c000000004C218EB8000000000000042E
+t1277267640
+s1070
+i"FlipsideViewController.h"
+
+N/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m
+c000000004C243BE40000000000000D94
+t1277443044
+s3476
+i"MainViewController.h"
+
+N/Users/loganmoseley/Projects/FlashCard/FlashCard.xcdatamodeld
+c000000004C0EA4770000000000000088
+t1276028023
+s136
+
+N/Users/loganmoseley/Projects/FlashCard/FlashCard_Prefix.pch
+c000000004C0EA4770000000000000144
+t1276028023
+s324
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/loganmoseley/Projects/FlashCard/FlipsideView.xib
+c000000004C1EC93A0000000000005C53
+t1277086010
+s23635
+
+N/Users/loganmoseley/Projects/FlashCard/MainView.xib
+c000000004C2133E20000000000006A79
+t1277244386
+s27257
+
+N/Users/loganmoseley/Projects/FlashCard/MainWindow.xib
+c000000004C168CF30000000000003CDD
+t1276546291
+s15581
+
+N/Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app
+t1277443044
+s340
+
+N/Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app.dSYM
+t1277443044
+s102
+
+N/Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app/CardDictionary.plist
+t1277330977
+s237
+
+N/Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app/FlashCard
+t1277443044
+s30484
+
+N/Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app/FlashCard.momd
+t1276982992
+s136
+
+N/Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app/FlipsideView.nib
+t1277442849
+s2253
+
+N/Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app/Info.plist
+t1277442848
+s599
+
+N/Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app/MainView.nib
+t1277442849
+s2700
+
+N/Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app/MainWindow.nib
+t1277442849
+s991
+
+N/Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app/PkgInfo
+t1277442848
+s8
+
+N/Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app/notebook_paper.jpg
+t1277331341
+s290334
+
+N/Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app/words.plist
+t1277331341
+s50314
+
+N/Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/Objects-normal/i386/FlashCard.LinkFileList
+c000000004C22878C0000000000000228
+t1277331340
+s552
+
+N/Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/Objects-normal/i386/FlashCardAppDelegate.o
+t1277442850
+s48700
+
+N/Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/Objects-normal/i386/FlipsideViewController.o
+t1277442851
+s41772
+
+N/Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/Objects-normal/i386/MainViewController.o
+t1277443044
+s45768
+
+N/Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/Objects-normal/i386/main.o
+t1277442850
+s5944
+
+N/Users/loganmoseley/Projects/FlashCard/main.m
+c000000004C0EA477000000000000016B
+t1276028023
+s363
+i<UIKit/UIKit.h>
+
+N/Users/loganmoseley/Projects/FlashCard/notebook_paper.jpg
+c000000004C1EC5800000000000046E1E
+t1277085056
+s290334
+
+N/Users/loganmoseley/Projects/FlashCard/words.plist
+c000000004C1EF95E0000000000019CF1
+t1277098334
+s105713
+
+N/Users/sam/Desktop/FlashCard/Classes/FlashCardAppDelegate.h
+c000000004C257E60000000000000031D
+t1277525600
+s797
+i<UIKit/UIKit.h>
+i"MainViewController.h"
+i"FlipsideViewController.h"
+
+N/Users/sam/Desktop/FlashCard/Classes/FlashCardAppDelegate.m
+c000000004C257E6B0000000000000999
+t1277525611
+s2457
+i"FlashCardAppDelegate.h"
+i"MainViewController.h"
+
+N/Users/sam/Desktop/FlashCard/Classes/FlipsideViewController.h
+c000000004C257B910000000000000409
+t1277524881
+s1033
+i<UIKit/UIKit.h>
+
+N/Users/sam/Desktop/FlashCard/Classes/FlipsideViewController.m
+c000000004C257F390000000000000B20
+t1277525817
+s2848
+i"FlipsideViewController.h"
+
+N/Users/sam/Desktop/FlashCard/Classes/MainViewController.h
+c000000004C257B9200000000000004A9
+t1277524882
+s1193
+i"FlipsideViewController.h"
+
+N/Users/sam/Desktop/FlashCard/Classes/MainViewController.m
+c000000004C257F390000000000000F10
+t1277525817
+s3856
+i"MainViewController.h"
+
+N/Users/sam/Desktop/FlashCard/FlashCard_Prefix.pch
+c000000004C0E7A460000000000000144
+t1276017222
+s324
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/sam/Desktop/FlashCard/FlipsideView.xib
+c000000004C1E9F0A0000000000005C53
+t1277075210
+s23635
+
+N/Users/sam/Desktop/FlashCard/MainView.xib
+c000000004C2109B20000000000006A79
+t1277233586
+s27257
+
+N/Users/sam/Desktop/FlashCard/MainWindow.xib
+c000000004C1662C20000000000003CDD
+t1276535490
+s15581
+
+N/Users/sam/Desktop/FlashCard/build/Debug-iphonesimulator/FlashCard.app
+t1277525818
+s340
+
+N/Users/sam/Desktop/FlashCard/build/Debug-iphonesimulator/FlashCard.app.dSYM
+t1277525818
+s102
+
+N/Users/sam/Desktop/FlashCard/build/Debug-iphonesimulator/FlashCard.app/FlashCard
+t1277525818
+s30956
+
+N/Users/sam/Desktop/FlashCard/build/Debug-iphonesimulator/FlashCard.app/FlipsideView.nib
+t1277432048
+s2253
+
+N/Users/sam/Desktop/FlashCard/build/Debug-iphonesimulator/FlashCard.app/Info.plist
+t1277432048
+s599
+
+N/Users/sam/Desktop/FlashCard/build/Debug-iphonesimulator/FlashCard.app/MainView.nib
+t1277432048
+s2700
+
+N/Users/sam/Desktop/FlashCard/build/Debug-iphonesimulator/FlashCard.app/MainWindow.nib
+t1277432048
+s991
+
+N/Users/sam/Desktop/FlashCard/build/Debug-iphonesimulator/FlashCard.app/PkgInfo
+t1277432048
+s8
+
+N/Users/sam/Desktop/FlashCard/build/Debug-iphonesimulator/FlashCard.app/notebook_paper.jpg
+t1277320540
+s290334
+
+N/Users/sam/Desktop/FlashCard/build/Debug-iphonesimulator/FlashCard.app/words.plist
+t1277320540
+s50314
+
+N/Users/sam/Desktop/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/Objects-normal/i386/FlashCard.LinkFileList
+c000000004C24755A0000000000000200
+t1277457754
+s512
+
+N/Users/sam/Desktop/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/Objects-normal/i386/FlashCardAppDelegate.o
+t1277525611
+s49120
+
+N/Users/sam/Desktop/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/Objects-normal/i386/FlipsideViewController.o
+t1277525818
+s42608
+
+N/Users/sam/Desktop/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/Objects-normal/i386/MainViewController.o
+t1277525818
+s46836
+
+N/Users/sam/Desktop/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/Objects-normal/i386/main.o
+t1277458905
+s5924
+
+N/Users/sam/Desktop/FlashCard/main.m
+c000000004C0E7A46000000000000016B
+t1276017222
+s363
+i<UIKit/UIKit.h>
+
+N/Users/sam/Desktop/FlashCard/notebook_paper.jpg
+c000000004C1E9B500000000000046E1E
+t1277074256
+s290334
+
+N/Users/sam/Desktop/FlashCard/words.plist
+c000000004C1ECF2E0000000000019CF1
+t1277087534
+s105713
+
+N/var/folders/nF/nFiF2St+GQOo6ey1cwOKwU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlashCard_Prefix-bzlmodwsloffdqfpryiuxrdxamqt/FlashCard_Prefix.pch.gch
+t1277457817
+s13805456
+
+N/var/folders/nF/nFiF2St+GQOo6ey1cwOKwU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlashCard_Prefix-eestdeymgtdzpdezbdfnnyzwlbxf/FlashCard_Prefix.pch.gch
+t1277457755
+s13026768
+
+N/var/folders/oH/oH5pXvJBGTS2r7mhgx6Vnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlashCard_Prefix-blcdcmklxwqcahhisjmqnueugcqo/FlashCard_Prefix.pch.gch
+t1277331344
+s13026768
+
+N/var/folders/oH/oH5pXvJBGTS2r7mhgx6Vnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlashCard_Prefix-dhszfldduylhiyfahbiycjwyawni/FlashCard_Prefix.pch.gch
+t1277442850
+s13805456
+
+NFlashCard-Info.plist
+c000000004C0E7A46000000000000038D
+t1276017222
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies299218617#299218618#0(0"0(0#1#0"4300911832#0"0#
+
+CCompileC build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/Objects-normal/i386/FlashCardAppDelegate.o /Users/loganmoseley/Projects/FlashCard/Classes/FlashCardAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s299135650.768856
+e299135650.931548
+r1
+xCompileC
+xbuild/FlashCard.build/Debug-iphonesimulator/FlashCard.build/Objects-normal/i386/FlashCardAppDelegate.o
+x/Users/loganmoseley/Projects/FlashCard/Classes/FlashCardAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/loganmoseley/Projects/FlashCard/Classes/FlashCardAppDelegate.m: In function '-[FlashCardAppDelegate getPrevCard]':
+o/Users/loganmoseley/Projects/FlashCard/Classes/FlashCardAppDelegate.m:71: warning: control reaches end of non-void function
+lSLF07#2@77"Compile /Users/loganmoseley/Projects/FlashCard/Classes/FlashCardAppDelegate.m299135650#299135650#0(246"/Users/loganmoseley/Projects/FlashCard/Classes/FlashCardAppDelegate.m: In function '-[FlashCardAppDelegate getPrevCard]':/Users/loganmoseley/Projects/FlashCard/Classes/FlashCardAppDelegate.m:71: warning: control reaches end of non-void function1(22@40"Control reaches end of non-void function299135650#122#124#0(6@69"/Users/loganmoseley/Projects/FlashCard/Classes/FlashCardAppDelegate.m299024365#71#0#71#0#40"control reaches end of non-void function0(0#0#69"/Users/loganmoseley/Projects/FlashCard/Classes/FlashCardAppDelegate.m4300911832#1937"    cd /Users/loganmoseley/Projects/FlashCard    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/FlashCard-generated-files.hmap -I/Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/FlashCard-own-target-headers.hmap -I/Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/FlashCard-all-target-headers.hmap -iquote /Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/FlashCard-project-headers.hmap -F/Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator -I/Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/include -I/Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/DerivedSources/i386 -I/Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/DerivedSources -include /var/folders/oH/oH5pXvJBGTS2r7mhgx6Vnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlashCard_Prefix-dhszfldduylhiyfahbiycjwyawni/FlashCard_Prefix.pch -c /Users/loganmoseley/Projects/FlashCard/Classes/FlashCardAppDelegate.m -o /Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/Objects-normal/i386/FlashCardAppDelegate.o0#
+
+CCompileC build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/Objects-normal/i386/FlashCardAppDelegate.o /Users/sam/Desktop/FlashCard/Classes/FlashCardAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s299218411.321841
+e299218411.492570
+r1
+xCompileC
+xbuild/FlashCard.build/Debug-iphonesimulator/FlashCard.build/Objects-normal/i386/FlashCardAppDelegate.o
+x/Users/sam/Desktop/FlashCard/Classes/FlashCardAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/sam/Desktop/FlashCard/Classes/FlashCardAppDelegate.m299218411#299218411#0(0"0(0#0#59"/Users/sam/Desktop/FlashCard/Classes/FlashCardAppDelegate.m4300911832#1827"    cd /Users/sam/Desktop/FlashCard    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sam/Desktop/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/FlashCard-generated-files.hmap -I/Users/sam/Desktop/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/FlashCard-own-target-headers.hmap -I/Users/sam/Desktop/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/FlashCard-all-target-headers.hmap -iquote /Users/sam/Desktop/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/FlashCard-project-headers.hmap -F/Users/sam/Desktop/FlashCard/build/Debug-iphonesimulator -I/Users/sam/Desktop/FlashCard/build/Debug-iphonesimulator/include -I/Users/sam/Desktop/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/DerivedSources/i386 -I/Users/sam/Desktop/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/DerivedSources -include /var/folders/nF/nFiF2St+GQOo6ey1cwOKwU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlashCard_Prefix-bzlmodwsloffdqfpryiuxrdxamqt/FlashCard_Prefix.pch -c /Users/sam/Desktop/FlashCard/Classes/FlashCardAppDelegate.m -o /Users/sam/Desktop/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/Objects-normal/i386/FlashCardAppDelegate.o0#
+
+CCompileC build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/Objects-normal/i386/FlipsideViewController.o /Users/loganmoseley/Projects/FlashCard/Classes/FlipsideViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s299135650.931667
+e299135651.037897
+r1
+xCompileC
+xbuild/FlashCard.build/Debug-iphonesimulator/FlashCard.build/Objects-normal/i386/FlipsideViewController.o
+x/Users/loganmoseley/Projects/FlashCard/Classes/FlipsideViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/loganmoseley/Projects/FlashCard/Classes/FlipsideViewController.m299135650#299135651#0(0"0(0#0#71"/Users/loganmoseley/Projects/FlashCard/Classes/FlipsideViewController.m4300911832#1941"    cd /Users/loganmoseley/Projects/FlashCard    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/FlashCard-generated-files.hmap -I/Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/FlashCard-own-target-headers.hmap -I/Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/FlashCard-all-target-headers.hmap -iquote /Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/FlashCard-project-headers.hmap -F/Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator -I/Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/include -I/Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/DerivedSources/i386 -I/Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/DerivedSources -include /var/folders/oH/oH5pXvJBGTS2r7mhgx6Vnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlashCard_Prefix-dhszfldduylhiyfahbiycjwyawni/FlashCard_Prefix.pch -c /Users/loganmoseley/Projects/FlashCard/Classes/FlipsideViewController.m -o /Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/Objects-normal/i386/FlipsideViewController.o0#
+
+CCompileC build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/Objects-normal/i386/FlipsideViewController.o /Users/sam/Desktop/FlashCard/Classes/FlipsideViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s299218617.991449
+e299218618.252308
+r1
+xCompileC
+xbuild/FlashCard.build/Debug-iphonesimulator/FlashCard.build/Objects-normal/i386/FlipsideViewController.o
+x/Users/sam/Desktop/FlashCard/Classes/FlipsideViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/sam/Desktop/FlashCard/Classes/FlipsideViewController.m299218617#299218618#0(0"0(0#0#61"/Users/sam/Desktop/FlashCard/Classes/FlipsideViewController.m4300911832#1831"    cd /Users/sam/Desktop/FlashCard    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sam/Desktop/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/FlashCard-generated-files.hmap -I/Users/sam/Desktop/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/FlashCard-own-target-headers.hmap -I/Users/sam/Desktop/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/FlashCard-all-target-headers.hmap -iquote /Users/sam/Desktop/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/FlashCard-project-headers.hmap -F/Users/sam/Desktop/FlashCard/build/Debug-iphonesimulator -I/Users/sam/Desktop/FlashCard/build/Debug-iphonesimulator/include -I/Users/sam/Desktop/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/DerivedSources/i386 -I/Users/sam/Desktop/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/DerivedSources -include /var/folders/nF/nFiF2St+GQOo6ey1cwOKwU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlashCard_Prefix-bzlmodwsloffdqfpryiuxrdxamqt/FlashCard_Prefix.pch -c /Users/sam/Desktop/FlashCard/Classes/FlipsideViewController.m -o /Users/sam/Desktop/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/Objects-normal/i386/FlipsideViewController.o0#
+
+CCompileC build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/Objects-normal/i386/MainViewController.o /Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s299135844.329328
+e299135844.643846
+r1
+xCompileC
+xbuild/FlashCard.build/Debug-iphonesimulator/FlashCard.build/Objects-normal/i386/MainViewController.o
+x/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m299135844#299135844#0(0"0(0#0#67"/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m4300911832#1933"    cd /Users/loganmoseley/Projects/FlashCard    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/FlashCard-generated-files.hmap -I/Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/FlashCard-own-target-headers.hmap -I/Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/FlashCard-all-target-headers.hmap -iquote /Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/FlashCard-project-headers.hmap -F/Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator -I/Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/include -I/Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/DerivedSources/i386 -I/Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/DerivedSources -include /var/folders/oH/oH5pXvJBGTS2r7mhgx6Vnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlashCard_Prefix-dhszfldduylhiyfahbiycjwyawni/FlashCard_Prefix.pch -c /Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m -o /Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/Objects-normal/i386/MainViewController.o0#
+
+CCompileC build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/Objects-normal/i386/MainViewController.o /Users/sam/Desktop/FlashCard/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s299218617.989239
+e299218618.242638
+r1
+xCompileC
+xbuild/FlashCard.build/Debug-iphonesimulator/FlashCard.build/Objects-normal/i386/MainViewController.o
+x/Users/sam/Desktop/FlashCard/Classes/MainViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/sam/Desktop/FlashCard/Classes/MainViewController.m299218617#299218618#0(0"0(0#0#57"/Users/sam/Desktop/FlashCard/Classes/MainViewController.m4300911832#1823"    cd /Users/sam/Desktop/FlashCard    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sam/Desktop/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/FlashCard-generated-files.hmap -I/Users/sam/Desktop/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/FlashCard-own-target-headers.hmap -I/Users/sam/Desktop/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/FlashCard-all-target-headers.hmap -iquote /Users/sam/Desktop/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/FlashCard-project-headers.hmap -F/Users/sam/Desktop/FlashCard/build/Debug-iphonesimulator -I/Users/sam/Desktop/FlashCard/build/Debug-iphonesimulator/include -I/Users/sam/Desktop/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/DerivedSources/i386 -I/Users/sam/Desktop/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/DerivedSources -include /var/folders/nF/nFiF2St+GQOo6ey1cwOKwU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlashCard_Prefix-bzlmodwsloffdqfpryiuxrdxamqt/FlashCard_Prefix.pch -c /Users/sam/Desktop/FlashCard/Classes/MainViewController.m -o /Users/sam/Desktop/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/Objects-normal/i386/MainViewController.o0#
+
+CCompileC build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/Objects-normal/i386/main.o /Users/loganmoseley/Projects/FlashCard/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s299135650.767364
+e299135650.834457
+r1
+xCompileC
+xbuild/FlashCard.build/Debug-iphonesimulator/FlashCard.build/Objects-normal/i386/main.o
+x/Users/loganmoseley/Projects/FlashCard/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /Users/loganmoseley/Projects/FlashCard/main.m299135650#299135650#0(0"0(0#0#45"/Users/loganmoseley/Projects/FlashCard/main.m4300911832#1897"    cd /Users/loganmoseley/Projects/FlashCard    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/FlashCard-generated-files.hmap -I/Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/FlashCard-own-target-headers.hmap -I/Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/FlashCard-all-target-headers.hmap -iquote /Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/FlashCard-project-headers.hmap -F/Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator -I/Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/include -I/Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/DerivedSources/i386 -I/Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/DerivedSources -include /var/folders/oH/oH5pXvJBGTS2r7mhgx6Vnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlashCard_Prefix-dhszfldduylhiyfahbiycjwyawni/FlashCard_Prefix.pch -c /Users/loganmoseley/Projects/FlashCard/main.m -o /Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/Objects-normal/i386/main.o0#
+
+CCompileC build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/Objects-normal/i386/main.o /Users/sam/Desktop/FlashCard/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s299151705.388867
+e299151705.491557
+r1
+xCompileC
+xbuild/FlashCard.build/Debug-iphonesimulator/FlashCard.build/Objects-normal/i386/main.o
+x/Users/sam/Desktop/FlashCard/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@43"Compile /Users/sam/Desktop/FlashCard/main.m299151705#299151705#0(0"0(0#0#35"/Users/sam/Desktop/FlashCard/main.m4300911832#1787"    cd /Users/sam/Desktop/FlashCard    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sam/Desktop/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/FlashCard-generated-files.hmap -I/Users/sam/Desktop/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/FlashCard-own-target-headers.hmap -I/Users/sam/Desktop/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/FlashCard-all-target-headers.hmap -iquote /Users/sam/Desktop/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/FlashCard-project-headers.hmap -F/Users/sam/Desktop/FlashCard/build/Debug-iphonesimulator -I/Users/sam/Desktop/FlashCard/build/Debug-iphonesimulator/include -I/Users/sam/Desktop/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/DerivedSources/i386 -I/Users/sam/Desktop/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/DerivedSources -include /var/folders/nF/nFiF2St+GQOo6ey1cwOKwU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlashCard_Prefix-bzlmodwsloffdqfpryiuxrdxamqt/FlashCard_Prefix.pch -c /Users/sam/Desktop/FlashCard/main.m -o /Users/sam/Desktop/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/loganmoseley/Projects/FlashCard/FlipsideView.xib
+s299135648.686595
+e299135649.278342
+r1
+xCompileXIB
+x/Users/loganmoseley/Projects/FlashCard/FlipsideView.xib
+lSLF07#2@27"CompileXIB FlipsideView.xib299135648#299135649#0(0"0(0#0#55"/Users/loganmoseley/Projects/FlashCard/FlipsideView.xib4300911832#486"    cd /Users/loganmoseley/Projects/FlashCard    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app/FlipsideView.nib /Users/loganmoseley/Projects/FlashCard/FlipsideView.xib0#
+
+CCompileXIB /Users/loganmoseley/Projects/FlashCard/MainView.xib
+s299135648.687752
+e299135649.389347
+r1
+xCompileXIB
+x/Users/loganmoseley/Projects/FlashCard/MainView.xib
+lSLF07#2@23"CompileXIB MainView.xib299135648#299135649#0(0"0(0#0#51"/Users/loganmoseley/Projects/FlashCard/MainView.xib4300911832#478"    cd /Users/loganmoseley/Projects/FlashCard    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app/MainView.nib /Users/loganmoseley/Projects/FlashCard/MainView.xib0#
+
+CCompileXIB /Users/loganmoseley/Projects/FlashCard/MainWindow.xib
+s299135649.278465
+e299135649.586947
+r1
+xCompileXIB
+x/Users/loganmoseley/Projects/FlashCard/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib299135649#299135649#0(0"0(0#0#53"/Users/loganmoseley/Projects/FlashCard/MainWindow.xib4300911832#482"    cd /Users/loganmoseley/Projects/FlashCard    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app/MainWindow.nib /Users/loganmoseley/Projects/FlashCard/MainWindow.xib0#
+
+CCompileXIB /Users/sam/Desktop/FlashCard/FlipsideView.xib
+r0
+
+CCompileXIB /Users/sam/Desktop/FlashCard/MainView.xib
+r0
+
+CCompileXIB /Users/sam/Desktop/FlashCard/MainWindow.xib
+r0
+
+CCopyPlistFile /Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app/CardDictionary.plist CardDictionary.plist
+s299023777.444918
+e299023777.907767
+r1
+xCopyPlistFile
+x/Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app/CardDictionary.plist
+xCardDictionary.plist
+lSLF07#2@25"Copy CardDictionary.plist299023777#299023777#0(0"0(0#0#59"/Users/loganmoseley/Projects/FlashCard/CardDictionary.plist4300911832#397"    cd /Users/loganmoseley/Projects/FlashCard    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 CardDictionary.plist --outdir /Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app0#
+
+CCopyPlistFile /Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app/words.plist words.plist
+s299024141.842957
+e299024141.978702
+r1
+xCopyPlistFile
+x/Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app/words.plist
+xwords.plist
+lSLF07#2@16"Copy words.plist299024141#299024141#0(0"0(0#0#50"/Users/loganmoseley/Projects/FlashCard/words.plist4300911832#388"    cd /Users/loganmoseley/Projects/FlashCard    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 words.plist --outdir /Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app0#
+
+CCopyPlistFile /Users/sam/Desktop/FlashCard/build/Debug-iphonesimulator/FlashCard.app/words.plist words.plist
+r0
+
+CCpResource build/Debug-iphonesimulator/FlashCard.app/notebook_paper.jpg notebook_paper.jpg
+s299024141.841048
+e299024141.944395
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/FlashCard.app/notebook_paper.jpg
+xnotebook_paper.jpg
+lSLF07#2@23"Copy notebook_paper.jpg299024141#299024141#0(0"0(0#0#57"/Users/loganmoseley/Projects/FlashCard/notebook_paper.jpg4300911832#464"    cd /Users/loganmoseley/Projects/FlashCard    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/loganmoseley/Projects/FlashCard/notebook_paper.jpg /Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app0#
+
+CDataModelVersionCompile /Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app/FlashCard.momd /Users/loganmoseley/Projects/FlashCard/FlashCard.xcdatamodeld
+s298675792.376069
+e298675792.442710
+r1
+xDataModelVersionCompile
+x/Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app/FlashCard.momd
+x/Users/loganmoseley/Projects/FlashCard/FlashCard.xcdatamodeld
+lSLF07#2@103"DataModelVersionCompile build/Debug-iphonesimulator/FlashCard.app/FlashCard.momd FlashCard.xcdatamodeld298675792#298675792#0(0"0(0#0#61"/Users/loganmoseley/Projects/FlashCard/FlashCard.xcdatamodeld4300911832#392"    cd /Users/loganmoseley/Projects/FlashCard    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/momc -XD_MOMC_TARGET_VERSION=10.5 /Users/loganmoseley/Projects/FlashCard/FlashCard.xcdatamodeld /Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app/FlashCard.momd0#
+
+CGenerateDSYMFile /Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app.dSYM /Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app/FlashCard
+s299135844.669481
+e299135844.689871
+r1
+xGenerateDSYMFile
+x/Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app.dSYM
+x/Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app/FlashCard
+lSLF07#2@115"GenerateDSYMFile build/Debug-iphonesimulator/FlashCard.app.dSYM build/Debug-iphonesimulator/FlashCard.app/FlashCard299135844#299135844#0(0"0(0#0#90"/Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app/FlashCard4300911832#389"    cd /Users/loganmoseley/Projects/FlashCard    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app/FlashCard -o /Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app.dSYM0#
+
+CGenerateDSYMFile /Users/sam/Desktop/FlashCard/build/Debug-iphonesimulator/FlashCard.app.dSYM /Users/sam/Desktop/FlashCard/build/Debug-iphonesimulator/FlashCard.app/FlashCard
+s299218618.289124
+e299218618.315605
+r1
+xGenerateDSYMFile
+x/Users/sam/Desktop/FlashCard/build/Debug-iphonesimulator/FlashCard.app.dSYM
+x/Users/sam/Desktop/FlashCard/build/Debug-iphonesimulator/FlashCard.app/FlashCard
+lSLF07#2@115"GenerateDSYMFile build/Debug-iphonesimulator/FlashCard.app.dSYM build/Debug-iphonesimulator/FlashCard.app/FlashCard299218618#299218618#0(0"0(0#0#80"/Users/sam/Desktop/FlashCard/build/Debug-iphonesimulator/FlashCard.app/FlashCard4300911832#359"    cd /Users/sam/Desktop/FlashCard    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/sam/Desktop/FlashCard/build/Debug-iphonesimulator/FlashCard.app/FlashCard -o /Users/sam/Desktop/FlashCard/build/Debug-iphonesimulator/FlashCard.app.dSYM0#
+
+CLd /Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app/FlashCard normal i386
+s299135844.643956
+e299135844.669340
+r1
+xLd
+x/Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app/FlashCard
+xnormal
+xi386
+lSLF07#2@95"Link /Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app/FlashCard299135844#299135844#0(0"0(0#0#0"4300911832#892"    cd /Users/loganmoseley/Projects/FlashCard    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -L/Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator -F/Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator -filelist /Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/Objects-normal/i386/FlashCard.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreData -o /Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app/FlashCard0#
+
+CLd /Users/sam/Desktop/FlashCard/build/Debug-iphonesimulator/FlashCard.app/FlashCard normal i386
+s299218618.252427
+e299218618.288989
+r1
+xLd
+x/Users/sam/Desktop/FlashCard/build/Debug-iphonesimulator/FlashCard.app/FlashCard
+xnormal
+xi386
+lSLF07#2@85"Link /Users/sam/Desktop/FlashCard/build/Debug-iphonesimulator/FlashCard.app/FlashCard299218618#299218618#0(0"0(0#0#0"4300911832#842"    cd /Users/sam/Desktop/FlashCard    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -L/Users/sam/Desktop/FlashCard/build/Debug-iphonesimulator -F/Users/sam/Desktop/FlashCard/build/Debug-iphonesimulator -filelist /Users/sam/Desktop/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/Objects-normal/i386/FlashCard.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreData -o /Users/sam/Desktop/FlashCard/build/Debug-iphonesimulator/FlashCard.app/FlashCard0#
+
+CProcessInfoPlistFile /Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app/Info.plist FlashCard-Info.plist
+s299135648.665795
+e299135648.686111
+r1
+xProcessInfoPlistFile
+x/Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app/Info.plist
+xFlashCard-Info.plist
+lSLF07#2@28"Process FlashCard-Info.plist299135648#299135648#0(0"0(0#0#59"/Users/loganmoseley/Projects/FlashCard/FlashCard-Info.plist4300911832#485"    cd /Users/loganmoseley/Projects/FlashCard    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility FlashCard-Info.plist -genpkginfo /Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app/Info.plist0#
+
+CProcessInfoPlistFile /Users/sam/Desktop/FlashCard/build/Debug-iphonesimulator/FlashCard.app/Info.plist FlashCard-Info.plist
+r0
+
+CProcessPCH /var/folders/nF/nFiF2St+GQOo6ey1cwOKwU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlashCard_Prefix-bzlmodwsloffdqfpryiuxrdxamqt/FlashCard_Prefix.pch.gch FlashCard_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s299150616.817196
+e299150618.089340
+r1
+xProcessPCH
+x/var/folders/nF/nFiF2St+GQOo6ey1cwOKwU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlashCard_Prefix-bzlmodwsloffdqfpryiuxrdxamqt/FlashCard_Prefix.pch.gch
+xFlashCard_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile FlashCard_Prefix.pch299150616#299150618#0(0"0(0#0#49"/Users/sam/Desktop/FlashCard/FlashCard_Prefix.pch4300911832#1687"    cd /Users/sam/Desktop/FlashCard    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sam/Desktop/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/FlashCard-generated-files.hmap -I/Users/sam/Desktop/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/FlashCard-own-target-headers.hmap -I/Users/sam/Desktop/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/FlashCard-all-target-headers.hmap -iquote /Users/sam/Desktop/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/FlashCard-project-headers.hmap -F/Users/sam/Desktop/FlashCard/build/Debug-iphonesimulator -I/Users/sam/Desktop/FlashCard/build/Debug-iphonesimulator/include -I/Users/sam/Desktop/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/DerivedSources/i386 -I/Users/sam/Desktop/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/DerivedSources -c /Users/sam/Desktop/FlashCard/FlashCard_Prefix.pch -o /var/folders/nF/nFiF2St+GQOo6ey1cwOKwU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlashCard_Prefix-bzlmodwsloffdqfpryiuxrdxamqt/FlashCard_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/nF/nFiF2St+GQOo6ey1cwOKwU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlashCard_Prefix-eestdeymgtdzpdezbdfnnyzwlbxf/FlashCard_Prefix.pch.gch FlashCard_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s299150554.028045
+e299150555.489855
+r1
+xProcessPCH
+x/var/folders/nF/nFiF2St+GQOo6ey1cwOKwU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlashCard_Prefix-eestdeymgtdzpdezbdfnnyzwlbxf/FlashCard_Prefix.pch.gch
+xFlashCard_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile FlashCard_Prefix.pch299150554#299150555#0(0"0(0#0#49"/Users/sam/Desktop/FlashCard/FlashCard_Prefix.pch7801975577352954880#1689"    cd /Users/sam/Desktop/FlashCard    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sam/Desktop/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/FlashCard-generated-files.hmap -I/Users/sam/Desktop/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/FlashCard-own-target-headers.hmap -I/Users/sam/Desktop/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/FlashCard-all-target-headers.hmap -iquote /Users/sam/Desktop/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/FlashCard-project-headers.hmap -F/Users/sam/Desktop/FlashCard/build/Debug-iphonesimulator -I/Users/sam/Desktop/FlashCard/build/Debug-iphonesimulator/include -I/Users/sam/Desktop/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/DerivedSources/i386 -I/Users/sam/Desktop/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/DerivedSources -c /Users/sam/Desktop/FlashCard/FlashCard_Prefix.pch -o /var/folders/nF/nFiF2St+GQOo6ey1cwOKwU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlashCard_Prefix-eestdeymgtdzpdezbdfnnyzwlbxf/FlashCard_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/oH/oH5pXvJBGTS2r7mhgx6Vnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlashCard_Prefix-blcdcmklxwqcahhisjmqnueugcqo/FlashCard_Prefix.pch.gch FlashCard_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s299024142.561158
+e299024144.421109
+r1
+xProcessPCH
+x/var/folders/oH/oH5pXvJBGTS2r7mhgx6Vnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlashCard_Prefix-blcdcmklxwqcahhisjmqnueugcqo/FlashCard_Prefix.pch.gch
+xFlashCard_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile FlashCard_Prefix.pch299024142#299024144#0(0"0(0#0#59"/Users/loganmoseley/Projects/FlashCard/FlashCard_Prefix.pch4300911832#1789"    cd /Users/loganmoseley/Projects/FlashCard    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/FlashCard-generated-files.hmap -I/Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/FlashCard-own-target-headers.hmap -I/Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/FlashCard-all-target-headers.hmap -iquote /Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/FlashCard-project-headers.hmap -F/Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator -I/Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/include -I/Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/DerivedSources/i386 -I/Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/DerivedSources -c /Users/loganmoseley/Projects/FlashCard/FlashCard_Prefix.pch -o /var/folders/oH/oH5pXvJBGTS2r7mhgx6Vnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlashCard_Prefix-blcdcmklxwqcahhisjmqnueugcqo/FlashCard_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/oH/oH5pXvJBGTS2r7mhgx6Vnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlashCard_Prefix-dhszfldduylhiyfahbiycjwyawni/FlashCard_Prefix.pch.gch FlashCard_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s299135649.587101
+e299135650.767068
+r1
+xProcessPCH
+x/var/folders/oH/oH5pXvJBGTS2r7mhgx6Vnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlashCard_Prefix-dhszfldduylhiyfahbiycjwyawni/FlashCard_Prefix.pch.gch
+xFlashCard_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile FlashCard_Prefix.pch299135649#299135650#0(0"0(0#0#59"/Users/loganmoseley/Projects/FlashCard/FlashCard_Prefix.pch4300911832#1787"    cd /Users/loganmoseley/Projects/FlashCard    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/FlashCard-generated-files.hmap -I/Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/FlashCard-own-target-headers.hmap -I/Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/FlashCard-all-target-headers.hmap -iquote /Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/FlashCard-project-headers.hmap -F/Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator -I/Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/include -I/Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/DerivedSources/i386 -I/Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/DerivedSources -c /Users/loganmoseley/Projects/FlashCard/FlashCard_Prefix.pch -o /var/folders/oH/oH5pXvJBGTS2r7mhgx6Vnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlashCard_Prefix-dhszfldduylhiyfahbiycjwyawni/FlashCard_Prefix.pch.gch0#
+
+CTouch /Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app
+s299135844.690111
+e299135844.693497
+r1
+xTouch
+x/Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app
+lSLF07#2@86"Touch /Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app299135844#299135844#0(0"0(0#0#0"4300911832#280"    cd /Users/loganmoseley/Projects/FlashCard    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app0#
+
+CTouch /Users/sam/Desktop/FlashCard/build/Debug-iphonesimulator/FlashCard.app
+s299218618.315733
+e299218618.319470
+r1
+xTouch
+x/Users/sam/Desktop/FlashCard/build/Debug-iphonesimulator/FlashCard.app
+lSLF07#2@76"Touch /Users/sam/Desktop/FlashCard/build/Debug-iphonesimulator/FlashCard.app299218618#299218618#0(0"0(0#0#0"4300911832#260"    cd /Users/sam/Desktop/FlashCard    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/sam/Desktop/FlashCard/build/Debug-iphonesimulator/FlashCard.app0#
+
