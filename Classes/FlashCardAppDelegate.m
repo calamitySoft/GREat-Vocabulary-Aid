@@ -7,28 +7,23 @@
 //
 
 #import "FlashCardAppDelegate.h"
-#import "MainViewController.h"
+#import "AppViewController.h"
+#import "FrontsideViewController.h"
+#import "BacksideViewController.h"
 
 @implementation FlashCardAppDelegate
 
-@synthesize window;
-@synthesize mainViewController;
+@synthesize window, appViewController;
 @synthesize cardArray;
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
-    
-	MainViewController *aController = [[MainViewController alloc] initWithNibName:@"MainView" bundle:nil];
-	aController.delegate = self;
-	self.mainViewController = aController;
-	[aController release];
-	
-    mainViewController.view.frame = [UIScreen mainScreen].applicationFrame;	
-	[window addSubview:[mainViewController view]];
+
+//	appViewController.delegate = self;
+	[window addSubview:appViewController.view];
     [window makeKeyAndVisible];
 	
 	[self loadCards];
-	[self printCards];
 	currCard = 0;
 
 	return YES;
@@ -56,29 +51,6 @@
 }
 
 
-- (NSDictionary*)getNextCard {
-	NSDictionary *tempDict = [cardArray objectAtIndex:currCard];
-
-	currCard++;
-	if (currCard >= [cardArray count]) {
-		currCard = 0;
-	}
-	return tempDict;
-}
-
-
-- (NSDictionary*)getPrevCard{
-	NSDictionary *tempDict = [cardArray objectAtIndex:currCard];
-	NSLog(@"getprevcard with currcard = %u", currCard);
-	currCard--;
-	if(currCard <= 0){
-		currCard = ([cardArray count] - 1);
-	}
-	NSLog(@"after: currcard = %u", currCard);
-	return tempDict;
-}
-
-
 - (void)shuffleCards {
 	NSLog(@"SHUFFLING CARDS");
 	
@@ -90,9 +62,41 @@
 		[cardArray exchangeObjectAtIndex:i withObjectAtIndex:n];
 	}
 	
-//	[self printCards];
+	//	[self printCards];
 }
 
+
+- (NSDictionary*)getNextCard {
+	NSDictionary *tempDict = [cardArray objectAtIndex:currCard];
+	NSLog(@"getnextcard with currcard = %u", currCard);
+
+	currCard++;
+	if (currCard >= [cardArray count]) {
+		currCard = 0;
+	}
+	NSLog(@"after: currcard = %u", currCard);
+	
+	return tempDict;
+}
+
+
+- (NSDictionary*)getPrevCard{
+	NSDictionary *tempDict = [cardArray objectAtIndex:currCard];
+	NSLog(@"getprevcard with currcard = %u", currCard);
+	
+	currCard--;
+	if(currCard <= 0){
+		currCard = ([cardArray count] - 1);
+	}
+	NSLog(@"after: currcard = %u", currCard);
+	
+	return tempDict;
+}
+
+
+- (void)sayHi {
+	NSLog(@"HELLO FROM APP DELEGATE");
+}
 
 
 /*
@@ -105,7 +109,7 @@
 #pragma mark Memory management
 
 - (void)dealloc {
-    [mainViewController release];
+    [appViewController release];
     [window release];
 	[cardArray release];
     [super dealloc];

@@ -1,20 +1,17 @@
 //
-//  MainViewController.m
+//  FrontsideViewController.m
 //  FlashCard
 //
 //  Created by Logan Moseley on 6/8/10.
 //  Copyright __MyCompanyName__ 2010. All rights reserved.
 //
 
-#import "MainViewController.h"
+#import "FrontsideViewController.h"
 
 
-@implementation MainViewController
+@implementation FrontsideViewController
 
 @synthesize delegate, frontLabel, frontText, backText;
-
-#define kSwipeXDistance		60 //px
-#define kSwipeYDistance		40 //px
 
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
@@ -31,19 +28,19 @@
 	[super viewDidLoad];
 	self.frontText = @"Calamity";
 	self.backText = @"A force of nature to change the world!";
-	[self replaceFrontLabel:frontText];
+	[self replaceLabel:frontText];
 }
 
 #pragma mark Flippy
 
-- (void)flipsideViewControllerDidFinish:(FlipsideViewController *)controller {
+- (void)backsideViewControllerDidFinish:(BacksideViewController *)controller {
     
 	[self dismissModalViewControllerAnimated:YES];
 }
 
-- (IBAction)flipToBack {
+- (void)flipToBack {
 	
-	FlipsideViewController *controller = [[FlipsideViewController alloc] initWithNibName:@"FlipsideView" bundle:nil];
+	BacksideViewController *controller = [[BacksideViewController alloc] initWithNibName:@"FlipsideView" bundle:nil];
 	controller.delegate = self;
 	controller.backText = self.backText;
 	
@@ -56,71 +53,34 @@
 
 #pragma mark Card Management
 
-- (IBAction)replaceWithNext {
+- (void)replaceWithNext {
 	NSDictionary *tempDict = [delegate getNextCard];
 	frontText = [tempDict objectForKey:@"Front"];
 	backText = [tempDict objectForKey:@"Back"];
 	
-	[self replaceFrontLabel:frontText];
+	[self replaceLabel:frontText];
 }
 
--(IBAction)replaceWithPrev{
+-(void)replaceWithPrev{
 	NSDictionary *tempDict = [delegate getPrevCard];
 	frontText = [tempDict objectForKey:@"Front"];
 	backText = [tempDict objectForKey:@"Back"];
 	
-	[self replaceFrontLabel:frontText];
+	[self replaceLabel:frontText];
 }
 
 
-- (void)replaceFrontLabel:(NSString*)_frontText {
+- (void)replaceLabel:(NSString*)_frontText {
 	self.frontLabel.text = _frontText;
 }
 
 
-- (IBAction)shuffleCards {
-	[delegate shuffleCards];
-}
-
-
-- (NSDictionary*)getNextCard{
+- (NSDictionary*)getNextCard {
 	return [delegate getNextCard];
 }
 
-- (NSDictionary*)getPrevCard{
+- (NSDictionary*)getPrevCard {
 	return [delegate getPrevCard];
-}
-
-
-# pragma mark Touch Handling
-
-- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
-	touchBegan = [[touches anyObject] locationInView:self.view];	
-//	NSLog(@"main | began | touchPoint: %@", NSStringFromCGPoint(touchBegan));
-}
-
-- (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event {	
-	CGPoint touchMoved = [[touches anyObject] locationInView:self.view];
-//	NSLog(@"main | moved | touchPoint: %@", NSStringFromCGPoint(touchBegan));
-
-	// Swipe > 30 left or right switches words
-	if (abs(touchMoved.x-touchBegan.x) > kSwipeXDistance) {
-//		NSLog(@"touchMoved x main");
-		if (touchMoved.x - touchBegan.x > 0) {
-			[self replaceWithNext];
-		}
-		else {
-			[self replaceWithPrev];
-		}
-
-		touchBegan = touchMoved;// CGPointMake(0, 0);
-	}
-	// Swipe > 20 up or down flips the card
-	else if (abs(touchMoved.y-touchBegan.y) > kSwipeYDistance) {
-//		NSLog(@"touchMoved y main");
-		[self flipToBack];
-		touchBegan = CGPointMake(0, 0);
-	}
 }
 
 
