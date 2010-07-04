@@ -8,19 +8,17 @@
 
 #import <UIKit/UIKit.h>
 #import "AppViewController.h"
-#import "FrontsideViewController.h"
-#import "BacksideViewController.h"
+#import "CardViewController.h"
 
 @class AppViewController;
-@class FrontsideViewController;
-@class BacksideViewController;
+@class CardViewController;
 
 @interface FlashCardAppDelegate : NSObject <UIApplicationDelegate, AppViewControllerDelegate> {	
 	IBOutlet UIWindow *window;
 	IBOutlet AppViewController *appViewController;
 	
 	NSMutableArray *cardArray;
-	NSInteger currCard;
+	NSInteger currentCard;
 }
 
 @property (nonatomic, retain) UIWindow *window;
@@ -34,6 +32,7 @@
 
 - (NSDictionary*)getNextCard;
 - (NSDictionary*)getPrevCard;
+- (NSString*)getCardText:(NSInteger)whichDirection forSide:(NSString*)whichSide;
 
 - (void)sayHi;
 

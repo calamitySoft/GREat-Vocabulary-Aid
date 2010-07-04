@@ -16,9 +16,8 @@
 		280E754F0DD40C5E005A515E /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 280E754C0DD40C5E005A515E /* MainWindow.xib */; };
 		2880DEA310926BF800CC57B2 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2880DEA210926BF800CC57B2 /* CoreData.framework */; };
 		288765590DF743DE002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765580DF743DE002DB57D /* CoreGraphics.framework */; };
-		289233AE0DB2D0DB0083E9F9 /* FrontsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289233A90DB2D0DB0083E9F9 /* FrontsideViewController.m */; };
-		289233B00DB2D0DB0083E9F9 /* BacksideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289233AD0DB2D0DB0083E9F9 /* BacksideViewController.m */; };
-		7027124A11D6BE5F0011EDCF /* AppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7027124911D6BE5F0011EDCF /* AppViewController.m */; };
+		289233AE0DB2D0DB0083E9F9 /* CardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289233A90DB2D0DB0083E9F9 /* CardViewController.m */; };
+		702713DB11D7F5A20011EDCF /* AppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 702713DA11D7F5A20011EDCF /* AppViewController.m */; };
 		70A0271E11CEFD46001796A4 /* notebook_paper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 70A0271D11CEFD46001796A4 /* notebook_paper.jpg */; };
 		70A027DD11CF2F62001796A4 /* words.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70A027DC11CF2F62001796A4 /* words.plist */; };
 /* End PBXBuildFile section */
@@ -34,14 +33,12 @@
 		280E754C0DD40C5E005A515E /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		2880DEA210926BF800CC57B2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		288765580DF743DE002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		289233A80DB2D0DB0083E9F9 /* FrontsideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FrontsideViewController.h; path = Classes/FrontsideViewController.h; sourceTree = "<group>"; };
-		289233A90DB2D0DB0083E9F9 /* FrontsideViewController.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = FrontsideViewController.m; path = Classes/FrontsideViewController.m; sourceTree = "<group>"; };
-		289233AC0DB2D0DB0083E9F9 /* BacksideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BacksideViewController.h; path = Classes/BacksideViewController.h; sourceTree = "<group>"; };
-		289233AD0DB2D0DB0083E9F9 /* BacksideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BacksideViewController.m; path = Classes/BacksideViewController.m; sourceTree = "<group>"; };
+		289233A80DB2D0DB0083E9F9 /* CardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CardViewController.h; path = Classes/CardViewController.h; sourceTree = "<group>"; };
+		289233A90DB2D0DB0083E9F9 /* CardViewController.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = CardViewController.m; path = Classes/CardViewController.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* FlashCard_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashCard_Prefix.pch; sourceTree = "<group>"; };
-		7027124811D6BE5F0011EDCF /* AppViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppViewController.h; sourceTree = "<group>"; };
-		7027124911D6BE5F0011EDCF /* AppViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppViewController.m; sourceTree = "<group>"; };
+		702713D911D7F5A20011EDCF /* AppViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppViewController.h; path = Classes/AppViewController.h; sourceTree = "<group>"; };
+		702713DA11D7F5A20011EDCF /* AppViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppViewController.m; path = Classes/AppViewController.m; sourceTree = "<group>"; };
 		70A0271D11CEFD46001796A4 /* notebook_paper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = notebook_paper.jpg; sourceTree = "<group>"; };
 		70A027DC11CF2F62001796A4 /* words.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = words.plist; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* FlashCard-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "FlashCard-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
@@ -129,12 +126,10 @@
 		7027123E11D6BDC40011EDCF /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				7027124811D6BE5F0011EDCF /* AppViewController.h */,
-				7027124911D6BE5F0011EDCF /* AppViewController.m */,
-				289233A80DB2D0DB0083E9F9 /* FrontsideViewController.h */,
-				289233A90DB2D0DB0083E9F9 /* FrontsideViewController.m */,
-				289233AC0DB2D0DB0083E9F9 /* BacksideViewController.h */,
-				289233AD0DB2D0DB0083E9F9 /* BacksideViewController.m */,
+				702713D911D7F5A20011EDCF /* AppViewController.h */,
+				702713DA11D7F5A20011EDCF /* AppViewController.m */,
+				289233A80DB2D0DB0083E9F9 /* CardViewController.h */,
+				289233A90DB2D0DB0083E9F9 /* CardViewController.m */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -205,9 +200,8 @@
 			files = (
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* FlashCardAppDelegate.m in Sources */,
-				289233AE0DB2D0DB0083E9F9 /* FrontsideViewController.m in Sources */,
-				289233B00DB2D0DB0083E9F9 /* BacksideViewController.m in Sources */,
-				7027124A11D6BE5F0011EDCF /* AppViewController.m in Sources */,
+				289233AE0DB2D0DB0083E9F9 /* CardViewController.m in Sources */,
+				702713DB11D7F5A20011EDCF /* AppViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

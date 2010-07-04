@@ -12,7 +12,6 @@
 		</object>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
-			<integer value="28"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -42,7 +41,7 @@
 			</object>
 			<object class="IBUIViewController" id="310262881">
 				<object class="IBUIView" key="IBUIView" id="872454749">
-					<reference key="NSNextResponder"/>
+					<nil key="NSNextResponder"/>
 					<int key="NSvFlags">274</int>
 					<object class="NSMutableArray" key="NSSubviews">
 						<bool key="EncodedWithXMLCoder">YES</bool>
@@ -115,7 +114,6 @@
 						</object>
 					</object>
 					<string key="NSFrameSize">{480, 300}</string>
-					<reference key="NSSuperview"/>
 					<object class="NSColor" key="IBUIBackgroundColor">
 						<int key="NSColorSpace">3</int>
 						<bytes key="NSWhite">MQA</bytes>
@@ -194,21 +192,21 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
-						<string key="label">goToNextCard</string>
-						<reference key="source" ref="895647651"/>
-						<reference key="destination" ref="310262881"/>
-						<int key="IBEventType">7</int>
-					</object>
-					<int key="connectionID">36</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">shuffleCards</string>
 						<reference key="source" ref="582125931"/>
 						<reference key="destination" ref="310262881"/>
 						<int key="IBEventType">7</int>
 					</object>
 					<int key="connectionID">38</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchEventConnection" key="connection">
+						<string key="label">replaceWithNextCard</string>
+						<reference key="source" ref="895647651"/>
+						<reference key="destination" ref="310262881"/>
+						<int key="IBEventType">7</int>
+					</object>
+					<int key="connectionID">39</int>
 				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -343,7 +341,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">38</int>
+			<int key="maxID">39</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -356,7 +354,7 @@
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>flipCard</string>
-							<string>goToNextCard</string>
+							<string>replaceWithNextCard</string>
 							<string>shuffleCards</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">

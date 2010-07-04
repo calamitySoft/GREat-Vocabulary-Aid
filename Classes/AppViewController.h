@@ -7,31 +7,38 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "FrontsideViewController.h"
-#import "BacksideViewController.h"
+#import "CardViewController.h"
 
 @protocol AppViewControllerDelegate;
 
-@interface AppViewController : UIViewController <FrontsideViewControllerDelegate> {
+@interface AppViewController : UIViewController <CardViewControllerDelegate> {
 	id <AppViewControllerDelegate> delegate;
 	
-	FrontsideViewController *frontsideViewController;
-	BacksideViewController *backsideViewController;
+	CardViewController *frontsideViewController;
+	CardViewController *backsideViewController;
 	
 	CGPoint touchBegan;
 }
 
 @property (nonatomic, retain) <AppViewControllerDelegate> delegate;
 
-@property (nonatomic, retain) FrontsideViewController *frontsideViewController;
-@property (nonatomic, retain) BacksideViewController *backsideViewController;
+@property (nonatomic, retain) CardViewController *frontsideViewController;
+@property (nonatomic, retain) CardViewController *backsideViewController;
 
 
 - (IBAction)flipCard;
-- (IBAction)goToNextCard;
+- (void)animationFinished:(NSString *)animationID finished:(BOOL)finished context:(void *)context;
+- (BOOL)isFrontShown;
+
+- (NSString*)getPrevCard;
+- (void)replaceWithPrevCard;
+- (NSString*)getCurrentCard;
+- (void)replaceWithCurrentCard;
+- (NSString*)getNextCard;
+- (IBAction)replaceWithNextCard;
+- (void)replaceLabel:(NSString *)newLabelText forSide:(NSString*)whichSide;
+- (void)replaceLabel:(NSString*)newLabelText;
 - (IBAction)shuffleCards;
-- (NSDictionary*)getNextCard;
-- (NSDictionary*)getPrevCard;
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event;
 - (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event;
@@ -42,6 +49,7 @@
 - (void)shuffleCards;
 - (NSDictionary*)getNextCard;
 - (NSDictionary*)getPrevCard;
+- (NSString*)getCardText:(NSInteger)whichDirection forSide:(NSString*)whichSide;
 - (void)sayHi;
 @end
 

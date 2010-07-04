@@ -7,8 +7,7 @@
 //
 
 #import "AppViewController.h"
-#import "FrontsideViewController.h"
-#import "BacksideViewController.h"
+#import "CardViewController.h"
 
 
 @implementation AppViewController
@@ -16,9 +15,15 @@
 @synthesize delegate;
 @synthesize frontsideViewController, backsideViewController;
 
-#define kSwipeXDistance		60 //px
-#define kSwipeYDistance		40 //px
+#define kSwipeXDistance		60	// px
+#define kSwipeYDistance		40	// px
 
+#define kPrevCard			-1	// card selection from delegate
+#define kCurrentCard		0	// same
+#define kNextCard			1	// same
+
+#define kFront				@"Front"	// card selection from delegate
+#define kBack				@"Back"		// same
 
 /*
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
@@ -40,8 +45,9 @@
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
-		
-	FrontsideViewController *aController = [[FrontsideViewController alloc] initWithNibName:@"FrontsideView" bundle:nil];
+	
+	// Create and set the frontside view controller
+	CardViewController *aController = [[CardViewController alloc] initWithNibName:@"FrontsideView" bundle:nil];
 	aController.delegate = self;
 	self.frontsideViewController = aController;
 	[aController release];
@@ -53,31 +59,164 @@
 # pragma mark Interface
 
 - (IBAction)flipCard{
-	NSLog(@"I crash the program.\nChange this out of a modal view switch to a transition handled by me.");
-//	[frontsideViewController flipToBack];
-}
-
-- (IBAction)goToNextCard {	
-
-	NSDictionary *tempDict = [delegate getNextCard];
-	NSString *_frontText = [tempDict objectForKey:@"Front"];
 	
-	[frontsideViewController replaceLabel:_frontText];
+	// This flip animation settings //
+	[UIView beginAnimations:@"View Flip" context:nil];
+	[UIView setAnimationDuration:0.75];
+	[UIView setAnimationCurve:UIViewAnimationCurveEaseInOut];
+	
+	// self receives call-backs //
+	[UIView setAnimationDelegate:self];
+	[UIView setAnimationDidStopSelector:@selector(animationFinished:finished:context:)];
+	self.view.userInteractionEnabled = FALSE;
+	
+	// Controllers of card views //
+	CardViewController *coming;
+	CardViewController *going;
+	
+	// If the front is currently visible
+	if ([self isFrontShown]) {
+		NSLog(@"Flipping to back");
+		
+		// Create and set the backside view controller
+		CardViewController *bController = [[CardViewController alloc] initWithNibName:@"BacksideView" bundle:nil];
+		bController.delegate = self;
+		bController.textStr = [self getCurrentCard];
+		self.backsideViewController = bController;
+		[bController release];
+		
+		// Declare which controller to flip to/from
+		coming = backsideViewController;
+		going = frontsideViewController;
+		
+		// I will switch to back
+	} 
+	
+	// If the back is currently visible
+	else if (![self isFrontShown]) {
+		NSLog(@"Flipping to front");
+		
+		// Create and set the frontside view controller
+		CardViewController *fController = [[CardViewController alloc] initWithNibName:@"FrontsideView" bundle:nil];
+		fController.delegate = self;
+		fController.textStr = [self getCurrentCard];
+		self.frontsideViewController = fController;
+		[fController release];
+		
+		// Declare which controller to flip to/from
+		coming = frontsideViewController;
+		going = backsideViewController;
+		
+		// I will switch to front
+	}
+	
+	// If we don't know what's going on
+	else {
+		NSLog(@"Neither front nor back are nil. I don't know what to do.");
+		exit(0);
+	}
+	
+	
+	[UIView setAnimationTransition:UIViewAnimationTransitionFlipFromRight forView:self.view cache:YES];
+	[coming viewWillAppear:YES];
+	[going viewWillDisappear:YES];
+	
+	[going.view removeFromSuperview];
+	[self.view insertSubview:coming.view atIndex:0];
+	
+	[going viewDidDisappear:YES];
+	[coming viewDidAppear:YES];
+	
+	[UIView commitAnimations];
+	
+	
+	// Make unseen card nil
+	if ([self isFrontShown]) {
+		backsideViewController = nil;
+	} else {
+		frontsideViewController = nil;
+	}
 }
 
+
+- (void)animationFinished:(NSString *)animationID finished:(BOOL)finished context:(void *)context {
+	self.view.userInteractionEnabled = TRUE;
+	if ([self isFrontShown]) {
+		[frontsideViewController replaceLabel:[self getCurrentCard]];
+	} else {
+		[backsideViewController replaceLabel:[self getCurrentCard]];
+	}
+
+}
+
+- (BOOL)isFrontShown {
+	if (self.frontsideViewController.view.superview != nil )
+		return TRUE;
+	else
+		return FALSE;
+}
+
+
+#pragma mark Card Management
+
+- (NSString*)getPrevCard {
+	if ([self isFrontShown]) {
+		return [delegate getCardText:kPrevCard forSide:kFront];
+	} else {
+		return [delegate getCardText:kPrevCard forSide:kBack];
+	}
+}
+
+- (void)replaceWithPrevCard {
+	[self replaceLabel:[self getPrevCard]];
+}
+
+
+- (NSString*)getCurrentCard {
+	if ([self isFrontShown]) {
+		return [delegate getCardText:kCurrentCard forSide:kFront];
+	} else {
+		return [delegate getCardText:kCurrentCard forSide:kBack];
+	}
+}
+
+- (void)replaceWithCurrentCard {
+	[self replaceLabel:[self getCurrentCard]];
+}
+
+
+- (NSString*)getNextCard {
+	if ([self isFrontShown]) {
+		return [delegate getCardText:kNextCard forSide:kFront];
+	} else {
+		return [delegate getCardText:kNextCard forSide:kBack];
+	}
+}
+
+- (IBAction)replaceWithNextCard {
+	[self replaceLabel:[self getNextCard]];
+}
+
+- (void)replaceLabel:(NSString *)newLabelText forSide:(NSString*)whichSide {
+	if (whichSide == kFront) {
+		[frontsideViewController replaceLabel:newLabelText];
+	} else {
+		[backsideViewController replaceLabel:newLabelText];
+	}
+
+}
+
+- (void)replaceLabel:(NSString*)newLabelText {
+	if ([self isFrontShown]) {
+		[frontsideViewController replaceLabel:newLabelText];
+	} else {
+		[backsideViewController replaceLabel:newLabelText];
+	}
+}
 
 - (IBAction)shuffleCards {
 	[delegate shuffleCards];
-}
-
-
-- (NSDictionary*)getNextCard{
-	return [delegate getNextCard];
-}
-
-
-- (NSDictionary*)getPrevCard{
-	return [delegate getPrevCard];
+//	NSLog(@"isFrontShown() is bool %d", [self isFrontShown]);
 }
 
 
@@ -95,20 +234,18 @@
 	
 	// Swipe > 30 left or right switches words
 	if (abs(touchMoved.x-touchBegan.x) > kSwipeXDistance) {
-		//		NSLog(@"touchMoved x main");
-		if (touchMoved.x - touchBegan.x > 0) {
-			[frontsideViewController replaceWithNext];
+		if (touchMoved.x-touchBegan.x > 0) {
+			[self replaceWithNextCard];
 		}
 		else {
-			[frontsideViewController replaceWithPrev];
+			[self replaceWithPrevCard];
 		}
 		
-		touchBegan = touchMoved;// CGPointMake(0, 0);
+		touchBegan = touchMoved;
 	}
 	// Swipe > 20 up or down flips the card
 	else if (abs(touchMoved.y-touchBegan.y) > kSwipeYDistance) {
-		//		NSLog(@"touchMoved y main");
-		[frontsideViewController flipToBack];
+		[self flipCard];
 		touchBegan = CGPointMake(0, 0);
 	}
 }
@@ -138,6 +275,8 @@
 
 
 - (void)dealloc {
+	[frontsideViewController release];
+	[backsideViewController release];
     [super dealloc];
 }
 

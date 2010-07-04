@@ -8,8 +8,7 @@
 
 #import "FlashCardAppDelegate.h"
 #import "AppViewController.h"
-#import "FrontsideViewController.h"
-#import "BacksideViewController.h"
+#import "CardViewController.h"
 
 @implementation FlashCardAppDelegate
 
@@ -24,7 +23,7 @@
     [window makeKeyAndVisible];
 	
 	[self loadCards];
-	currCard = 0;
+	currentCard = 0;
 
 	return YES;
 }
@@ -67,30 +66,57 @@
 
 
 - (NSDictionary*)getNextCard {
-	NSDictionary *tempDict = [cardArray objectAtIndex:currCard];
-	NSLog(@"getnextcard with currcard = %u", currCard);
+	NSDictionary *tempDict = [cardArray objectAtIndex:currentCard];
+	NSLog(@"getnextcard with currcard = %u", currentCard);
 
-	currCard++;
-	if (currCard >= [cardArray count]) {
-		currCard = 0;
+	currentCard++;
+	if (currentCard >= [cardArray count]) {
+		currentCard = 0;
 	}
-	NSLog(@"after: currcard = %u", currCard);
+	NSLog(@"after: currcard = %u", currentCard);
 	
 	return tempDict;
 }
 
 
 - (NSDictionary*)getPrevCard{
-	NSDictionary *tempDict = [cardArray objectAtIndex:currCard];
-	NSLog(@"getprevcard with currcard = %u", currCard);
+	NSDictionary *tempDict = [cardArray objectAtIndex:currentCard];
+	NSLog(@"getprevcard with currcard = %u", currentCard);
 	
-	currCard--;
-	if(currCard <= 0){
-		currCard = ([cardArray count] - 1);
+	currentCard--;
+	if(currentCard <= 0) {
+		currentCard = [cardArray count] - 1;
 	}
-	NSLog(@"after: currcard = %u", currCard);
+	NSLog(@"after: currcard = %u", currentCard);
 	
 	return tempDict;
+}
+
+/*
+ /*	getCardText:forSide
+ /*
+ /*	Args
+ /*		whichDirection: either -1,0,1; corresponds to Previous, Current, Next
+ /*		whichSide: either @"Front" or @"Back"; corresponds to Front, Back
+ /*
+ /* Returns
+ /*		NSString: current card's current side's text
+ */
+- (NSString*)getCardText:(NSInteger)whichDirection forSide:(NSString*)whichSide {
+	// Error check whichSide
+	if (whichSide != @"Front" && whichSide != @"Back") {
+		return @"Bad input";
+	}
+	
+	currentCard += whichDirection;
+	if (currentCard <= 0) {
+		currentCard = [cardArray count] - 1;
+	}
+	
+	NSDictionary *tempDict = [cardArray objectAtIndex:currentCard];
+	NSString *tempStr = [tempDict objectForKey:whichSide];
+	
+	return tempStr;	
 }
 
 
