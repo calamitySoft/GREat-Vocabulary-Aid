@@ -49,8 +49,11 @@
 	// Create and set the frontside view controller
 	CardViewController *aController = [[CardViewController alloc] initWithNibName:@"FrontsideView" bundle:nil];
 	aController.delegate = self;
+	frontsideViewController.textStr = [self getCurrentCardForSide:kFront];
 	self.frontsideViewController = aController;
 	[aController release];
+	
+	NSLog(@"card = %@", [self getCurrentCardForSide:kFront]);
 	
 	[self.view insertSubview:self.frontsideViewController.view atIndex:0];
 }
@@ -60,16 +63,6 @@
 
 - (IBAction)flipCard{
 	
-	// This flip animation settings //
-	[UIView beginAnimations:@"View Flip" context:nil];
-	[UIView setAnimationDuration:0.75];
-	[UIView setAnimationCurve:UIViewAnimationCurveEaseInOut];
-	
-	// self receives call-backs //
-	[UIView setAnimationDelegate:self];
-	[UIView setAnimationDidStopSelector:@selector(animationFinished:finished:context:)];
-	self.view.userInteractionEnabled = FALSE;
-	
 	// Controllers of card views //
 	CardViewController *coming;
 	CardViewController *going;
@@ -78,10 +71,10 @@
 	if ([self isFrontShown]) {
 		NSLog(@"Flipping to back");
 		
-		// Create and set the backside view controller
+		// Create and set the backside view controller		
 		CardViewController *bController = [[CardViewController alloc] initWithNibName:@"BacksideView" bundle:nil];
 		bController.delegate = self;
-		bController.textStr = [self getCurrentCard];
+		bController.textStr = [self getCurrentCardForSide:kBack];
 		self.backsideViewController = bController;
 		[bController release];
 		
@@ -96,10 +89,10 @@
 	else if (![self isFrontShown]) {
 		NSLog(@"Flipping to front");
 		
-		// Create and set the frontside view controller
+		// Create and set the frontside view controller		
 		CardViewController *fController = [[CardViewController alloc] initWithNibName:@"FrontsideView" bundle:nil];
 		fController.delegate = self;
-		fController.textStr = [self getCurrentCard];
+		fController.textStr = [self getCurrentCardForSide:kFront];
 		self.frontsideViewController = fController;
 		[fController release];
 		
@@ -115,6 +108,16 @@
 		NSLog(@"Neither front nor back are nil. I don't know what to do.");
 		exit(0);
 	}
+	
+	// This flip animation settings //
+	[UIView beginAnimations:@"View Flip" context:nil];
+	[UIView setAnimationDuration:0.75];
+	[UIView setAnimationCurve:UIViewAnimationCurveEaseInOut];
+	
+	// self receives call-backs //
+	[UIView setAnimationDelegate:self];
+	[UIView setAnimationDidStopSelector:@selector(animationFinished:finished:context:)];
+	self.view.userInteractionEnabled = FALSE;
 	
 	
 	[UIView setAnimationTransition:UIViewAnimationTransitionFlipFromRight forView:self.view cache:YES];
@@ -141,6 +144,9 @@
 
 - (void)animationFinished:(NSString *)animationID finished:(BOOL)finished context:(void *)context {
 	self.view.userInteractionEnabled = TRUE;
+	
+	// Double check the text.
+	// May remove this if text is stable.
 	if ([self isFrontShown]) {
 		[frontsideViewController replaceLabel:[self getCurrentCard]];
 	} else {
@@ -159,53 +165,72 @@
 
 #pragma mark Card Management
 
-- (NSString*)getPrevCard {
-	if ([self isFrontShown]) {
-		return [delegate getCardText:kPrevCard forSide:kFront];
-	} else {
-		return [delegate getCardText:kPrevCard forSide:kBack];
-	}
-}
-
+// Previous card stuff //
 - (void)replaceWithPrevCard {
 	[self replaceLabel:[self getPrevCard]];
 }
 
-
-- (NSString*)getCurrentCard {
+- (NSString*)getPrevCard {
 	if ([self isFrontShown]) {
-		return [delegate getCardText:kCurrentCard forSide:kFront];
+		return [self getPrevCardForSide:kFront];
 	} else {
-		return [delegate getCardText:kCurrentCard forSide:kBack];
+		return [self getPrevCardForSide:kBack];
 	}
 }
 
+- (NSString*)getPrevCardForSide:(NSString*)whichSide {
+	return [delegate getCardText:kPrevCard forSide:whichSide];
+}
+
+
+// Current card stuff //
 - (void)replaceWithCurrentCard {
 	[self replaceLabel:[self getCurrentCard]];
 }
 
-
-- (NSString*)getNextCard {
+- (NSString*)getCurrentCard {
 	if ([self isFrontShown]) {
-		return [delegate getCardText:kNextCard forSide:kFront];
+		return [self getCurrentCardForSide:kFront];
 	} else {
-		return [delegate getCardText:kNextCard forSide:kBack];
+		return [self getCurrentCardForSide:kBack];
 	}
 }
 
+- (NSString*)getCurrentCardForSide:(NSString*)whichSide {
+	return [delegate getCardText:kCurrentCard forSide:whichSide];
+}
+
+
+// Next card stuff //
 - (IBAction)replaceWithNextCard {
+	NSLog(@"replaceWithNextCard");
 	[self replaceLabel:[self getNextCard]];
 }
 
-- (void)replaceLabel:(NSString *)newLabelText forSide:(NSString*)whichSide {
-	if (whichSide == kFront) {
-		[frontsideViewController replaceLabel:newLabelText];
+- (NSString*)getNextCard {
+	NSLog(@"getNextCard");
+	if ([self isFrontShown]) {
+		return [self getNextCardForSide:kFront];
 	} else {
-		[backsideViewController replaceLabel:newLabelText];
+		return [self getNextCardForSide:kBack];
 	}
-
 }
 
+- (NSString*)getNextCardForSide:(NSString*)whichSide {
+	NSLog(@"getNextCardForSide");
+	return [delegate getCardText:kNextCard forSide:whichSide];
+}
+
+//- (void)replaceLabel:(NSString *)newLabelText forSide:(NSString*)whichSide {
+//	if (whichSide == kFront) {
+//		[frontsideViewController replaceLabel:newLabelText];
+//	} else {
+//		[backsideViewController replaceLabel:newLabelText];
+//	}
+//}
+
+
+// Wrapper - tells current view controller to replace text.
 - (void)replaceLabel:(NSString*)newLabelText {
 	if ([self isFrontShown]) {
 		[frontsideViewController replaceLabel:newLabelText];
@@ -214,6 +239,8 @@
 	}
 }
 
+
+// Wrapper - tells delegate to shuffle the deck.
 - (IBAction)shuffleCards {
 	[delegate shuffleCards];
 //	NSLog(@"isFrontShown() is bool %d", [self isFrontShown]);
@@ -252,6 +279,10 @@
 
 
 #pragma mark Admin Stuff
+
+- (void)loadCardsDidFinish {
+	[self replaceWithCurrentCard];
+}
 
 // Override to allow orientations other than the default portrait orientation.
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {

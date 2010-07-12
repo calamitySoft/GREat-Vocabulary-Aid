@@ -21,18 +21,20 @@
     return self;
 }
 
+
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
 	[super viewDidLoad];
-//	self.frontText = @"Calamity";
-	[self replaceLabel:textStr];
+	textLabel.text = textStr;
+	NSLog(@"Hello viewDidLoad");
 }
 
 
 #pragma mark Text Management
 
 - (void)replaceLabel:(NSString*)newLabelText {
-	self.textLabel.text = newLabelText;
+	textStr = newLabelText;
+	textLabel.text = textStr;
 }
 
 

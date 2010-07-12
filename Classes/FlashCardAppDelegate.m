@@ -18,21 +18,24 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
 
-//	appViewController.delegate = self;
+	[self loadCards];
+	currentCard = 0;
+	
 	[window addSubview:appViewController.view];
     [window makeKeyAndVisible];
 	
-	[self loadCards];
-	currentCard = 0;
 
 	return YES;
 }
 
 
 - (void)loadCards {
+	NSLog(@"LOADING CARDS");
 	NSString *bundleStr = [[NSBundle mainBundle] bundlePath];
 	NSString *cardDictPath = [bundleStr stringByAppendingPathComponent:@"words.plist"];
 	self.cardArray = [NSMutableArray arrayWithContentsOfFile:cardDictPath];
+	
+	[appViewController loadCardsDidFinish];
 }
 
 
@@ -65,31 +68,25 @@
 }
 
 
+// Returns NSDictionary (Front, Back) of next card.
 - (NSDictionary*)getNextCard {
-	NSDictionary *tempDict = [cardArray objectAtIndex:currentCard];
-	NSLog(@"getnextcard with currcard = %u", currentCard);
-
 	currentCard++;
 	if (currentCard >= [cardArray count]) {
 		currentCard = 0;
 	}
-	NSLog(@"after: currcard = %u", currentCard);
-	
-	return tempDict;
+	NSLog(@"getNextCard with currentCard = %u", currentCard);	
+	return [cardArray objectAtIndex:currentCard];
 }
 
 
-- (NSDictionary*)getPrevCard{
-	NSDictionary *tempDict = [cardArray objectAtIndex:currentCard];
-	NSLog(@"getprevcard with currcard = %u", currentCard);
-	
+// Returns NSDictionary (Front, Back) of previous card.
+- (NSDictionary*)getPrevCard{	
 	currentCard--;
-	if(currentCard <= 0) {
+	if(currentCard < 0) {
 		currentCard = [cardArray count] - 1;
 	}
-	NSLog(@"after: currcard = %u", currentCard);
-	
-	return tempDict;
+	NSLog(@"getPrevCard with currentCard = %u", currentCard);
+	return [cardArray objectAtIndex:currentCard];
 }
 
 /*
@@ -100,17 +97,22 @@
  /*		whichSide: either @"Front" or @"Back"; corresponds to Front, Back
  /*
  /* Returns
- /*		NSString: current card's current side's text
+ /*		NSString: whichDirection card's whichSide's text
  */
 - (NSString*)getCardText:(NSInteger)whichDirection forSide:(NSString*)whichSide {
+	
+//	NSLog(@"currentCard = %d", currentCard);
+	
 	// Error check whichSide
 	if (whichSide != @"Front" && whichSide != @"Back") {
-		return @"Bad input";
+		return @"Bad input to getCardText:forSide:";
 	}
 	
 	currentCard += whichDirection;
-	if (currentCard <= 0) {
+	if (currentCard < 0) {
 		currentCard = [cardArray count] - 1;
+	} else if (currentCard >= [cardArray count]) {
+		currentCard = 0;
 	}
 	
 	NSDictionary *tempDict = [cardArray objectAtIndex:currentCard];

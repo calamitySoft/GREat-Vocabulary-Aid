@@ -30,18 +30,27 @@
 - (void)animationFinished:(NSString *)animationID finished:(BOOL)finished context:(void *)context;
 - (BOOL)isFrontShown;
 
+// Previous card
 - (NSString*)getPrevCard;
+- (NSString*)getPrevCardForSide:(NSString*)whichSide;
 - (void)replaceWithPrevCard;
+// Current card - for flipping
 - (NSString*)getCurrentCard;
+- (NSString*)getCurrentCardForSide:(NSString*)whichSide;
 - (void)replaceWithCurrentCard;
+// Next card
 - (NSString*)getNextCard;
+- (NSString*)getNextCardForSide:(NSString*)whichSide;
 - (IBAction)replaceWithNextCard;
-- (void)replaceLabel:(NSString *)newLabelText forSide:(NSString*)whichSide;
+// Replace words
+//- (void)replaceLabel:(NSString *)newLabelText forSide:(NSString*)whichSide;
 - (void)replaceLabel:(NSString*)newLabelText;
 - (IBAction)shuffleCards;
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event;
 - (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event;
+
+- (void)loadCardsDidFinish;
 
 @end
 
