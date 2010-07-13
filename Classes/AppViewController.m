@@ -25,15 +25,36 @@
 #define kFront				@"Front"	// card selection from delegate
 #define kBack				@"Back"		// same
 
-/*
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
     if ((self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil])) {
         // Custom initialization
     }
+	
+	curCardLayer = [[CALayer alloc] init];
+	prevCardLayer = [[CALayer alloc] init];
+	
+	[curCardLayer setBounds:CGRectMake(0.0, 0.0, 320, 480)];
+	[prevCardLayer setBounds:CGRectMake(0.0, 0.0, 320, 480)];
+	
+	[curCardLayer setPosition:CGPointMake(0.0, 0.0)];
+	[prevCardLayer setPosition:CGPointMake(-1.0, -1.0)];
+	
+	UIImage *cardImage = [UIImage imageNamed:@"notebook_paper.jpg"];
+	
+	CGImageRef image = [cardImage CGImage];
+	
+	[curCardLayer setContents:(id)image];
+	[prevCardLayer setContents:(id)image];
+	
+	[[self layer] addSublayer:curCardLayer];
+	[[self layer] addSublayer:prevCardLayer];
+	
+	[curCardLayer release];
+	[prevCardLayer release];
+	
     return self;
 }
-*/
 
 /*
 // Implement loadView to create a view hierarchy programmatically, without using a nib.

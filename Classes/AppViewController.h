@@ -16,6 +16,9 @@
 	
 	CardViewController *frontsideViewController;
 	CardViewController *backsideViewController;
+	UILabel *animLabel;
+	CALayer *curCardLayer;
+	CALayer *prevCardLayer;
 	
 	CGPoint touchBegan;
 }
