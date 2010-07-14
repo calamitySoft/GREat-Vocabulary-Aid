@@ -41,7 +41,7 @@
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
 		activeExecutable = 70941AD511BEDBF70076C7D5 /* FlashCard */;
-		activeSDKPreference = iphonesimulator3.1.3;
+		activeSDKPreference = iphonesimulator4.0;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* FlashCard */;
 		addToTargets = (
 			1D6058900D05DD3D006BFB54 /* FlashCard */,
@@ -99,22 +99,12 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 300652397;
-			PBXWorkspaceStateSaveDate = 300652397;
+			PBXPerProjectTemplateStateSaveDate = 300759039;
+			PBXWorkspaceStateSaveDate = 300759039;
 		};
 		perUserProjectItems = {
 			7027102511D16E4B0011EDCF = 7027102511D16E4B0011EDCF /* PBXTextBookmark */;
 			702711A311D471100011EDCF = 702711A311D471100011EDCF /* PBXBookmark */;
-			704A72BB11EB977B00AC2CD4 /* PBXTextBookmark */ = 704A72BB11EB977B00AC2CD4 /* PBXTextBookmark */;
-			704A72BC11EB977B00AC2CD4 /* PBXTextBookmark */ = 704A72BC11EB977B00AC2CD4 /* PBXTextBookmark */;
-			704A72BD11EB977B00AC2CD4 /* PBXTextBookmark */ = 704A72BD11EB977B00AC2CD4 /* PBXTextBookmark */;
-			708A21DF11EB89EA007A39E6 = 708A21DF11EB89EA007A39E6 /* PBXTextBookmark */;
-			708A21EF11EB8AB4007A39E6 = 708A21EF11EB8AB4007A39E6 /* PBXTextBookmark */;
-			708A220611EB8C7B007A39E6 = 708A220611EB8C7B007A39E6 /* PBXTextBookmark */;
-			708A220711EB8C7B007A39E6 = 708A220711EB8C7B007A39E6 /* PBXTextBookmark */;
-			708A220811EB8C7B007A39E6 = 708A220811EB8C7B007A39E6 /* PBXTextBookmark */;
-			708A220911EB8C7B007A39E6 = 708A220911EB8C7B007A39E6 /* PBXTextBookmark */;
-			708A221311EB8E90007A39E6 = 708A221311EB8E90007A39E6 /* PBXTextBookmark */;
 			70A0272811CEFF97001796A4 = 70A0272811CEFF97001796A4 /* PlistBookmark */;
 		};
 		sourceControlManager = 70941AE111BEDC170076C7D5 /* Source Control */;
@@ -163,104 +153,6 @@
 			sepNavVisRange = "{615, 1609}";
 			sepNavWindowFrame = "{{245, 4}, {970, 774}}";
 		};
-	};
-	704A72BB11EB977B00AC2CD4 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 702713DA11D7F5A20011EDCF /* AppViewController.m */;
-		name = "AppViewController.m: 282";
-		rLen = 0;
-		rLoc = 7370;
-		rType = 0;
-		vrLen = 1609;
-		vrLoc = 615;
-	};
-	704A72BC11EB977B00AC2CD4 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 289233A90DB2D0DB0083E9F9 /* CardViewController.m */;
-		name = "CardViewController.m: 20";
-		rLen = 0;
-		rLoc = 466;
-		rType = 0;
-		vrLen = 1039;
-		vrLoc = 0;
-	};
-	704A72BD11EB977B00AC2CD4 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 289233A90DB2D0DB0083E9F9 /* CardViewController.m */;
-		name = "CardViewController.m: 20";
-		rLen = 0;
-		rLoc = 466;
-		rType = 0;
-		vrLen = 1037;
-		vrLoc = 0;
-	};
-	708A21DF11EB89EA007A39E6 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 289233A80DB2D0DB0083E9F9 /* CardViewController.h */;
-		name = "CardViewController.h: 23";
-		rLen = 0;
-		rLoc = 533;
-		rType = 0;
-		vrLen = 628;
-		vrLoc = 0;
-	};
-	708A21EF11EB8AB4007A39E6 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 289233A90DB2D0DB0083E9F9 /* CardViewController.m */;
-		name = "CardViewController.m: 20";
-		rLen = 0;
-		rLoc = 466;
-		rType = 0;
-		vrLen = 1039;
-		vrLoc = 0;
-	};
-	708A220611EB8C7B007A39E6 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623240D0F684500981E51 /* FlashCardAppDelegate.h */;
-		name = "FlashCardAppDelegate.h: 34";
-		rLen = 0;
-		rLoc = 816;
-		rType = 0;
-		vrLen = 921;
-		vrLoc = 0;
-	};
-	708A220711EB8C7B007A39E6 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 702713D911D7F5A20011EDCF /* AppViewController.h */;
-		name = "AppViewController.h: 21";
-		rLen = 0;
-		rLoc = 480;
-		rType = 0;
-		vrLen = 1560;
-		vrLoc = 242;
-	};
-	708A220811EB8C7B007A39E6 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623250D0F684500981E51 /* FlashCardAppDelegate.m */;
-		name = "FlashCardAppDelegate.m: 38";
-		rLen = 0;
-		rLoc = 904;
-		rType = 0;
-		vrLen = 1146;
-		vrLoc = 87;
-	};
-	708A220911EB8C7B007A39E6 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		comments = "Expected ';' before '}' token";
-		fRef = 702713DA11D7F5A20011EDCF /* AppViewController.m */;
-		rLen = 1;
-		rLoc = 284;
-		rType = 1;
-	};
-	708A221311EB8E90007A39E6 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 702713DA11D7F5A20011EDCF /* AppViewController.m */;
-		name = "AppViewController.m: 285";
-		rLen = 2;
-		rLoc = 7432;
-		rType = 0;
-		vrLen = 1158;
-		vrLoc = 7101;
 	};
 	70941AD511BEDBF70076C7D5 /* FlashCard */ = {
 		isa = PBXExecutable;
