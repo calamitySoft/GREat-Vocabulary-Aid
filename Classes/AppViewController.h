@@ -16,9 +16,6 @@
 	
 	CardViewController *frontsideViewController;
 	CardViewController *backsideViewController;
-	UILabel *animLabel;
-	CALayer *curCardLayer;
-	CALayer *prevCardLayer;
 	
 	CGPoint touchBegan;
 }
@@ -47,7 +44,7 @@
 - (IBAction)replaceWithNextCard;
 // Replace words
 //- (void)replaceLabel:(NSString *)newLabelText forSide:(NSString*)whichSide;
-- (void)replaceLabel:(NSString*)newLabelText;
+- (void)replaceLabel:(NSString*)newLabelText withMode:(int)dir;
 - (IBAction)shuffleCards;
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event;

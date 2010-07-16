@@ -11,7 +11,7 @@
 
 @implementation CardViewController
 
-@synthesize delegate, textLabel, textStr;
+@synthesize delegate, textLabel, textStr, nextLabel, prevLabel;
 
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
@@ -33,10 +33,55 @@
 #pragma mark Text Management
 
 - (void)replaceLabel:(NSString*)newLabelText {
+	
 	textStr = newLabelText;
+	
 	textLabel.text = textStr;
 }
 
+- (void)replaceWithNextLabel:(NSString *)newLabelText{
+	
+	textStr = newLabelText;
+	
+	nextLabel.text = textStr;
+	
+	CABasicAnimation *slide = 
+	[CABasicAnimation animationWithKeyPath:@"transform.translation.x"];
+	
+	[slide setToValue:[NSNumber numberWithFloat:480]];
+	[slide setDuration:1.0];
+	
+	[slide setDelegate:self];
+	
+	[[textLabel layer] addAnimation:slide forKey:@"slideAnimation"];
+	[[nextLabel layer] addAnimation:slide forKey:@"slideAnimation"];
+	
+}
+
+- (void)replaceWithLastLabel:(NSString *)newLabelText{
+	
+	textStr = newLabelText;
+	
+	prevLabel.text = textStr;
+	
+	CABasicAnimation *slide = 
+	[CABasicAnimation animationWithKeyPath:@"transform.translation.x"];
+	
+	[slide setToValue:[NSNumber numberWithFloat:-480]];
+	[slide setDuration:1.0];
+	
+	[slide setDelegate:self];
+	
+	[[textLabel layer] addAnimation:slide forKey:@"slideAnimation"];
+	[[prevLabel layer] addAnimation:slide forKey:@"slideAnimation"];
+	
+}
+
+- (void)animationDidStop:(CAAnimation *)anim finished:(BOOL)flag
+{
+	NSLog(@"Animation did stop");
+	textLabel.text = textStr;
+}
 
 #pragma mark Admin Stuff
 
