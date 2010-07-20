@@ -1,677 +1,0 @@
-TFlashCard
-v7
-r0
-t299289493.542046
-cCheck dependencies
-cProcessInfoPlistFile /Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app/Info.plist FlashCard-Info.plist
-cCompileXIB /Users/loganmoseley/Projects/FlashCard/BacksideView.xib
-cCompileXIB /Users/loganmoseley/Projects/FlashCard/FrontsideView.xib
-cCompileXIB /Users/loganmoseley/Projects/FlashCard/MainWindow.xib
-cCpResource build/Debug-iphonesimulator/FlashCard.app/notebook_paper.jpg notebook_paper.jpg
-cCopyPlistFile /Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app/words.plist words.plist
-cProcessPCH /var/folders/oH/oH5pXvJBGTS2r7mhgx6Vnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlashCard_Prefix-blcdcmklxwqcahhisjmqnueugcqo/FlashCard_Prefix.pch.gch FlashCard_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/Objects-normal/i386/main.o /Users/loganmoseley/Projects/FlashCard/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/Objects-normal/i386/FlashCardAppDelegate.o /Users/loganmoseley/Projects/FlashCard/Classes/FlashCardAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/Objects-normal/i386/FrontsideViewController.o /Users/loganmoseley/Projects/FlashCard/Classes/FrontsideViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/Objects-normal/i386/BacksideViewController.o /Users/loganmoseley/Projects/FlashCard/Classes/BacksideViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/Objects-normal/i386/AppViewController.o /Users/loganmoseley/Projects/FlashCard/AppViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app/FlashCard normal i386
-cGenerateDSYMFile /Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app.dSYM /Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app/FlashCard
-cTouch /Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk
-c000000004B69B45C00000000000000EE
-t1265218652
-s238
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreData.framework/CoreData
-c000000004B2B4E070000000000185440
-t1261129223
-s1594432
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.h
-c000000004B2B4DFB000000000000046B
-t1261129211
-s1131
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004B2B4CC3000000000026EE30
-t1261128899
-s2551344
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004B2B4DC8000000000027E880
-t1261129160
-s2615424
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004B2B4DAE0000000000001355
-t1261129134
-s4949
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004B2B61620000000000000788
-t1261134178
-s1928
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004B2B62B500000000016721E0
-t1261134517
-s23536096
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/include/Availability.h
-c000000004B2B4EE200000000000019F9
-t1261129442
-s6649
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk
-c000000004BACDA0E0000000000000110
-t1269619214
-s272
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/CoreData.framework/CoreData
-c000000004B9F1E230000000000198F10
-t1268719139
-s1675024
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004B9F1DB3000000000026F020
-t1268719027
-s2551840
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004B9F1DE40000000000289C20
-t1268719076
-s2661408
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004B9F1DD60000000000001355
-t1268719062
-s4949
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004B9F30E7000000000000098F
-t1268723943
-s2447
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004B9F3183000000000214E400
-t1268724099
-s34923520
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/Availability.h
-c000000004B9F1E7D0000000000001A1A
-t1268719229
-s6682
-
-N/Users/loganmoseley/Projects/FlashCard/AppViewController.h
-c000000004C2692C100000000000003A1
-t1277596353
-s929
-i<UIKit/UIKit.h>
-i"FrontsideViewController.h"
-i"BacksideViewController.h"
-
-N/Users/loganmoseley/Projects/FlashCard/AppViewController.m
-c000000004C2692B90000000000000CB6
-t1277596345
-s3254
-i"AppViewController.h"
-i"FrontsideViewController.h"
-i"BacksideViewController.h"
-
-N/Users/loganmoseley/Projects/FlashCard/BacksideView.xib
-c000000004C26937F0000000000004A10
-t1277596543
-s18960
-
-N/Users/loganmoseley/Projects/FlashCard/CardDictionary.plist
-c000000004C1D1A3500000000000002C4
-t1276975669
-s708
-
-N/Users/loganmoseley/Projects/FlashCard/Classes/BacksideViewController.h
-c000000004C26940A0000000000000361
-t1277596682
-s865
-i<UIKit/UIKit.h>
-
-N/Users/loganmoseley/Projects/FlashCard/Classes/BacksideViewController.m
-c000000004C26940A00000000000006AC
-t1277596682
-s1708
-i"BacksideViewController.h"
-
-N/Users/loganmoseley/Projects/FlashCard/Classes/FlashCardAppDelegate.h
-c000000004C2692E40000000000000366
-t1277596388
-s870
-i<UIKit/UIKit.h>
-i"AppViewController.h"
-i"FrontsideViewController.h"
-i"BacksideViewController.h"
-
-N/Users/loganmoseley/Projects/FlashCard/Classes/FlashCardAppDelegate.m
-c000000004C2692E5000000000000088E
-t1277596389
-s2190
-i"FlashCardAppDelegate.h"
-i"AppViewController.h"
-i"FrontsideViewController.h"
-i"BacksideViewController.h"
-
-N/Users/loganmoseley/Projects/FlashCard/Classes/FlipsideViewController.h
-c000000004C267CBD0000000000000409
-t1277590717
-s1033
-i<UIKit/UIKit.h>
-
-N/Users/loganmoseley/Projects/FlashCard/Classes/FlipsideViewController.m
-c000000004C267CBD0000000000000B20
-t1277590717
-s2848
-i"FlipsideViewController.h"
-
-N/Users/loganmoseley/Projects/FlashCard/Classes/FrontsideViewController.h
-c000000004C26940A00000000000003C9
-t1277596682
-s969
-i"BacksideViewController.h"
-
-N/Users/loganmoseley/Projects/FlashCard/Classes/FrontsideViewController.m
-c000000004C26940A0000000000000A5D
-t1277596682
-s2653
-i"FrontsideViewController.h"
-
-N/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.h
-c000000004C2684C800000000000004C7
-t1277592776
-s1223
-i"FlipsideViewController.h"
-
-N/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m
-c000000004C2684C80000000000000F1F
-t1277592776
-s3871
-i"FrontsideViewController.h"
-
-N/Users/loganmoseley/Projects/FlashCard/FlashCard.xcdatamodeld
-c000000004C0EA4770000000000000088
-t1276028023
-s136
-
-N/Users/loganmoseley/Projects/FlashCard/FlashCard_Prefix.pch
-c000000004C267CBD0000000000000144
-t1277590717
-s324
-i<Availability.h>
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/loganmoseley/Projects/FlashCard/FlipsideView.xib
-c000000004C267CBD0000000000005C53
-t1277590717
-s23635
-
-N/Users/loganmoseley/Projects/FlashCard/FrontView.xib
-c000000004C267CBD0000000000006A79
-t1277590717
-s27257
-
-N/Users/loganmoseley/Projects/FlashCard/FrontsideView.xib
-c000000004C2693A00000000000005202
-t1277596576
-s20994
-
-N/Users/loganmoseley/Projects/FlashCard/MainView.xib
-c000000004C267CBD0000000000006A79
-t1277590717
-s27257
-
-N/Users/loganmoseley/Projects/FlashCard/MainWindow.xib
-c000000004C26913600000000000068EB
-t1277595958
-s26859
-
-N/Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app
-t1277596693
-s340
-
-N/Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app.dSYM
-t1277596693
-s102
-
-N/Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app/BacksideView.nib
-t1277596690
-s1925
-
-N/Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app/CardDictionary.plist
-t1277330977
-s237
-
-N/Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app/FlashCard
-t1277596693
-s32272
-
-N/Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app/FlashCard.momd
-t1276982992
-s136
-
-N/Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app/FlipsideView.nib
-t1277590717
-s2253
-
-N/Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app/FrontView.nib
-t2
-s0
-
-N/Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app/FrontsideView.nib
-t1277596690
-s2254
-
-N/Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app/Info.plist
-t1277596690
-s601
-
-N/Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app/MainView.nib
-t1277590717
-s2700
-
-N/Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app/MainWindow.nib
-t1277596691
-s3577
-
-N/Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app/PkgInfo
-t1277596690
-s8
-
-N/Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app/notebook_paper.jpg
-t1277596690
-s290334
-
-N/Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app/words.plist
-t1277596691
-s50314
-
-N/Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/Objects-normal/i386/AppViewController.o
-t1277596693
-s38216
-
-N/Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/Objects-normal/i386/BacksideViewController.o
-t1277596693
-s35900
-
-N/Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/Objects-normal/i386/FlashCard.LinkFileList
-c000000004C26941200000000000002B8
-t1277596690
-s696
-
-N/Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/Objects-normal/i386/FlashCardAppDelegate.o
-t1277596693
-s43884
-
-N/Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/Objects-normal/i386/FlipsideViewController.o
-t1277592779
-s42628
-
-N/Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/Objects-normal/i386/FrontsideViewController.o
-t1277596693
-s39664
-
-N/Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/Objects-normal/i386/MainViewController.o
-t2
-s0
-
-N/Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/Objects-normal/i386/main.o
-t1277596693
-s5948
-
-N/Users/loganmoseley/Projects/FlashCard/main.m
-c000000004C267CBD000000000000016B
-t1277590717
-s363
-i<UIKit/UIKit.h>
-
-N/Users/loganmoseley/Projects/FlashCard/notebook_paper.jpg
-c000000004C267CBD0000000000046E1E
-t1277590717
-s290334
-
-N/Users/loganmoseley/Projects/FlashCard/words.plist
-c000000004C267CBD0000000000019CF1
-t1277590717
-s105713
-
-N/var/folders/oH/oH5pXvJBGTS2r7mhgx6Vnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlashCard_Prefix-blcdcmklxwqcahhisjmqnueugcqo/FlashCard_Prefix.pch.gch
-t1277596692
-s13026768
-
-N/var/folders/oH/oH5pXvJBGTS2r7mhgx6Vnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlashCard_Prefix-dhszfldduylhiyfahbiycjwyawni/FlashCard_Prefix.pch.gch
-t1277592778
-s13805456
-
-NFlashCard-Info.plist
-c000000004C267CBD000000000000038D
-t1277590717
-s909
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies299289490#299289490#0(0"0(0#1#0"4300911832#0"0#
-
-CCompileC build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/Objects-normal/i386/AppViewController.o /Users/loganmoseley/Projects/FlashCard/AppViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s299289493.346268
-e299289493.450890
-r1
-xCompileC
-xbuild/FlashCard.build/Debug-iphonesimulator/FlashCard.build/Objects-normal/i386/AppViewController.o
-x/Users/loganmoseley/Projects/FlashCard/AppViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/loganmoseley/Projects/FlashCard/AppViewController.m: In function '-[AppViewController touchesMoved:withEvent:]':
-o/Users/loganmoseley/Projects/FlashCard/AppViewController.m:81: warning: 'AppViewController' may not respond to '-replaceWithNext'
-o/Users/loganmoseley/Projects/FlashCard/AppViewController.m:81: warning: (Messages without a matching method signature
-o/Users/loganmoseley/Projects/FlashCard/AppViewController.m:81: warning: will be assumed to return 'id' and accept
-o/Users/loganmoseley/Projects/FlashCard/AppViewController.m:81: warning: '...' as arguments.)
-o/Users/loganmoseley/Projects/FlashCard/AppViewController.m:84: warning: 'AppViewController' may not respond to '-replaceWithPrev'
-o/Users/loganmoseley/Projects/FlashCard/AppViewController.m:92: warning: 'AppViewController' may not respond to '-flipToBack'
-o/Users/loganmoseley/Projects/FlashCard/AppViewController.m: At top level:
-o/Users/loganmoseley/Projects/FlashCard/AppViewController.m:126: warning: property 'delegate' requires method '-delegate' to be defined - use @synthesize, @dynamic or provide a method implementation
-o/Users/loganmoseley/Projects/FlashCard/AppViewController.m:126: warning: property 'delegate' requires the method 'setDelegate:' to be defined - use @synthesize, @dynamic or provide a method implementation
-o/Users/loganmoseley/Projects/FlashCard/AppViewController.m:126: warning: incomplete implementation of class 'AppViewController'
-o/Users/loganmoseley/Projects/FlashCard/AppViewController.m:126: warning: method definition for '-shuffleCards' not found
-o/Users/loganmoseley/Projects/FlashCard/AppViewController.m:126: warning: method definition for '-printCards' not found
-o/Users/loganmoseley/Projects/FlashCard/AppViewController.m:126: warning: method definition for '-loadCards' not found
-o/Users/loganmoseley/Projects/FlashCard/AppViewController.m:126: warning: class 'AppViewController' does not fully implement the 'FrontsideViewControllerDelegate' protocol
-o/Users/loganmoseley/Projects/FlashCard/AppViewController.m:126: warning: incomplete implementation of class 'AppViewController'
-o/Users/loganmoseley/Projects/FlashCard/AppViewController.m:126: warning: method definition for '-backsideViewControllerDidFinish:' not found
-o/Users/loganmoseley/Projects/FlashCard/AppViewController.m:126: warning: class 'AppViewController' does not fully implement the 'BacksideViewControllerDelegate' protocol
-lSLF07#2@66"Compile /Users/loganmoseley/Projects/FlashCard/AppViewController.m299289493#299289493#0(2403"/Users/loganmoseley/Projects/FlashCard/AppViewController.m: In function '-[AppViewController touchesMoved:withEvent:]':/Users/loganmoseley/Projects/FlashCard/AppViewController.m:81: warning: 'AppViewController' may not respond to '-replaceWithNext'/Users/loganmoseley/Projects/FlashCard/AppViewController.m:81: warning: (Messages without a matching method signature/Users/loganmoseley/Projects/FlashCard/AppViewController.m:81: warning: will be assumed to return 'id' and accept/Users/loganmoseley/Projects/FlashCard/AppViewController.m:81: warning: '...' as arguments.)/Users/loganmoseley/Projects/FlashCard/AppViewController.m:84: warning: 'AppViewController' may not respond to '-replaceWithPrev'/Users/loganmoseley/Projects/FlashCard/AppViewController.m:92: warning: 'AppViewController' may not respond to '-flipToBack'/Users/loganmoseley/Projects/FlashCard/AppViewController.m: At top level:/Users/loganmoseley/Projects/FlashCard/AppViewController.m:126: warning: property 'delegate' requires method '-delegate' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/loganmoseley/Projects/FlashCard/AppViewController.m:126: warning: property 'delegate' requires the method 'setDelegate:' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/loganmoseley/Projects/FlashCard/AppViewController.m:126: warning: incomplete implementation of class 'AppViewController'/Users/loganmoseley/Projects/FlashCard/AppViewController.m:126: warning: method definition for '-shuffleCards' not found/Users/loganmoseley/Projects/FlashCard/AppViewController.m:126: warning: method definition for '-printCards' not found/Users/loganmoseley/Projects/FlashCard/AppViewController.m:126: warning: method definition for '-loadCards' not found/Users/loganmoseley/Projects/FlashCard/AppViewController.m:126: warning: class 'AppViewController' does not fully implement the 'FrontsideViewControllerDelegate' protocol/Users/loganmoseley/Projects/FlashCard/AppViewController.m:126: warning: incomplete implementation of class 'AppViewController'/Users/loganmoseley/Projects/FlashCard/AppViewController.m:126: warning: method definition for '-backsideViewControllerDidFinish:' not found/Users/loganmoseley/Projects/FlashCard/AppViewController.m:126: warning: class 'AppViewController' does not fully implement the 'BacksideViewControllerDelegate' protocol15(22@57"'AppViewController' may not respond to '-replaceWithNext'299289493#120#130#0(6@58"/Users/loganmoseley/Projects/FlashCard/AppViewController.m299289145#81#0#81#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)299289493#250#118#0(6@58"/Users/loganmoseley/Projects/FlashCard/AppViewController.m299289145#81#0#81#0#0"0(22@57"'AppViewController' may not respond to '-replaceWithPrev'299289493#575#130#0(6@58"/Users/loganmoseley/Projects/FlashCard/AppViewController.m299289145#84#0#84#0#26"'*' may not respond to '*'0(22@52"'AppViewController' may not respond to '-flipToBack'299289493#705#125#0(6@58"/Users/loganmoseley/Projects/FlashCard/AppViewController.m299289145#92#0#92#0#26"'*' may not respond to '*'0(23@13"At top level:299289493#830#74#0(6@58"/Users/loganmoseley/Projects/FlashCard/AppViewController.m299289145#0#0#0#0#0"0(22@124"Property 'delegate' requires method '-delegate' to be defined - use @synthesize, @dynamic or provide a method implementation299289493#904#198#0(6@58"/Users/loganmoseley/Projects/FlashCard/AppViewController.m299289145#126#0#126#0#0"0(22@131"Property 'delegate' requires the method 'setDelegate:' to be defined - use @synthesize, @dynamic or provide a method implementation299289493#1102#205#0(6@58"/Users/loganmoseley/Projects/FlashCard/AppViewController.m299289145#126#0#126#0#0"0(22@54"Incomplete implementation of class 'AppViewController'299289493#1307#128#0(6@58"/Users/loganmoseley/Projects/FlashCard/AppViewController.m299289145#126#0#126#0#38"incomplete implementation of class '*'0(22@47"Method definition for '-shuffleCards' not found299289493#1435#121#0(6@58"/Users/loganmoseley/Projects/FlashCard/AppViewController.m299289145#126#0#126#0#35"method definition for '*' not found0(22@45"Method definition for '-printCards' not found299289493#1556#119#0(6@58"/Users/loganmoseley/Projects/FlashCard/AppViewController.m299289145#126#0#126#0#35"method definition for '*' not found0(22@44"Method definition for '-loadCards' not found299289493#1675#118#0(6@58"/Users/loganmoseley/Projects/FlashCard/AppViewController.m299289145#126#0#126#0#35"method definition for '*' not found0(22@97"Class 'AppViewController' does not fully implement the 'FrontsideViewControllerDelegate' protocol299289493#1793#171#0(6@58"/Users/loganmoseley/Projects/FlashCard/AppViewController.m299289145#126#0#126#0#51"class '*' does not fully implement the '*' protocol0(22@54"Incomplete implementation of class 'AppViewController'299289493#1964#128#0(6@58"/Users/loganmoseley/Projects/FlashCard/AppViewController.m299289145#126#0#126#0#38"incomplete implementation of class '*'0(22@67"Method definition for '-backsideViewControllerDidFinish:' not found299289493#2092#141#0(6@58"/Users/loganmoseley/Projects/FlashCard/AppViewController.m299289145#126#0#126#0#35"method definition for '*' not found0(22@96"Class 'AppViewController' does not fully implement the 'BacksideViewControllerDelegate' protocol299289493#2233#170#0(6@58"/Users/loganmoseley/Projects/FlashCard/AppViewController.m299289145#126#0#126#0#51"class '*' does not fully implement the '*' protocol0(0#0#58"/Users/loganmoseley/Projects/FlashCard/AppViewController.m4300911832#1925"    cd /Users/loganmoseley/Projects/FlashCard    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/FlashCard-generated-files.hmap -I/Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/FlashCard-own-target-headers.hmap -I/Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/FlashCard-all-target-headers.hmap -iquote /Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/FlashCard-project-headers.hmap -F/Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator -I/Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/include -I/Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/DerivedSources/i386 -I/Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/DerivedSources -include /var/folders/oH/oH5pXvJBGTS2r7mhgx6Vnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlashCard_Prefix-blcdcmklxwqcahhisjmqnueugcqo/FlashCard_Prefix.pch -c /Users/loganmoseley/Projects/FlashCard/AppViewController.m -o /Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/Objects-normal/i386/AppViewController.o0#
-
-CCompileC build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/Objects-normal/i386/BacksideViewController.o /Users/loganmoseley/Projects/FlashCard/Classes/BacksideViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s299289493.274555
-e299289493.370642
-r1
-xCompileC
-xbuild/FlashCard.build/Debug-iphonesimulator/FlashCard.build/Objects-normal/i386/BacksideViewController.o
-x/Users/loganmoseley/Projects/FlashCard/Classes/BacksideViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@79"Compile /Users/loganmoseley/Projects/FlashCard/Classes/BacksideViewController.m299289493#299289493#0(0"0(0#0#71"/Users/loganmoseley/Projects/FlashCard/Classes/BacksideViewController.m4300911832#1943"    cd /Users/loganmoseley/Projects/FlashCard    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/FlashCard-generated-files.hmap -I/Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/FlashCard-own-target-headers.hmap -I/Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/FlashCard-all-target-headers.hmap -iquote /Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/FlashCard-project-headers.hmap -F/Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator -I/Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/include -I/Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/DerivedSources/i386 -I/Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/DerivedSources -include /var/folders/oH/oH5pXvJBGTS2r7mhgx6Vnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlashCard_Prefix-blcdcmklxwqcahhisjmqnueugcqo/FlashCard_Prefix.pch -c /Users/loganmoseley/Projects/FlashCard/Classes/BacksideViewController.m -o /Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/Objects-normal/i386/BacksideViewController.o0#
-
-CCompileC build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/Objects-normal/i386/FlashCardAppDelegate.o /Users/loganmoseley/Projects/FlashCard/Classes/FlashCardAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s299289493.157614
-e299289493.274416
-r1
-xCompileC
-xbuild/FlashCard.build/Debug-iphonesimulator/FlashCard.build/Objects-normal/i386/FlashCardAppDelegate.o
-x/Users/loganmoseley/Projects/FlashCard/Classes/FlashCardAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@77"Compile /Users/loganmoseley/Projects/FlashCard/Classes/FlashCardAppDelegate.m299289493#299289493#0(0"0(0#0#69"/Users/loganmoseley/Projects/FlashCard/Classes/FlashCardAppDelegate.m4300911832#1939"    cd /Users/loganmoseley/Projects/FlashCard    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/FlashCard-generated-files.hmap -I/Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/FlashCard-own-target-headers.hmap -I/Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/FlashCard-all-target-headers.hmap -iquote /Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/FlashCard-project-headers.hmap -F/Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator -I/Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/include -I/Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/DerivedSources/i386 -I/Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/DerivedSources -include /var/folders/oH/oH5pXvJBGTS2r7mhgx6Vnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlashCard_Prefix-blcdcmklxwqcahhisjmqnueugcqo/FlashCard_Prefix.pch -c /Users/loganmoseley/Projects/FlashCard/Classes/FlashCardAppDelegate.m -o /Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/Objects-normal/i386/FlashCardAppDelegate.o0#
-
-CCompileC build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/Objects-normal/i386/FlipsideViewController.o /Users/loganmoseley/Projects/FlashCard/Classes/FlipsideViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s299285579.272389
-e299285579.401132
-r1
-xCompileC
-xbuild/FlashCard.build/Debug-iphonesimulator/FlashCard.build/Objects-normal/i386/FlipsideViewController.o
-x/Users/loganmoseley/Projects/FlashCard/Classes/FlipsideViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@79"Compile /Users/loganmoseley/Projects/FlashCard/Classes/FlipsideViewController.m299285579#299285579#0(0"0(0#0#71"/Users/loganmoseley/Projects/FlashCard/Classes/FlipsideViewController.m4300911832#1941"    cd /Users/loganmoseley/Projects/FlashCard    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/FlashCard-generated-files.hmap -I/Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/FlashCard-own-target-headers.hmap -I/Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/FlashCard-all-target-headers.hmap -iquote /Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/FlashCard-project-headers.hmap -F/Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator -I/Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/include -I/Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/DerivedSources/i386 -I/Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/DerivedSources -include /var/folders/oH/oH5pXvJBGTS2r7mhgx6Vnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlashCard_Prefix-dhszfldduylhiyfahbiycjwyawni/FlashCard_Prefix.pch -c /Users/loganmoseley/Projects/FlashCard/Classes/FlipsideViewController.m -o /Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/Objects-normal/i386/FlipsideViewController.o0#
-
-CCompileC build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/Objects-normal/i386/FrontsideViewController.o /Users/loganmoseley/Projects/FlashCard/Classes/FrontsideViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s299289493.216135
-e299289493.346124
-r1
-xCompileC
-xbuild/FlashCard.build/Debug-iphonesimulator/FlashCard.build/Objects-normal/i386/FrontsideViewController.o
-x/Users/loganmoseley/Projects/FlashCard/Classes/FrontsideViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/loganmoseley/Projects/FlashCard/Classes/FrontsideViewController.m:113: warning: incomplete implementation of class 'FrontsideViewController'
-o/Users/loganmoseley/Projects/FlashCard/Classes/FrontsideViewController.m:113: warning: method definition for '-getPrevCard' not found
-o/Users/loganmoseley/Projects/FlashCard/Classes/FrontsideViewController.m:113: warning: method definition for '-getNextCard' not found
-o/Users/loganmoseley/Projects/FlashCard/Classes/FrontsideViewController.m:113: warning: class 'FrontsideViewController' does not fully implement the 'BacksideViewControllerDelegate' protocol
-lSLF07#2@80"Compile /Users/loganmoseley/Projects/FlashCard/Classes/FrontsideViewController.m299289493#299289493#0(606"/Users/loganmoseley/Projects/FlashCard/Classes/FrontsideViewController.m:113: warning: incomplete implementation of class 'FrontsideViewController'/Users/loganmoseley/Projects/FlashCard/Classes/FrontsideViewController.m:113: warning: method definition for '-getPrevCard' not found/Users/loganmoseley/Projects/FlashCard/Classes/FrontsideViewController.m:113: warning: method definition for '-getNextCard' not found/Users/loganmoseley/Projects/FlashCard/Classes/FrontsideViewController.m:113: warning: class 'FrontsideViewController' does not fully implement the 'BacksideViewControllerDelegate' protocol4(22@60"Incomplete implementation of class 'FrontsideViewController'299289493#0#148#0(6@72"/Users/loganmoseley/Projects/FlashCard/Classes/FrontsideViewController.m299289482#113#0#113#0#38"incomplete implementation of class '*'0(22@46"Method definition for '-getPrevCard' not found299289493#148#134#0(6@72"/Users/loganmoseley/Projects/FlashCard/Classes/FrontsideViewController.m299289482#113#0#113#0#35"method definition for '*' not found0(22@46"Method definition for '-getNextCard' not found299289493#282#134#0(6@72"/Users/loganmoseley/Projects/FlashCard/Classes/FrontsideViewController.m299289482#113#0#113#0#35"method definition for '*' not found0(22@102"Class 'FrontsideViewController' does not fully implement the 'BacksideViewControllerDelegate' protocol299289493#416#190#0(6@72"/Users/loganmoseley/Projects/FlashCard/Classes/FrontsideViewController.m299289482#113#0#113#0#51"class '*' does not fully implement the '*' protocol0(0#0#72"/Users/loganmoseley/Projects/FlashCard/Classes/FrontsideViewController.m4300911832#1945"    cd /Users/loganmoseley/Projects/FlashCard    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/FlashCard-generated-files.hmap -I/Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/FlashCard-own-target-headers.hmap -I/Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/FlashCard-all-target-headers.hmap -iquote /Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/FlashCard-project-headers.hmap -F/Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator -I/Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/include -I/Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/DerivedSources/i386 -I/Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/DerivedSources -include /var/folders/oH/oH5pXvJBGTS2r7mhgx6Vnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlashCard_Prefix-blcdcmklxwqcahhisjmqnueugcqo/FlashCard_Prefix.pch -c /Users/loganmoseley/Projects/FlashCard/Classes/FrontsideViewController.m -o /Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/Objects-normal/i386/FrontsideViewController.o0#
-
-CCompileC build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/Objects-normal/i386/MainViewController.o /Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s299285579.234330
-e299285579.299008
-r0
-xCompileC
-xbuild/FlashCard.build/Debug-iphonesimulator/FlashCard.build/Objects-normal/i386/MainViewController.o
-x/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:9:36: error: FrontsideViewController.h: No such file or directory
-o/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:14: warning: cannot find interface declaration for 'FrontsideViewController'
-o/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:14: error: no declaration of property 'delegate' found in the interface
-o/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:14: error: no declaration of property 'frontLabel' found in the interface
-o/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:14: error: no declaration of property 'frontText' found in the interface
-o/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:14: error: no declaration of property 'backText' found in the interface
-o/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m: In function '-[FrontsideViewController initWithNibName:bundle:]':
-o/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:21: error: no super class declared in @interface for 'FrontsideViewController'
-o/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m: In function '-[FrontsideViewController viewDidLoad]':
-o/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:31: error: no super class declared in @interface for 'FrontsideViewController'
-o/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:32: error: request for member 'frontText' in something not a structure or union
-o/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:33: error: request for member 'backText' in something not a structure or union
-o/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:34: error: 'frontText' undeclared (first use in this function)
-o/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:34: error: (Each undeclared identifier is reported only once
-o/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:34: error: for each function it appears in.)
-o/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:34: warning: 'FrontsideViewController' may not respond to '-replaceFrontLabel:'
-o/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:34: warning: (Messages without a matching method signature
-o/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:34: warning: will be assumed to return 'id' and accept
-o/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:34: warning: '...' as arguments.)
-o/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m: At top level:
-o/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:39: error: expected ')' before 'FlipsideViewController'
-o/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m: In function '-[FrontsideViewController flipsideViewControllerDidFinish:]':
-o/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:41: warning: 'FrontsideViewController' may not respond to '-dismissModalViewControllerAnimated:'
-o/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m: In function '-[FrontsideViewController flipToBack]':
-o/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:46: error: 'FlipsideViewController' undeclared (first use in this function)
-o/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:46: error: 'controller' undeclared (first use in this function)
-o/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:48: error: request for member 'backText' in something not a structure or union
-o/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:51: warning: 'FrontsideViewController' may not respond to '-presentModalViewController:animated:'
-o/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m: In function '-[FrontsideViewController replaceWithNext]':
-o/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:60: error: 'delegate' undeclared (first use in this function)
-o/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:61: error: 'frontText' undeclared (first use in this function)
-o/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:62: error: 'backText' undeclared (first use in this function)
-o/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:64: warning: 'FrontsideViewController' may not respond to '-replaceFrontLabel:'
-o/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m: In function '-[FrontsideViewController replaceWithPrev]':
-o/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:68: error: 'delegate' undeclared (first use in this function)
-o/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:69: error: 'frontText' undeclared (first use in this function)
-o/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:70: error: 'backText' undeclared (first use in this function)
-o/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:72: warning: 'FrontsideViewController' may not respond to '-replaceFrontLabel:'
-o/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m: In function '-[FrontsideViewController replaceFrontLabel:]':
-o/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:77: error: request for member 'frontLabel' in something not a structure or union
-o/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m: In function '-[FrontsideViewController shuffleCards]':
-o/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:82: error: 'delegate' undeclared (first use in this function)
-o/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m: In function '-[FrontsideViewController getNextCard]':
-o/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:87: error: 'delegate' undeclared (first use in this function)
-o/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:88: warning: control reaches end of non-void function
-o/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m: In function '-[FrontsideViewController getPrevCard]':
-o/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:91: error: 'delegate' undeclared (first use in this function)
-o/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:92: warning: control reaches end of non-void function
-o/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m: In function '-[FrontsideViewController touchesBegan:withEvent:]':
-o/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:98: error: 'touchBegan' undeclared (first use in this function)
-o/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:98: error: request for member 'view' in something not a structure or union
-o/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m: In function '-[FrontsideViewController touchesMoved:withEvent:]':
-o/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:103: error: request for member 'view' in something not a structure or union
-o/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:107: error: 'touchBegan' undeclared (first use in this function)
-o/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m: In function '-[FrontsideViewController didReceiveMemoryWarning]':
-o/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:131: error: no super class declared in @interface for 'FrontsideViewController'
-o/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m: In function '-[FrontsideViewController dealloc]':
-o/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:154: error: 'frontLabel' undeclared (first use in this function)
-o/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:155: error: 'frontText' undeclared (first use in this function)
-o/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:156: error: 'backText' undeclared (first use in this function)
-o/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:157: error: no super class declared in @interface for 'FrontsideViewController'
-lSLF07#2@75"Compile /Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m299285579#299285579#0(8172"/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:9:36: error: FrontsideViewController.h: No such file or directory/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:14: warning: cannot find interface declaration for 'FrontsideViewController'/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:14: error: no declaration of property 'delegate' found in the interface/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:14: error: no declaration of property 'frontLabel' found in the interface/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:14: error: no declaration of property 'frontText' found in the interface/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:14: error: no declaration of property 'backText' found in the interface/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m: In function '-[FrontsideViewController initWithNibName:bundle:]':/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:21: error: no super class declared in @interface for 'FrontsideViewController'/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m: In function '-[FrontsideViewController viewDidLoad]':/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:31: error: no super class declared in @interface for 'FrontsideViewController'/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:32: error: request for member 'frontText' in something not a structure or union/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:33: error: request for member 'backText' in something not a structure or union/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:34: error: 'frontText' undeclared (first use in this function)/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:34: error: (Each undeclared identifier is reported only once/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:34: error: for each function it appears in.)/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:34: warning: 'FrontsideViewController' may not respond to '-replaceFrontLabel:'/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:34: warning: (Messages without a matching method signature/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:34: warning: will be assumed to return 'id' and accept/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:34: warning: '...' as arguments.)/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m: At top level:/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:39: error: expected ')' before 'FlipsideViewController'/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m: In function '-[FrontsideViewController flipsideViewControllerDidFinish:]':/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:41: warning: 'FrontsideViewController' may not respond to '-dismissModalViewControllerAnimated:'/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m: In function '-[FrontsideViewController flipToBack]':/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:46: error: 'FlipsideViewController' undeclared (first use in this function)/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:46: error: 'controller' undeclared (first use in this function)/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:48: error: request for member 'backText' in something not a structure or union/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:51: warning: 'FrontsideViewController' may not respond to '-presentModalViewController:animated:'/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m: In function '-[FrontsideViewController replaceWithNext]':/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:60: error: 'delegate' undeclared (first use in this function)/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:61: error: 'frontText' undeclared (first use in this function)/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:62: error: 'backText' undeclared (first use in this function)/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:64: warning: 'FrontsideViewController' may not respond to '-replaceFrontLabel:'/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m: In function '-[FrontsideViewController replaceWithPrev]':/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:68: error: 'delegate' undeclared (first use in this function)/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:69: error: 'frontText' undeclared (first use in this function)/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:70: error: 'backText' undeclared (first use in this function)/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:72: warning: 'FrontsideViewController' may not respond to '-replaceFrontLabel:'/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m: In function '-[FrontsideViewController replaceFrontLabel:]':/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:77: error: request for member 'frontLabel' in something not a structure or union/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m: In function '-[FrontsideViewController shuffleCards]':/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:82: error: 'delegate' undeclared (first use in this function)/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m: In function '-[FrontsideViewController getNextCard]':/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:87: error: 'delegate' undeclared (first use in this function)/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:88: warning: control reaches end of non-void function/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m: In function '-[FrontsideViewController getPrevCard]':/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:91: error: 'delegate' undeclared (first use in this function)/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:92: warning: control reaches end of non-void function/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m: In function '-[FrontsideViewController touchesBegan:withEvent:]':/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:98: error: 'touchBegan' undeclared (first use in this function)/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:98: error: request for member 'view' in something not a structure or union/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m: In function '-[FrontsideViewController touchesMoved:withEvent:]':/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:103: error: request for member 'view' in something not a structure or union/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:107: error: 'touchBegan' undeclared (first use in this function)/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m: In function '-[FrontsideViewController didReceiveMemoryWarning]':/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:131: error: no super class declared in @interface for 'FrontsideViewController'/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m: In function '-[FrontsideViewController dealloc]':/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:154: error: 'frontLabel' undeclared (first use in this function)/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:155: error: 'frontText' undeclared (first use in this function)/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:156: error: 'backText' undeclared (first use in this function)/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m:157: error: no super class declared in @interface for 'FrontsideViewController'43(4@52"FrontsideViewController.h: No such file or directory299285579#0#134#0(6@67"/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m299285576#9#0#9#0#28"*: No such file or directory0(22@63"Cannot find interface declaration for 'FrontsideViewController'299285579#134#145#0(6@67"/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m299285576#14#0#14#0#0"0(4@60"No declaration of property 'delegate' found in the interface299285579#279#140#0(6@67"/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m299285576#14#0#14#0#0"0(4@62"No declaration of property 'frontLabel' found in the interface299285579#419#142#0(6@67"/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m299285576#14#0#14#0#0"0(4@61"No declaration of property 'frontText' found in the interface299285579#561#141#0(6@67"/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m299285576#14#0#14#0#0"0(4@60"No declaration of property 'backText' found in the interface299285579#702#140#0(6@67"/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m299285576#14#0#14#0#0"0(4@67"No super class declared in @interface for 'FrontsideViewController'299285579#977#147#0(6@67"/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m299285576#21#0#21#0#0"0(4@67"No super class declared in @interface for 'FrontsideViewController'299285579#1247#147#0(6@67"/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m299285576#31#0#31#0#0"0(4@68"Request for member 'frontText' in something not a structure or union299285579#1394#148#0(6@67"/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m299285576#32#0#32#0#0"0(4@67"Request for member 'backText' in something not a structure or union299285579#1542#147#0(6@67"/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m299285576#33#0#33#0#0"0(4@51"'frontText' undeclared (first use in this function)299285579#1689#131#0(6@67"/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m299285576#34#0#34#0#43"'*' undeclared (first use in this function)0(22@66"'FrontsideViewController' may not respond to '-replaceFrontLabel:'299285579#2062#148#0(6@67"/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m299285576#34#0#34#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)299285579#2210#127#0(6@67"/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m299285576#34#0#34#0#0"0(23@13"At top level:299285579#2562#83#0(6@67"/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m299285576#0#0#0#0#0"0(4@44"Expected ')' before 'FlipsideViewController'299285579#2645#124#0(6@67"/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m299285576#39#0#39#0#19"expected * before *0(22@83"'FrontsideViewController' may not respond to '-dismissModalViewControllerAnimated:'299285579#2913#165#0(6@67"/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m299285576#41#0#41#0#26"'*' may not respond to '*'0(4@64"'FlipsideViewController' undeclared (first use in this function)299285579#3200#144#0(6@67"/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m299285576#46#0#46#0#43"'*' undeclared (first use in this function)0(4@52"'controller' undeclared (first use in this function)299285579#3344#132#0(6@67"/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m299285576#46#0#46#0#43"'*' undeclared (first use in this function)0(4@67"Request for member 'backText' in something not a structure or union299285579#3476#147#0(6@67"/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m299285576#48#0#48#0#0"0(22@84"'FrontsideViewController' may not respond to '-presentModalViewController:animated:'299285579#3623#166#0(6@67"/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m299285576#51#0#51#0#26"'*' may not respond to '*'0(4@50"'delegate' undeclared (first use in this function)299285579#3916#130#0(6@67"/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m299285576#60#0#60#0#43"'*' undeclared (first use in this function)0(4@51"'frontText' undeclared (first use in this function)299285579#4046#131#0(6@67"/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m299285576#61#0#61#0#43"'*' undeclared (first use in this function)0(4@50"'backText' undeclared (first use in this function)299285579#4177#130#0(6@67"/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m299285576#62#0#62#0#43"'*' undeclared (first use in this function)0(22@66"'FrontsideViewController' may not respond to '-replaceFrontLabel:'299285579#4307#148#0(6@67"/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m299285576#64#0#64#0#26"'*' may not respond to '*'0(4@50"'delegate' undeclared (first use in this function)299285579#4582#130#0(6@67"/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m299285576#68#0#68#0#43"'*' undeclared (first use in this function)0(4@51"'frontText' undeclared (first use in this function)299285579#4712#131#0(6@67"/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m299285576#69#0#69#0#43"'*' undeclared (first use in this function)0(4@50"'backText' undeclared (first use in this function)299285579#4843#130#0(6@67"/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m299285576#70#0#70#0#43"'*' undeclared (first use in this function)0(22@66"'FrontsideViewController' may not respond to '-replaceFrontLabel:'299285579#4973#148#0(6@67"/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m299285576#72#0#72#0#26"'*' may not respond to '*'0(4@69"Request for member 'frontLabel' in something not a structure or union299285579#5251#149#0(6@67"/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m299285576#77#0#77#0#0"0(4@50"'delegate' undeclared (first use in this function)299285579#5524#130#0(6@67"/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m299285576#82#0#82#0#43"'*' undeclared (first use in this function)0(4@50"'delegate' undeclared (first use in this function)299285579#5777#130#0(6@67"/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m299285576#87#0#87#0#43"'*' undeclared (first use in this function)0(22@40"Control reaches end of non-void function299285579#5907#122#0(6@67"/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m299285576#88#0#88#0#40"control reaches end of non-void function0(4@50"'delegate' undeclared (first use in this function)299285579#6152#130#0(6@67"/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m299285576#91#0#91#0#43"'*' undeclared (first use in this function)0(22@40"Control reaches end of non-void function299285579#6282#122#0(6@67"/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m299285576#92#0#92#0#40"control reaches end of non-void function0(4@52"'touchBegan' undeclared (first use in this function)299285579#6539#132#0(6@67"/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m299285576#98#0#98#0#43"'*' undeclared (first use in this function)0(4@63"Request for member 'view' in something not a structure or union299285579#6671#143#0(6@67"/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m299285576#98#0#98#0#0"0(4@63"Request for member 'view' in something not a structure or union299285579#6949#144#0(6@67"/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m299285576#103#0#103#0#0"0(4@52"'touchBegan' undeclared (first use in this function)299285579#7093#133#0(6@67"/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m299285576#107#0#107#0#43"'*' undeclared (first use in this function)0(4@67"No super class declared in @interface for 'FrontsideViewController'299285579#7361#148#0(6@67"/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m299285576#131#0#131#0#0"0(4@52"'frontLabel' undeclared (first use in this function)299285579#7628#133#0(6@67"/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m299285576#154#0#154#0#43"'*' undeclared (first use in this function)0(4@51"'frontText' undeclared (first use in this function)299285579#7761#132#0(6@67"/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m299285576#155#0#155#0#43"'*' undeclared (first use in this function)0(4@50"'backText' undeclared (first use in this function)299285579#7893#131#0(6@67"/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m299285576#156#0#156#0#43"'*' undeclared (first use in this function)0(4@67"No super class declared in @interface for 'FrontsideViewController'299285579#8024#148#0(6@67"/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m299285576#157#0#157#0#0"0(0#0#67"/Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m4300911832#1933"    cd /Users/loganmoseley/Projects/FlashCard    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/FlashCard-generated-files.hmap -I/Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/FlashCard-own-target-headers.hmap -I/Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/FlashCard-all-target-headers.hmap -iquote /Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/FlashCard-project-headers.hmap -F/Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator -I/Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/include -I/Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/DerivedSources/i386 -I/Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/DerivedSources -include /var/folders/oH/oH5pXvJBGTS2r7mhgx6Vnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlashCard_Prefix-dhszfldduylhiyfahbiycjwyawni/FlashCard_Prefix.pch -c /Users/loganmoseley/Projects/FlashCard/Classes/MainViewController.m -o /Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/Objects-normal/i386/MainViewController.o1#
-
-CCompileC build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/Objects-normal/i386/main.o /Users/loganmoseley/Projects/FlashCard/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s299289493.155744
-e299289493.216000
-r1
-xCompileC
-xbuild/FlashCard.build/Debug-iphonesimulator/FlashCard.build/Objects-normal/i386/main.o
-x/Users/loganmoseley/Projects/FlashCard/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@53"Compile /Users/loganmoseley/Projects/FlashCard/main.m299289493#299289493#0(0"0(0#0#45"/Users/loganmoseley/Projects/FlashCard/main.m4300911832#1899"    cd /Users/loganmoseley/Projects/FlashCard    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/FlashCard-generated-files.hmap -I/Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/FlashCard-own-target-headers.hmap -I/Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/FlashCard-all-target-headers.hmap -iquote /Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/FlashCard-project-headers.hmap -F/Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator -I/Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/include -I/Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/DerivedSources/i386 -I/Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/DerivedSources -include /var/folders/oH/oH5pXvJBGTS2r7mhgx6Vnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlashCard_Prefix-blcdcmklxwqcahhisjmqnueugcqo/FlashCard_Prefix.pch -c /Users/loganmoseley/Projects/FlashCard/main.m -o /Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/Objects-normal/i386/main.o0#
-
-CCompileXIB /Users/loganmoseley/Projects/FlashCard/BacksideView.xib
-s299289490.081861
-e299289490.575212
-r1
-xCompileXIB
-x/Users/loganmoseley/Projects/FlashCard/BacksideView.xib
-lSLF07#2@27"CompileXIB BacksideView.xib299289490#299289490#0(0"0(0#0#55"/Users/loganmoseley/Projects/FlashCard/BacksideView.xib4300911832#488"    cd /Users/loganmoseley/Projects/FlashCard    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app/BacksideView.nib /Users/loganmoseley/Projects/FlashCard/BacksideView.xib0#
-
-CCompileXIB /Users/loganmoseley/Projects/FlashCard/FlipsideView.xib
-s299136687.448357
-e299136687.912832
-r1
-xCompileXIB
-x/Users/loganmoseley/Projects/FlashCard/FlipsideView.xib
-lSLF07#2@27"CompileXIB FlipsideView.xib299136687#299136687#0(0"0(0#0#55"/Users/loganmoseley/Projects/FlashCard/FlipsideView.xib4300911832#486"    cd /Users/loganmoseley/Projects/FlashCard    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app/FlipsideView.nib /Users/loganmoseley/Projects/FlashCard/FlipsideView.xib0#
-
-CCompileXIB /Users/loganmoseley/Projects/FlashCard/FrontView.xib
-r0
-
-CCompileXIB /Users/loganmoseley/Projects/FlashCard/FrontsideView.xib
-s299289490.082806
-e299289490.622891
-r1
-xCompileXIB
-x/Users/loganmoseley/Projects/FlashCard/FrontsideView.xib
-lSLF07#2@28"CompileXIB FrontsideView.xib299289490#299289490#0(0"0(0#0#56"/Users/loganmoseley/Projects/FlashCard/FrontsideView.xib4300911832#490"    cd /Users/loganmoseley/Projects/FlashCard    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app/FrontsideView.nib /Users/loganmoseley/Projects/FlashCard/FrontsideView.xib0#
-
-CCompileXIB /Users/loganmoseley/Projects/FlashCard/MainView.xib
-s299136687.449987
-e299136687.985674
-r1
-xCompileXIB
-x/Users/loganmoseley/Projects/FlashCard/MainView.xib
-lSLF07#2@23"CompileXIB MainView.xib299136687#299136687#0(0"0(0#0#51"/Users/loganmoseley/Projects/FlashCard/MainView.xib4300911832#478"    cd /Users/loganmoseley/Projects/FlashCard    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app/MainView.nib /Users/loganmoseley/Projects/FlashCard/MainView.xib0#
-
-CCompileXIB /Users/loganmoseley/Projects/FlashCard/MainWindow.xib
-s299289490.575328
-e299289491.565346
-r1
-xCompileXIB
-x/Users/loganmoseley/Projects/FlashCard/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib299289490#299289491#0(0"0(0#0#53"/Users/loganmoseley/Projects/FlashCard/MainWindow.xib4300911832#484"    cd /Users/loganmoseley/Projects/FlashCard    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app/MainWindow.nib /Users/loganmoseley/Projects/FlashCard/MainWindow.xib0#
-
-CCopyPlistFile /Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app/CardDictionary.plist CardDictionary.plist
-s299023777.444918
-e299023777.907767
-r1
-xCopyPlistFile
-x/Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app/CardDictionary.plist
-xCardDictionary.plist
-lSLF07#2@25"Copy CardDictionary.plist299023777#299023777#0(0"0(0#0#59"/Users/loganmoseley/Projects/FlashCard/CardDictionary.plist4300911832#397"    cd /Users/loganmoseley/Projects/FlashCard    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 CardDictionary.plist --outdir /Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app0#
-
-CCopyPlistFile /Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app/words.plist words.plist
-s299289490.624398
-e299289491.640560
-r1
-xCopyPlistFile
-x/Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app/words.plist
-xwords.plist
-lSLF07#2@16"Copy words.plist299289490#299289491#0(0"0(0#0#50"/Users/loganmoseley/Projects/FlashCard/words.plist4300911832#388"    cd /Users/loganmoseley/Projects/FlashCard    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 words.plist --outdir /Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app0#
-
-CCpResource build/Debug-iphonesimulator/FlashCard.app/notebook_paper.jpg notebook_paper.jpg
-s299289490.623014
-e299289491.181373
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/FlashCard.app/notebook_paper.jpg
-xnotebook_paper.jpg
-lSLF07#2@23"Copy notebook_paper.jpg299289490#299289491#0(0"0(0#0#57"/Users/loganmoseley/Projects/FlashCard/notebook_paper.jpg4300911832#464"    cd /Users/loganmoseley/Projects/FlashCard    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/loganmoseley/Projects/FlashCard/notebook_paper.jpg /Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app0#
-
-CDataModelVersionCompile /Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app/FlashCard.momd /Users/loganmoseley/Projects/FlashCard/FlashCard.xcdatamodeld
-s298675792.376069
-e298675792.442710
-r1
-xDataModelVersionCompile
-x/Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app/FlashCard.momd
-x/Users/loganmoseley/Projects/FlashCard/FlashCard.xcdatamodeld
-lSLF07#2@103"DataModelVersionCompile build/Debug-iphonesimulator/FlashCard.app/FlashCard.momd FlashCard.xcdatamodeld298675792#298675792#0(0"0(0#0#61"/Users/loganmoseley/Projects/FlashCard/FlashCard.xcdatamodeld4300911832#392"    cd /Users/loganmoseley/Projects/FlashCard    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/momc -XD_MOMC_TARGET_VERSION=10.5 /Users/loganmoseley/Projects/FlashCard/FlashCard.xcdatamodeld /Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app/FlashCard.momd0#
-
-CGenerateDSYMFile /Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app.dSYM /Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app/FlashCard
-s299289493.516812
-e299289493.538090
-r1
-xGenerateDSYMFile
-x/Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app.dSYM
-x/Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app/FlashCard
-lSLF07#2@115"GenerateDSYMFile build/Debug-iphonesimulator/FlashCard.app.dSYM build/Debug-iphonesimulator/FlashCard.app/FlashCard299289493#299289493#0(0"0(0#0#90"/Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app/FlashCard4300911832#389"    cd /Users/loganmoseley/Projects/FlashCard    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app/FlashCard -o /Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app.dSYM0#
-
-CLd /Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app/FlashCard normal i386
-s299289493.451006
-e299289493.516664
-r1
-xLd
-x/Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app/FlashCard
-xnormal
-xi386
-lSLF07#2@95"Link /Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app/FlashCard299289493#299289493#0(0"0(0#0#0"4300911832#894"    cd /Users/loganmoseley/Projects/FlashCard    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -L/Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator -F/Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator -filelist /Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/Objects-normal/i386/FlashCard.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreData -o /Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app/FlashCard0#
-
-CProcessInfoPlistFile /Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app/Info.plist FlashCard-Info.plist
-s299289490.076591
-e299289490.081746
-r1
-xProcessInfoPlistFile
-x/Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app/Info.plist
-xFlashCard-Info.plist
-lSLF07#2@28"Process FlashCard-Info.plist299289490#299289490#0(0"0(0#0#59"/Users/loganmoseley/Projects/FlashCard/FlashCard-Info.plist4300911832#485"    cd /Users/loganmoseley/Projects/FlashCard    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility FlashCard-Info.plist -genpkginfo /Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app/Info.plist0#
-
-CProcessPCH /var/folders/oH/oH5pXvJBGTS2r7mhgx6Vnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlashCard_Prefix-blcdcmklxwqcahhisjmqnueugcqo/FlashCard_Prefix.pch.gch FlashCard_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s299289491.640900
-e299289493.155540
-r1
-xProcessPCH
-x/var/folders/oH/oH5pXvJBGTS2r7mhgx6Vnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlashCard_Prefix-blcdcmklxwqcahhisjmqnueugcqo/FlashCard_Prefix.pch.gch
-xFlashCard_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@31"Precompile FlashCard_Prefix.pch299289491#299289493#0(0"0(0#0#59"/Users/loganmoseley/Projects/FlashCard/FlashCard_Prefix.pch4300911832#1789"    cd /Users/loganmoseley/Projects/FlashCard    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/FlashCard-generated-files.hmap -I/Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/FlashCard-own-target-headers.hmap -I/Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/FlashCard-all-target-headers.hmap -iquote /Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/FlashCard-project-headers.hmap -F/Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator -I/Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/include -I/Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/DerivedSources/i386 -I/Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/DerivedSources -c /Users/loganmoseley/Projects/FlashCard/FlashCard_Prefix.pch -o /var/folders/oH/oH5pXvJBGTS2r7mhgx6Vnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlashCard_Prefix-blcdcmklxwqcahhisjmqnueugcqo/FlashCard_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/oH/oH5pXvJBGTS2r7mhgx6Vnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlashCard_Prefix-dhszfldduylhiyfahbiycjwyawni/FlashCard_Prefix.pch.gch FlashCard_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s299285576.972361
-e299285579.040215
-r1
-xProcessPCH
-x/var/folders/oH/oH5pXvJBGTS2r7mhgx6Vnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlashCard_Prefix-dhszfldduylhiyfahbiycjwyawni/FlashCard_Prefix.pch.gch
-xFlashCard_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@31"Precompile FlashCard_Prefix.pch299285576#299285579#0(0"0(0#0#59"/Users/loganmoseley/Projects/FlashCard/FlashCard_Prefix.pch4300911832#1787"    cd /Users/loganmoseley/Projects/FlashCard    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/FlashCard-generated-files.hmap -I/Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/FlashCard-own-target-headers.hmap -I/Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/FlashCard-all-target-headers.hmap -iquote /Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/FlashCard-project-headers.hmap -F/Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator -I/Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/include -I/Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/DerivedSources/i386 -I/Users/loganmoseley/Projects/FlashCard/build/FlashCard.build/Debug-iphonesimulator/FlashCard.build/DerivedSources -c /Users/loganmoseley/Projects/FlashCard/FlashCard_Prefix.pch -o /var/folders/oH/oH5pXvJBGTS2r7mhgx6Vnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlashCard_Prefix-dhszfldduylhiyfahbiycjwyawni/FlashCard_Prefix.pch.gch0#
-
-CTouch /Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app
-s299289493.538210
-e299289493.541993
-r1
-xTouch
-x/Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app
-lSLF07#2@86"Touch /Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app299289493#299289493#0(0"0(0#0#0"4300911832#280"    cd /Users/loganmoseley/Projects/FlashCard    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/loganmoseley/Projects/FlashCard/build/Debug-iphonesimulator/FlashCard.app0#
-
