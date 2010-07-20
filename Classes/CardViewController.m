@@ -11,8 +11,8 @@
 
 @implementation CardViewController
 
-@synthesize delegate, bgImageView, textStr;
-@synthesize textLabel, nextLabel, prevLabel;
+@synthesize delegate, prevBgImageView, bgImageView, nextBgImageView;
+@synthesize textStr, textLabel, nextLabel, prevLabel;
 
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
@@ -71,6 +71,7 @@
 		[[textLabel layer] addAnimation:slide forKey:@"slideAnimation"];
 		[[nextLabel layer] addAnimation:slide forKey:@"slideAnimation"];
 		[[bgImageView layer] addAnimation:slide forKey:@"slideAnimation"];
+		[[nextBgImageView layer] addAnimation:slide forKey:@"slideAnimation"];
 	} /* End Animation Block */
 }
 
@@ -102,6 +103,7 @@
 		[[textLabel layer] addAnimation:slide forKey:@"slideAnimation"];
 		[[prevLabel layer] addAnimation:slide forKey:@"slideAnimation"];
 		[[bgImageView layer] addAnimation:slide forKey:@"slideAnimation"];
+		[[prevBgImageView layer] addAnimation:slide forKey:@"slideAnimation"];
 	} /* End Animation Block */
 }
 
@@ -148,7 +150,11 @@
 	[nextLabel release];
 	[textLabel release];
 	[textStr release];
+	
+	[nextBgImageView release];
 	[bgImageView release];
+	[prevBgImageView release];
+	
     [super dealloc];
 }
 
