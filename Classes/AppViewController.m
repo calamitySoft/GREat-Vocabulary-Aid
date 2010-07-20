@@ -31,28 +31,6 @@
         // Custom initialization
     }
 	
-	curCardLayer = [[CALayer alloc] init];
-	prevCardLayer = [[CALayer alloc] init];
-	
-	[curCardLayer setBounds:CGRectMake(0.0, 0.0, 320, 480)];
-	[prevCardLayer setBounds:CGRectMake(0.0, 0.0, 320, 480)];
-	
-	[curCardLayer setPosition:CGPointMake(0.0, 0.0)];
-	[prevCardLayer setPosition:CGPointMake(-1.0, -1.0)];
-	
-	UIImage *cardImage = [UIImage imageNamed:@"notebook_paper.jpg"];
-	
-	CGImageRef image = [cardImage CGImage];
-	
-	[curCardLayer setContents:(id)image];
-	[prevCardLayer setContents:(id)image];
-	
-	[[self layer] addSublayer:curCardLayer];
-	[[self layer] addSublayer:prevCardLayer];
-	
-	[curCardLayer release];
-	[prevCardLayer release];
-	
     return self;
 }
 
@@ -188,7 +166,7 @@
 
 // Previous card stuff //
 - (void)replaceWithPrevCard {
-	[self replaceLabel:[self getPrevCard]];
+	[self replaceLabel:[self getPrevCard] withMode:1];
 }
 
 - (NSString*)getPrevCard {
@@ -206,7 +184,7 @@
 
 // Current card stuff //
 - (void)replaceWithCurrentCard {
-	[self replaceLabel:[self getCurrentCard]];
+	[self replaceLabel:[self getCurrentCard] withMode:2];
 }
 
 - (NSString*)getCurrentCard {
@@ -225,7 +203,7 @@
 // Next card stuff //
 - (IBAction)replaceWithNextCard {
 	NSLog(@"replaceWithNextCard");
-	[self replaceLabel:[self getNextCard]];
+	[self replaceLabel:[self getNextCard] withMode:0];
 }
 
 - (NSString*)getNextCard {
@@ -252,12 +230,32 @@
 
 
 // Wrapper - tells current view controller to replace text.
-- (void)replaceLabel:(NSString*)newLabelText {
+- (void)replaceLabel:(NSString*)newLabelText withMode:(int)dir{
 	if ([self isFrontShown]) {
-		[frontsideViewController replaceLabel:newLabelText];
-	} else {
-		[backsideViewController replaceLabel:newLabelText];
+		if (dir == 0) {
+		[frontsideViewController replaceWithNextLabel:newLabelText];
+			}
+		else if(dir == 1) {
+			[frontsideViewController replaceWithLastLabel:newLabelText];
+		}
+		else {
+			[frontsideViewController replaceLabel:newLabelText];
+		}
+
 	}
+	else {
+			if (dir == 0) {
+		[backsideViewController replaceWithNextLabel:newLabelText];
+			}
+			else if (dir == 1){
+				[backsideViewController replaceWithLastLabel:newLabelText];
+			}
+		else {
+			[backsideViewController replaceLabel:newLabelText];
+		}
+
+
+			}
 }
 
 
