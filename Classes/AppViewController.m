@@ -105,7 +105,7 @@
 	
 	// If we don't know what's going on
 	else {
-		NSLog(@"Neither front nor back are nil. I don't know what to do.");
+		NSLog(@"isFrontShown not returning properly. I don't know what to do.");
 		exit(0);
 	}
 	
@@ -279,11 +279,12 @@
 
 
 /*
- * Wrapper - tells delegate to shuffle the deck.
+ * Tells delegate to shuffle the deck.
+ * Moves to the next card because the current text will be moved.
  */
 - (IBAction)shuffleCards {
-	[delegate shuffleCards];
-	NSLog(@"Is front shown? %@", [self isFrontShown]?@"Yes":@"No");
+	[delegate shuffleCards];		// Shuffle the deck
+	[self replaceWithNextCard];		// Move to the next card.
 }
 
 

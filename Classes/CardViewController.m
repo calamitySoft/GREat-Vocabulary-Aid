@@ -62,7 +62,7 @@
 		
 		// Distance, duration of transform
 		[slide setToValue:[NSNumber numberWithFloat:480]];
-		[slide setDuration:1.0];
+		[slide setDuration:0.75];
 		
 		// Notify delegate, which disables User Interaction (touches)
 		[delegate animationWillStart:slide];
@@ -94,7 +94,7 @@
 		
 		// Distance, duration of transform
 		[slide setToValue:[NSNumber numberWithFloat:-480]];
-		[slide setDuration:1.0];
+		[slide setDuration:0.75];
 		
 		// Notify delegate, which disables User Interaction (touches)
 		[delegate animationWillStart:slide];
