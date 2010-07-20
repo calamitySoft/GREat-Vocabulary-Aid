@@ -11,7 +11,8 @@
 
 @implementation CardViewController
 
-@synthesize delegate, textLabel, textStr, nextLabel, prevLabel;
+@synthesize delegate, bgImageView, textStr;
+@synthesize textLabel, nextLabel, prevLabel;
 
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
@@ -69,6 +70,7 @@
 		// These layers will be animated
 		[[textLabel layer] addAnimation:slide forKey:@"slideAnimation"];
 		[[nextLabel layer] addAnimation:slide forKey:@"slideAnimation"];
+		[[bgImageView layer] addAnimation:slide forKey:@"slideAnimation"];
 	} /* End Animation Block */
 }
 
@@ -77,7 +79,7 @@
  * Animate switching to the previous label (word or definition).
  * Slides the layers right to left.
  */
-- (void)replaceWithLastLabel:(NSString *)newLabelText {
+- (void)replaceWithPrevLabel:(NSString *)newLabelText {
 	
 	textStr = newLabelText;
 	
@@ -99,6 +101,7 @@
 		// These layers will be animated
 		[[textLabel layer] addAnimation:slide forKey:@"slideAnimation"];
 		[[prevLabel layer] addAnimation:slide forKey:@"slideAnimation"];
+		[[bgImageView layer] addAnimation:slide forKey:@"slideAnimation"];
 	} /* End Animation Block */
 }
 
@@ -141,8 +144,11 @@
 
 
 - (void)dealloc {
+	[prevLabel release];
+	[nextLabel release];
 	[textLabel release];
 	[textStr release];
+	[bgImageView release];
     [super dealloc];
 }
 

@@ -13,23 +13,23 @@
 
 @interface CardViewController : UIViewController {
 	id <CardViewControllerDelegate> delegate;
+	UIImageView *bgImageView;
+	NSString *textStr;
 	UILabel *textLabel;
 	UILabel *nextLabel;
 	UILabel *prevLabel;
-	NSString *textStr;
 }
 
 @property (nonatomic, assign) <CardViewControllerDelegate> delegate;
+@property (nonatomic, retain) IBOutlet UIImageView *bgImageView;
+@property (nonatomic, retain) NSString *textStr;
 @property (nonatomic, retain) IBOutlet UILabel *textLabel;
 @property (nonatomic, retain) IBOutlet UILabel *nextLabel;
 @property (nonatomic, retain) IBOutlet UILabel *prevLabel;
-@property (nonatomic, retain) NSString *textStr;
 
 - (void)replaceLabel:(NSString*)newLabelText;
-
 - (void)replaceWithNextLabel:(NSString *)newLabelText;
-
-- (void)replaceWithLastLabel:(NSString *)newLabelText;
+- (void)replaceWithPrevLabel:(NSString *)newLabelText;
 
 - (void)animationDidStop:(CAAnimation *)anim finished:(BOOL)flag;
 

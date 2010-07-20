@@ -167,7 +167,7 @@
 
 // Previous card stuff //
 - (void)replaceWithPrevCard {
-	[self replaceLabel:[self getPrevCard] withMode:1];
+	[self replaceLabel:[self getPrevCard] withDirection:kPrevCard];
 }
 
 - (NSString*)getPrevCard {
@@ -185,7 +185,7 @@
 
 // Current card stuff //
 - (void)replaceWithCurrentCard {
-	[self replaceLabel:[self getCurrentCard] withMode:2];
+	[self replaceLabel:[self getCurrentCard] withDirection:kCurrentCard];
 }
 
 - (NSString*)getCurrentCard {
@@ -203,7 +203,7 @@
 
 // Next card stuff //
 - (IBAction)replaceWithNextCard {
-	[self replaceLabel:[self getNextCard] withMode:0];
+	[self replaceLabel:[self getNextCard] withDirection:kNextCard];
 }
 
 - (NSString*)getNextCard {
@@ -231,31 +231,39 @@
 /*
  * Wrapper - tells current view controller to replace text.
  */
-- (void)replaceLabel:(NSString*)newLabelText withMode:(int)dir{
+- (void)replaceLabel:(NSString*)newLabelText withDirection:(int)direction{
 	// Replace front side.  This is animated for Next & Prev.
 	if ([self isFrontShown]) {
-		if (dir == 0) {
+		if (direction == kNextCard) {
 			[frontsideViewController replaceWithNextLabel:newLabelText];
 		}
-		else if(dir == 1) {
-			[frontsideViewController replaceWithLastLabel:newLabelText];
+		else if (direction == kPrevCard) {
+			[frontsideViewController replaceWithPrevLabel:newLabelText];
 		}
-		else {
+		else if (direction == kCurrentCard) {
 			[frontsideViewController replaceLabel:newLabelText];
 		}
+		else {
+			NSLog(@"Bad direction input: %d", direction);
+		}
+
 	}
 	
 	// Replace back side.  This is animated for Next & Prev.
 	else {
-		if (dir == 0) {
+		if (direction == kNextCard) {
 			[backsideViewController replaceWithNextLabel:newLabelText];
 		}
-		else if (dir == 1){
-			[backsideViewController replaceWithLastLabel:newLabelText];
+		else if (direction == kPrevCard) {
+			[backsideViewController replaceWithPrevLabel:newLabelText];
 		}
-		else {
+		else if (direction == kCurrentCard) {
 			[backsideViewController replaceLabel:newLabelText];
 		}
+		else {
+			NSLog(@"Bad direction input: %d", direction);
+		}
+
 	}
 }
 
