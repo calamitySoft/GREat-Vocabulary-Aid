@@ -37,4 +37,7 @@
 
 
 @protocol CardViewControllerDelegate
+// Animation response
+- (void)animationWillStart:(CAAnimation *)anim;
+- (void)animationDidStop:(CAAnimation *)anim finished:(BOOL)flag;
 @end

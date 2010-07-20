@@ -203,12 +203,10 @@
 
 // Next card stuff //
 - (IBAction)replaceWithNextCard {
-	NSLog(@"replaceWithNextCard");
 	[self replaceLabel:[self getNextCard] withMode:0];
 }
 
 - (NSString*)getNextCard {
-	NSLog(@"getNextCard");
 	if ([self isFrontShown]) {
 		return [self getNextCardForSide:kFront];
 	} else {
@@ -217,9 +215,9 @@
 }
 
 - (NSString*)getNextCardForSide:(NSString*)whichSide {
-	NSLog(@"getNextCardForSide");
 	return [delegate getCardText:kNextCard forSide:whichSide];
 }
+
 
 //- (void)replaceLabel:(NSString *)newLabelText forSide:(NSString*)whichSide {
 //	if (whichSide == kFront) {
@@ -234,7 +232,7 @@
  * Wrapper - tells current view controller to replace text.
  */
 - (void)replaceLabel:(NSString*)newLabelText withMode:(int)dir{
-	// Replace front side.  This is animated.
+	// Replace front side.  This is animated for Next & Prev.
 	if ([self isFrontShown]) {
 		if (dir == 0) {
 			[frontsideViewController replaceWithNextLabel:newLabelText];
@@ -247,7 +245,7 @@
 		}
 	}
 	
-	// Replace back side.  This is animated.
+	// Replace back side.  This is animated for Next & Prev.
 	else {
 		if (dir == 0) {
 			[backsideViewController replaceWithNextLabel:newLabelText];
@@ -259,6 +257,16 @@
 			[backsideViewController replaceLabel:newLabelText];
 		}
 	}
+}
+
+
+- (void)animationWillStart:(CAAnimation *)anim {
+	self.view.userInteractionEnabled = FALSE;
+}
+
+
+- (void)animationDidStop:(CAAnimation *)anim finished:(BOOL)flag {
+	self.view.userInteractionEnabled = TRUE;
 }
 
 
@@ -290,6 +298,10 @@
  * place on last update (i.e. touch was moved)
  */
 - (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event {
+	if (!self.view.userInteractionEnabled) {			// I should not do anything if interaction is disabled.
+		return;
+	}
+	
 	CGPoint touchMoved = [[touches anyObject] locationInView:self.view];	// New location of moved touch point
 	
 	// Swipe > 30 left or right switches words
@@ -303,6 +315,7 @@
 		
 		touchBegan = touchMoved;
 	}
+	
 	// Swipe > 20 up or down flips the card
 	else if (abs(touchMoved.y-touchBegan.y) > kSwipeYDistance) {
 		[self flipCard];

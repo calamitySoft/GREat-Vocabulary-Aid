@@ -26,10 +26,13 @@
 @property (nonatomic, retain) CardViewController *backsideViewController;
 
 
+#pragma mark Interface
 - (IBAction)flipCard;
 - (void)animationFinished:(NSString *)animationID finished:(BOOL)finished context:(void *)context;
 - (BOOL)isFrontShown;
 
+
+#pragma mark Card Management
 // Previous card
 - (NSString*)getPrevCard;
 - (NSString*)getPrevCardForSide:(NSString*)whichSide;
@@ -46,13 +49,22 @@
 //- (void)replaceLabel:(NSString *)newLabelText forSide:(NSString*)whichSide;
 - (void)replaceLabel:(NSString*)newLabelText withMode:(int)dir;
 - (IBAction)shuffleCards;
+// Animation response
+- (void)animationWillStart:(CAAnimation *)anim;
+- (void)animationDidStop:(CAAnimation *)anim finished:(BOOL)flag;
 
+
+#pragma mark Touch Handling
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event;
 - (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event;
 
+
+#pragma mark Admin Stuff
 - (void)loadCardsDidFinish;
 
 @end
+
+
 
 @protocol AppViewControllerDelegate
 - (void)shuffleCards;

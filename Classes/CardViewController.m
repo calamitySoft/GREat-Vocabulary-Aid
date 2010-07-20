@@ -47,7 +47,7 @@
  * Animate switching to the next label (word or definition).
  * Slides the layers left to right.
  */
-- (void)replaceWithNextLabel:(NSString *)newLabelText{
+- (void)replaceWithNextLabel:(NSString *)newLabelText {
 	
 	textStr = newLabelText;
 	
@@ -63,6 +63,9 @@
 		[slide setToValue:[NSNumber numberWithFloat:480]];
 		[slide setDuration:1.0];
 		
+		// Notify delegate, which disables User Interaction (touches)
+		[delegate animationWillStart:slide];
+		
 		// These layers will be animated
 		[[textLabel layer] addAnimation:slide forKey:@"slideAnimation"];
 		[[nextLabel layer] addAnimation:slide forKey:@"slideAnimation"];
@@ -74,7 +77,7 @@
  * Animate switching to the previous label (word or definition).
  * Slides the layers right to left.
  */
-- (void)replaceWithLastLabel:(NSString *)newLabelText{
+- (void)replaceWithLastLabel:(NSString *)newLabelText {
 	
 	textStr = newLabelText;
 	
@@ -90,6 +93,9 @@
 		[slide setToValue:[NSNumber numberWithFloat:-480]];
 		[slide setDuration:1.0];
 		
+		// Notify delegate, which disables User Interaction (touches)
+		[delegate animationWillStart:slide];
+		
 		// These layers will be animated
 		[[textLabel layer] addAnimation:slide forKey:@"slideAnimation"];
 		[[prevLabel layer] addAnimation:slide forKey:@"slideAnimation"];
@@ -97,10 +103,12 @@
 }
 
 
-- (void)animationDidStop:(CAAnimation *)anim finished:(BOOL)flag
-{
+- (void)animationDidStop:(CAAnimation *)anim finished:(BOOL)flag {
 	NSLog(@"Animation did stop");
 	textLabel.text = textStr;
+	
+	// Notify delegate, which re-enables User Interaction (touches)
+	[delegate animationDidStop:anim finished:flag];
 }
 
 
