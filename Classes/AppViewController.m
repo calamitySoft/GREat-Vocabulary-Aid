@@ -25,6 +25,7 @@
 #define kFront				@"Front"	// card selection from delegate
 #define kBack				@"Back"		// same
 
+
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
     if ((self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil])) {
@@ -229,54 +230,67 @@
 //}
 
 
-// Wrapper - tells current view controller to replace text.
+/*
+ * Wrapper - tells current view controller to replace text.
+ */
 - (void)replaceLabel:(NSString*)newLabelText withMode:(int)dir{
+	// Replace front side.  This is animated.
 	if ([self isFrontShown]) {
 		if (dir == 0) {
-		[frontsideViewController replaceWithNextLabel:newLabelText];
-			}
+			[frontsideViewController replaceWithNextLabel:newLabelText];
+		}
 		else if(dir == 1) {
 			[frontsideViewController replaceWithLastLabel:newLabelText];
 		}
 		else {
 			[frontsideViewController replaceLabel:newLabelText];
 		}
-
 	}
+	
+	// Replace back side.  This is animated.
 	else {
-			if (dir == 0) {
-		[backsideViewController replaceWithNextLabel:newLabelText];
-			}
-			else if (dir == 1){
-				[backsideViewController replaceWithLastLabel:newLabelText];
-			}
+		if (dir == 0) {
+			[backsideViewController replaceWithNextLabel:newLabelText];
+		}
+		else if (dir == 1){
+			[backsideViewController replaceWithLastLabel:newLabelText];
+		}
 		else {
 			[backsideViewController replaceLabel:newLabelText];
 		}
-
-
-			}
+	}
 }
 
 
-// Wrapper - tells delegate to shuffle the deck.
+/*
+ * Wrapper - tells delegate to shuffle the deck.
+ */
 - (IBAction)shuffleCards {
 	[delegate shuffleCards];
-//	NSLog(@"isFrontShown() is bool %d", [self isFrontShown]);
+	NSLog(@"Is front shown? %@", [self isFrontShown]?@"Yes":@"No");
 }
 
 
 
 # pragma mark Touch Handling
 
+
+/*
+ * touchesBegan:withEvent: occurs when a new touch event
+ * has begun
+ */
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
-	touchBegan = [[touches anyObject] locationInView:self.view];	
-//	NSLog(@"main | began | touchPoint: %@", NSStringFromCGPoint(touchBegan));
+	touchBegan = [[touches anyObject] locationInView:self.view];		// First location of touch contact
 }
 
-- (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event {	
-	CGPoint touchMoved = [[touches anyObject] locationInView:self.view];
-//	NSLog(@"main | moved | touchPoint: %@", NSStringFromCGPoint(touchBegan));
+
+/*
+ * touchesMoved:withEvent: occurs every update where there
+ * is a touch event that was present and in a different
+ * place on last update (i.e. touch was moved)
+ */
+- (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event {
+	CGPoint touchMoved = [[touches anyObject] locationInView:self.view];	// New location of moved touch point
 	
 	// Swipe > 30 left or right switches words
 	if (abs(touchMoved.x-touchBegan.x) > kSwipeXDistance) {
@@ -297,11 +311,18 @@
 }
 
 
+
 #pragma mark Admin Stuff
 
+
+/*
+ * Message received from AppDelegate when it has finished
+ * loading cards
+ */
 - (void)loadCardsDidFinish {
 	[self replaceWithCurrentCard];
 }
+
 
 // Override to allow orientations other than the default portrait orientation.
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
@@ -310,12 +331,14 @@
 			|| interfaceOrientation == UIInterfaceOrientationLandscapeRight);
 }
 
+
 - (void)didReceiveMemoryWarning {
     // Releases the view if it doesn't have a superview.
     [super didReceiveMemoryWarning];
     
     // Release any cached data, images, etc that aren't in use.
 }
+
 
 - (void)viewDidUnload {
     [super viewDidUnload];

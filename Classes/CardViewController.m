@@ -30,52 +30,72 @@
 }
 
 
+
 #pragma mark Text Management
 
+
+/*
+ * Replace the text without animation.
+ */
 - (void)replaceLabel:(NSString*)newLabelText {
-	
 	textStr = newLabelText;
-	
 	textLabel.text = textStr;
 }
 
+
+/*
+ * Animate switching to the next label (word or definition).
+ * Slides the layers left to right.
+ */
 - (void)replaceWithNextLabel:(NSString *)newLabelText{
 	
 	textStr = newLabelText;
 	
 	nextLabel.text = textStr;
 	
-	CABasicAnimation *slide = 
-	[CABasicAnimation animationWithKeyPath:@"transform.translation.x"];
-	
-	[slide setToValue:[NSNumber numberWithFloat:480]];
-	[slide setDuration:1.0];
-	
-	[slide setDelegate:self];
-	
-	[[textLabel layer] addAnimation:slide forKey:@"slideAnimation"];
-	[[nextLabel layer] addAnimation:slide forKey:@"slideAnimation"];
-	
+	{ /* Animation Block */
+		// Create animation, define the transform direction
+		CABasicAnimation *slide = 
+		[CABasicAnimation animationWithKeyPath:@"transform.translation.x"];
+		[slide setDelegate:self];
+		
+		// Distance, duration of transform
+		[slide setToValue:[NSNumber numberWithFloat:480]];
+		[slide setDuration:1.0];
+		
+		// These layers will be animated
+		[[textLabel layer] addAnimation:slide forKey:@"slideAnimation"];
+		[[nextLabel layer] addAnimation:slide forKey:@"slideAnimation"];
+	} /* End Animation Block */
 }
 
+
+/*
+ * Animate switching to the previous label (word or definition).
+ * Slides the layers right to left.
+ */
 - (void)replaceWithLastLabel:(NSString *)newLabelText{
 	
 	textStr = newLabelText;
 	
 	prevLabel.text = textStr;
 	
-	CABasicAnimation *slide = 
-	[CABasicAnimation animationWithKeyPath:@"transform.translation.x"];
-	
-	[slide setToValue:[NSNumber numberWithFloat:-480]];
-	[slide setDuration:1.0];
-	
-	[slide setDelegate:self];
-	
-	[[textLabel layer] addAnimation:slide forKey:@"slideAnimation"];
-	[[prevLabel layer] addAnimation:slide forKey:@"slideAnimation"];
-	
+	{ /* Animation Block */
+		// Create animation, define the transform direction
+		CABasicAnimation *slide = 
+		[CABasicAnimation animationWithKeyPath:@"transform.translation.x"];
+		[slide setDelegate:self];
+		
+		// Distance, duration of transform
+		[slide setToValue:[NSNumber numberWithFloat:-480]];
+		[slide setDuration:1.0];
+		
+		// These layers will be animated
+		[[textLabel layer] addAnimation:slide forKey:@"slideAnimation"];
+		[[prevLabel layer] addAnimation:slide forKey:@"slideAnimation"];
+	} /* End Animation Block */
 }
+
 
 - (void)animationDidStop:(CAAnimation *)anim finished:(BOOL)flag
 {
@@ -83,7 +103,10 @@
 	textLabel.text = textStr;
 }
 
+
+
 #pragma mark Admin Stuff
+
 
 - (void)didReceiveMemoryWarning {
 	// Releases the view if it doesn't have a superview.
