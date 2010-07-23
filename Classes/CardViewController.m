@@ -44,14 +44,42 @@
  */
 - (void)replaceLabel:(NSString*)newLabelText {
 	
-	
-	textStr = newLabelText;
-
+	/*NSMutableString *process = [[NSMutableString alloc] init];
+	[process setString:newLabelText];
+	NSInteger strLength = [process length];
+	if (strLength > 25) {
+		for (NSInteger i = 15; i < strLength; i++) {
+			char c = [process characterAtIndex:i];
+			if( c == 32){				
+				NSLog(@"Found a space at %i", i);
+				[process insertString:@"\n" atIndex:i];
+				i += 15;
+			}
+		}
+	}*/
+	textStr = [self insertLineBreaks:newLabelText];
 	textLabel.text = textStr;
 	NSLog(@"Swapped labels");
 }
 
-
+- (NSString *)insertLineBreaks:(NSString *)textToChange{
+	
+	NSMutableString *process = [[NSMutableString alloc] init];
+	[process setString:textToChange];
+	NSInteger strLength = [process length];
+	if (strLength > 25) {
+		for (NSInteger i = 15; i < strLength; i++) {
+			char c = [process characterAtIndex:i];
+			if( c == 32){				
+				NSLog(@"Found a space at %i", i);
+				[process insertString:@"\n" atIndex:i];
+				i += 15;
+			}
+		}
+	}
+	NSString *returnIt = process;
+	return returnIt;
+}
 /*
  * Animate switching to the next label (word or definition).
  * Slides the layers left to right.
@@ -60,7 +88,7 @@
 	
 	textStr = newLabelText;
 	
-	nextLabel.text = textStr;
+	nextLabel.text = [self insertLineBreaks:textStr];
 	
 	{ /* Animation Block */
 		// Create animation, define the transform direction
@@ -104,7 +132,7 @@
 	
 	textStr = newLabelText;
 	
-	prevLabel.text = textStr;
+	prevLabel.text = [self insertLineBreaks:textStr];
 	
 	{ /* Animation Block */
 		// Create animation, define the transform direction

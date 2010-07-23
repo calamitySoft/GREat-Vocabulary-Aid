@@ -36,6 +36,7 @@
 - (void)replaceLabel:(NSString*)newLabelText;
 - (void)replaceWithNextLabel:(NSString *)newLabelText;
 - (void)replaceWithPrevLabel:(NSString *)newLabelText;
+- (NSString*)insertLineBreaks:(NSString *)textToChange;
 
 - (void)animationDidStop:(CAAnimation *)anim finished:(BOOL)flag;
 - (void)invokeReplaceLabel:(NSTimer *)timer;

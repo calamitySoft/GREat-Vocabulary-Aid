@@ -48,6 +48,7 @@
 	while (tempDict = [e nextObject]) {
 		NSString *frontStr = [tempDict objectForKey:@"Front"];
 		NSString *backStr = [tempDict objectForKey:@"Back"];
+		
 		NSLog(@"%@ :: %@", frontStr, backStr);
 	}
 }
