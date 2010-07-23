@@ -14,7 +14,7 @@
 @synthesize delegate, prevBgImageView, bgImageView, nextBgImageView;
 @synthesize textStr, textLabel, nextLabel, prevLabel;
 
-#define kTextSwitchDelay	0.6
+#define kTextSwitchDelay	0.7
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
     if ((self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil])) {
@@ -28,6 +28,9 @@
 - (void)viewDidLoad {
 	[super viewDidLoad];
 	textLabel.text = textStr;
+	textLabel.numberOfLines = 0;
+	nextLabel.numberOfLines = 0;
+	prevLabel.numberOfLines = 0;
 	NSLog(@"Hello viewDidLoad");
 }
 
@@ -43,10 +46,8 @@
 	
 	
 	textStr = newLabelText;
-	
-	textLabel.numberOfLines = 0;
+
 	textLabel.text = textStr;
-//	[textLabel sizeToFit];
 	NSLog(@"Swapped labels");
 }
 
