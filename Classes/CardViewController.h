@@ -38,7 +38,7 @@
 - (void)replaceWithPrevLabel:(NSString *)newLabelText;
 
 - (void)animationDidStop:(CAAnimation *)anim finished:(BOOL)flag;
-
+- (void)invokeReplaceLabel:(NSTimer *)timer;
 @end
 
 

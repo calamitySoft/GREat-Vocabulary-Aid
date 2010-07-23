@@ -14,6 +14,7 @@
 @synthesize delegate, prevBgImageView, bgImageView, nextBgImageView;
 @synthesize textStr, textLabel, nextLabel, prevLabel;
 
+#define kTextSwitchDelay	0.6
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
     if ((self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil])) {
@@ -39,8 +40,14 @@
  * Replace the text without animation.
  */
 - (void)replaceLabel:(NSString*)newLabelText {
+	
+	
 	textStr = newLabelText;
+	
+	textLabel.numberOfLines = 0;
 	textLabel.text = textStr;
+//	[textLabel sizeToFit];
+	NSLog(@"Swapped labels");
 }
 
 
@@ -72,9 +79,21 @@
 		[[nextLabel layer] addAnimation:slide forKey:@"slideAnimation"];
 		[[bgImageView layer] addAnimation:slide forKey:@"slideAnimation"];
 		[[nextBgImageView layer] addAnimation:slide forKey:@"slideAnimation"];
+		
+		//[self performSelector:@selector(replaceLabel:) withObject:textStr afterDelay:kTextSwitchDelay inModes:];
+		
+		[NSTimer scheduledTimerWithTimeInterval:kTextSwitchDelay
+										 target:self
+									   selector:@selector(invokeReplaceLabel:)
+									   userInfo:nil
+										repeats:NO];
+		
 	} /* End Animation Block */
 }
 
+- (void) invokeReplaceLabel:(NSTimer *)timer{
+	[self replaceLabel:textStr];
+}
 
 /*
  * Animate switching to the previous label (word or definition).
@@ -104,6 +123,12 @@
 		[[prevLabel layer] addAnimation:slide forKey:@"slideAnimation"];
 		[[bgImageView layer] addAnimation:slide forKey:@"slideAnimation"];
 		[[prevBgImageView layer] addAnimation:slide forKey:@"slideAnimation"];
+		
+		[NSTimer scheduledTimerWithTimeInterval:kTextSwitchDelay
+										 target:self
+									   selector:@selector(invokeReplaceLabel:)
+									   userInfo:nil
+										repeats:NO];
 	} /* End Animation Block */
 }
 
