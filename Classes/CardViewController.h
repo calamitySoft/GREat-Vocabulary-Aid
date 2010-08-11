@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <QuartzCore/QuartzCore.h>
+#import <AudioToolbox/AudioToolbox.h>
 
 @protocol CardViewControllerDelegate;
 
@@ -22,6 +23,7 @@
 	UILabel *nextLabel;
 	UILabel *textLabel;
 	UILabel *prevLabel;
+	SystemSoundID pageTurn;
 }
 
 @property (nonatomic, assign) <CardViewControllerDelegate> delegate;

@@ -46,6 +46,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 	
+	NSString *soundPath = [[NSBundle mainBundle] pathForResource:@"page_turn_5" ofType:@"wav"];
+	
+	if(soundPath)
+	{
+		NSURL *soundURL = [NSURL fileURLWithPath:soundPath];
+		
+		OSStatus err = AudioServicesCreateSystemSoundID((CFURLRef)soundURL, &pageFlip);
+		
+		if (err != kAudioServicesNoError)
+			NSLog(@"Could not load %@, error code: %d", soundURL, err);
+	}
 	// Create and set the frontside view controller
 	CardViewController *aController = [[CardViewController alloc] initWithNibName:@"FrontsideView" bundle:nil];
 	aController.delegate = self;
@@ -110,10 +121,15 @@
 		exit(0);
 	}
 	
+	
 	// This flip animation settings //
 	[UIView beginAnimations:@"View Flip" context:nil];
 	[UIView setAnimationDuration:0.75];
 	[UIView setAnimationCurve:UIViewAnimationCurveEaseInOut];
+	
+	// Play the flipping sound
+	
+	AudioServicesPlaySystemSound(pageFlip);
 	
 	// self receives call-backs //
 	[UIView setAnimationDelegate:self];

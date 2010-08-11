@@ -26,6 +26,19 @@
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
+	// Find the paper sound
+	NSString *soundPath = [[NSBundle mainBundle] pathForResource:@"page_turn_4" ofType:@"wav"];
+	
+	if(soundPath)
+	{
+		NSURL *soundURL = [NSURL fileURLWithPath:soundPath];
+		
+		OSStatus err = AudioServicesCreateSystemSoundID((CFURLRef)soundURL, &pageTurn);
+		
+		if (err != kAudioServicesNoError)
+			NSLog(@"Could not load %@, error code: %d", soundURL, err);
+	}
+	
 	[super viewDidLoad];
 	textLabel.text = textStr;
 	textLabel.numberOfLines = 0;
@@ -109,7 +122,8 @@
 		[[bgImageView layer] addAnimation:slide forKey:@"slideAnimation"];
 		[[nextBgImageView layer] addAnimation:slide forKey:@"slideAnimation"];
 		
-		//[self performSelector:@selector(replaceLabel:) withObject:textStr afterDelay:kTextSwitchDelay inModes:];
+		// Play sound effect
+		AudioServicesPlaySystemSound(pageTurn);
 		
 		[NSTimer scheduledTimerWithTimeInterval:kTextSwitchDelay
 										 target:self
@@ -152,6 +166,9 @@
 		[[prevLabel layer] addAnimation:slide forKey:@"slideAnimation"];
 		[[bgImageView layer] addAnimation:slide forKey:@"slideAnimation"];
 		[[prevBgImageView layer] addAnimation:slide forKey:@"slideAnimation"];
+		
+		// Play Sound Effect
+		AudioServicesPlaySystemSound(pageTurn);
 		
 		[NSTimer scheduledTimerWithTimeInterval:kTextSwitchDelay
 										 target:self

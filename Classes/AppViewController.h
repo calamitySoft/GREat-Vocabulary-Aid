@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AudioToolbox/AudioToolbox.h>
 #import "CardViewController.h"
 
 @protocol AppViewControllerDelegate;
@@ -18,6 +19,7 @@
 	CardViewController *backsideViewController;
 	
 	CGPoint touchBegan;
+	SystemSoundID pageFlip;
 }
 
 @property (nonatomic, retain) <AppViewControllerDelegate> delegate;
