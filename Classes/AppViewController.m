@@ -75,6 +75,7 @@
 		CardViewController *bController = [[CardViewController alloc] initWithNibName:@"BacksideView" bundle:nil];
 		bController.delegate = self;
 		bController.textStr = [self getCurrentCardForSide:kBack];
+		bController.textStr = [self insertLineBreaks:bController.textStr];
 		self.backsideViewController = bController;
 		[bController release];
 		
@@ -187,6 +188,26 @@
 - (void)replaceWithCurrentCard {
 	[self replaceLabel:[self getCurrentCard] withDirection:kCurrentCard];
 }
+
+- (NSString *)insertLineBreaks:(NSString *)textToChange{
+	
+	NSMutableString *process = [[NSMutableString alloc] init];
+	[process setString:textToChange];
+	NSInteger strLength = [process length];
+	if (strLength > 25) {
+		for (NSInteger i = 15; i < strLength; i++) {
+			char c = [process characterAtIndex:i];
+			if( c == 32){				
+				NSLog(@"Found a space at %i", i);
+				[process insertString:@"\n" atIndex:i];
+				i += 15;
+			}
+		}
+	}
+	NSString *returnIt = process;
+	return returnIt;
+}
+
 
 - (NSString*)getCurrentCard {
 	if ([self isFrontShown]) {

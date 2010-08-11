@@ -41,6 +41,7 @@
 - (NSString*)getCurrentCard;
 - (NSString*)getCurrentCardForSide:(NSString*)whichSide;
 - (void)replaceWithCurrentCard;
+- (NSString*)insertLineBreaks:(NSString*)textToChange;
 // Next card
 - (NSString*)getNextCard;
 - (NSString*)getNextCardForSide:(NSString*)whichSide;

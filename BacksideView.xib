@@ -65,9 +65,9 @@
 						<reference key="NSSuperview" ref="249263867"/>
 						<object class="NSColor" key="IBUIBackgroundColor">
 							<int key="NSColorSpace">5</int>
-							<bytes key="NSCMYK">MC4wMDk5OTk5OTk3NzYgMC4wOTAwMDAwMDM1OCAwLjM0OTk5OTk5NCAwAA</bytes>
+							<bytes key="NSCMYK">MC4wMDk5OTk5OTk3NzYgMC4wOTAwMDAwMDM1OCAwLjM0NjcxNTMzMTEgMAA</bytes>
 							<reference key="NSCustomColorSpace" ref="495806210"/>
-							<characters key="NSComponents">0.01 0.09 0.35 0 1</characters>
+							<characters key="NSComponents">0.01 0.09 0.3467153285 0 1</characters>
 						</object>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -79,9 +79,9 @@
 						<reference key="NSSuperview" ref="249263867"/>
 						<object class="NSColor" key="IBUIBackgroundColor">
 							<int key="NSColorSpace">5</int>
-							<bytes key="NSCMYK">MC4wMDk5OTk5OTk3NzYgMC4wOTAwMDAwMDM1OCAwLjM0OTk5OTk5NCAwAA</bytes>
+							<bytes key="NSCMYK">MC4wMDk5OTk5OTk3NzYgMC4wOTAwMDAwMDM1OCAwLjM0NjcxNTMzMTEgMAA</bytes>
 							<reference key="NSCustomColorSpace" ref="495806210"/>
-							<characters key="NSComponents">0.01 0.09 0.35 0 1</characters>
+							<characters key="NSComponents">0.01 0.09 0.3467153285 0 1</characters>
 						</object>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -161,7 +161,7 @@
 				<reference key="NSSuperview"/>
 				<object class="NSColor" key="IBUIBackgroundColor">
 					<int key="NSColorSpace">1</int>
-					<bytes key="NSRGB">MC45MzYwMzA1NjY3IDAuOTIwODc5MDA2NCAwLjkwMTIzMDgxMjEgMAA</bytes>
+					<bytes key="NSRGB">MSAwLjk4MDQ4MTEwODkgMC45NTU0ODcwMjEzIDAAA</bytes>
 				</object>
 				<bool key="IBUIClearsContextBeforeDrawing">NO</bool>
 				<object class="IBUISimulatedStatusBarMetrics" key="IBUISimulatedStatusBarMetrics"/>
@@ -322,7 +322,7 @@
 					<bool key="EncodedWithXMLCoder">YES</bool>
 					<string>CardViewController</string>
 					<string>UIResponder</string>
-					<string>{{483, 418}, {480, 320}}</string>
+					<string>{{483, 420}, {480, 320}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
