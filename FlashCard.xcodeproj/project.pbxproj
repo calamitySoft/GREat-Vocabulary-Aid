@@ -21,6 +21,7 @@
 		2880DEA310926BF800CC57B2 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2880DEA210926BF800CC57B2 /* CoreData.framework */; };
 		288765590DF743DE002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765580DF743DE002DB57D /* CoreGraphics.framework */; };
 		289233AE0DB2D0DB0083E9F9 /* CardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289233A90DB2D0DB0083E9F9 /* CardViewController.m */; };
+		7026CA561258436A00D55D8D /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7026CA551258436A00D55D8D /* Entitlements.plist */; };
 		702713DB11D7F5A20011EDCF /* AppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 702713DA11D7F5A20011EDCF /* AppViewController.m */; };
 		70A0271E11CEFD46001796A4 /* notebook_paper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 70A0271D11CEFD46001796A4 /* notebook_paper.jpg */; };
 		70A027DD11CF2F62001796A4 /* words.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70A027DC11CF2F62001796A4 /* words.plist */; };
@@ -51,6 +52,7 @@
 		289233A90DB2D0DB0083E9F9 /* CardViewController.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = CardViewController.m; path = Classes/CardViewController.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* FlashCard_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashCard_Prefix.pch; sourceTree = "<group>"; };
+		7026CA551258436A00D55D8D /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
 		702713D911D7F5A20011EDCF /* AppViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppViewController.h; path = Classes/AppViewController.h; sourceTree = "<group>"; };
 		702713DA11D7F5A20011EDCF /* AppViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppViewController.m; path = Classes/AppViewController.m; sourceTree = "<group>"; };
 		70A0271D11CEFD46001796A4 /* notebook_paper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = notebook_paper.jpg; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
+				7026CA551258436A00D55D8D /* Entitlements.plist */,
 				22855FC611ED27EC0050201A /* QuartzCore.framework */,
 				22A6C6CB121326C500DA4A6E /* AudioToolbox.framework */,
 			);
@@ -201,6 +204,7 @@
 			isa = PBXProject;
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "FlashCard" */;
 			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
 				English,
@@ -236,6 +240,7 @@
 				70AE146A125729E800B72A85 /* Icon-Small@2x.png in Resources */,
 				70AE146B125729E800B72A85 /* Icon.png in Resources */,
 				70AE146C125729E800B72A85 /* Icon@2x.png in Resources */,
+				7026CA561258436A00D55D8D /* Entitlements.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +279,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = "";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = FlashCard_Prefix.pch;
@@ -283,11 +289,75 @@
 			};
 			name = Release;
 		};
+		7026CA62125843BB00D55D8D /* App Store Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Logan Moseley (BW5L72G88N)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.1;
+			};
+			name = "App Store Distribution";
+		};
+		7026CA63125843BB00D55D8D /* App Store Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: CalamitySoft";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = FlashCard_Prefix.pch;
+				INFOPLIST_FILE = "FlashCard-Info.plist";
+				PRODUCT_NAME = FlashCard;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "68183F7F-77A0-4152-B9EF-08B612CF1F13";
+				SDKROOT = iphoneos4.1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "App Store Distribution";
+		};
+		7026CA64125843BB00D55D8D /* Ad Hoc Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Logan Moseley (BW5L72G88N)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.1;
+			};
+			name = "Ad Hoc Distribution";
+		};
+		7026CA65125843BB00D55D8D /* Ad Hoc Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: CalamitySoft";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = FlashCard_Prefix.pch;
+				INFOPLIST_FILE = "FlashCard-Info.plist";
+				PRODUCT_NAME = FlashCard;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "199105E7-C965-4AAF-BF49-F10DD817B000";
+				SDKROOT = iphoneos4.1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Ad Hoc Distribution";
+		};
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Logan Moseley (BW5L72G88N)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
@@ -301,14 +371,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Logan Moseley (BW5L72G88N)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PREBINDING = NO;
-				SDKROOT = iphoneos4.0;
+				SDKROOT = iphoneos4.1;
 			};
 			name = Release;
 		};
@@ -320,6 +390,8 @@
 			buildConfigurations = (
 				1D6058940D05DD3E006BFB54 /* Debug */,
 				1D6058950D05DD3E006BFB54 /* Release */,
+				7026CA63125843BB00D55D8D /* App Store Distribution */,
+				7026CA65125843BB00D55D8D /* Ad Hoc Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -329,6 +401,8 @@
 			buildConfigurations = (
 				C01FCF4F08A954540054247B /* Debug */,
 				C01FCF5008A954540054247B /* Release */,
+				7026CA62125843BB00D55D8D /* App Store Distribution */,
+				7026CA64125843BB00D55D8D /* Ad Hoc Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
