@@ -39,7 +39,7 @@
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
-		activeBuildConfigurationName = "Ad Hoc Distribution";
+		activeBuildConfigurationName = Release;
 		activeExecutable = 70941AD511BEDBF70076C7D5 /* FlashCard */;
 		activeSDKPreference = iphoneos4.1;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* FlashCard */;
@@ -99,30 +99,25 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 307774307;
-			PBXWorkspaceStateSaveDate = 307774307;
+			PBXPerProjectTemplateStateSaveDate = 308092050;
+			PBXWorkspaceStateSaveDate = 308092050;
 		};
 		perUserProjectItems = {
-			7026CA511258436400D55D8D /* PlistBookmark */ = 7026CA511258436400D55D8D /* PlistBookmark */;
-			7026CA591258438A00D55D8D /* PlistBookmark */ = 7026CA591258438A00D55D8D /* PlistBookmark */;
-			7026CA5A1258438A00D55D8D /* PlistBookmark */ = 7026CA5A1258438A00D55D8D /* PlistBookmark */;
-			7026CA5B1258438A00D55D8D /* PlistBookmark */ = 7026CA5B1258438A00D55D8D /* PlistBookmark */;
-			7026CA661258440E00D55D8D /* PlistBookmark */ = 7026CA661258440E00D55D8D /* PlistBookmark */;
-			7026CA7B1258447200D55D8D /* PlistBookmark */ = 7026CA7B1258447200D55D8D /* PlistBookmark */;
-			7026CA7C1258447200D55D8D /* PlistBookmark */ = 7026CA7C1258447200D55D8D /* PlistBookmark */;
-			7026CA7D1258447200D55D8D /* PlistBookmark */ = 7026CA7D1258447200D55D8D /* PlistBookmark */;
-			7026CA83125844C500D55D8D /* PlistBookmark */ = 7026CA83125844C500D55D8D /* PlistBookmark */;
+			700F6833125D1CB3003CA417 /* PlistBookmark */ = 700F6833125D1CB3003CA417 /* PlistBookmark */;
+			700F6846125D1D09003CA417 /* PBXBookmark */ = 700F6846125D1D09003CA417 /* PBXBookmark */;
+			700F6847125D1D09003CA417 /* PlistBookmark */ = 700F6847125D1D09003CA417 /* PlistBookmark */;
+			700F6848125D1D09003CA417 /* PlistBookmark */ = 700F6848125D1D09003CA417 /* PlistBookmark */;
+			701ED4A21258469500B62320 = 701ED4A21258469500B62320 /* PlistBookmark */;
+			7026CA7B1258447200D55D8D = 7026CA7B1258447200D55D8D /* PlistBookmark */;
+			7026CA841258454600D55D8D = 7026CA841258454600D55D8D /* PlistBookmark */;
 			7027102511D16E4B0011EDCF = 7027102511D16E4B0011EDCF /* PBXTextBookmark */;
 			703BBB631218DF2700AA4E4E = 703BBB631218DF2700AA4E4E /* PBXTextBookmark */;
 			709D7CD711F5398800F51481 = 709D7CD711F5398800F51481 /* PBXTextBookmark */;
 			709D7D0411F5415A00F51481 = 709D7D0411F5415A00F51481 /* PlistBookmark */;
 			709D7D0511F5415A00F51481 = 709D7D0511F5415A00F51481 /* PBXTextBookmark */;
-			70AE13FF12571E8600B72A85 = 70AE13FF12571E8600B72A85 /* PBXBookmark */;
 			70AE146F125729FD00B72A85 = 70AE146F125729FD00B72A85 /* PBXBookmark */;
 			70AE1471125729FD00B72A85 = 70AE1471125729FD00B72A85 /* PBXBookmark */;
-			70AE1472125729FD00B72A85 = 70AE1472125729FD00B72A85 /* PlistBookmark */;
 			70AE14A11257306500B72A85 = 70AE14A11257306500B72A85 /* PBXBookmark */;
-			70AE14A21257306500B72A85 = 70AE14A21257306500B72A85 /* PlistBookmark */;
 			70D2A1C812123472009AE064 = 70D2A1C812123472009AE064 /* PBXTextBookmark */;
 			70D2A1C912123472009AE064 = 70D2A1C912123472009AE064 /* PBXTextBookmark */;
 			70F7E930120A985300591A8A = 70F7E930120A985300591A8A /* PBXTextBookmark */;
@@ -146,60 +141,57 @@
 			sepNavVisRange = "{0, 324}";
 		};
 	};
-	7026CA511258436400D55D8D /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 8D1107310486CEB800E47090 /* FlashCard-Info.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-		);
-		name = "/Users/loganmoseley/Projects/FlashCard/FlashCard-Info.plist";
-		rLen = 0;
-		rLoc = 9223372036854775807;
-	};
-	7026CA591258438A00D55D8D /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 8D1107310486CEB800E47090 /* FlashCard-Info.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-		);
-		name = "/Users/loganmoseley/Projects/FlashCard/FlashCard-Info.plist";
-		rLen = 0;
-		rLoc = 9223372036854775807;
-	};
-	7026CA5A1258438A00D55D8D /* PlistBookmark */ = {
+	700F6833125D1CB3003CA417 /* PlistBookmark */ = {
 		isa = PlistBookmark;
 		fRef = 7026CA551258436A00D55D8D /* Entitlements.plist */;
 		fallbackIsa = PBXBookmark;
 		isK = 0;
 		kPath = (
+			"get-task-allow",
 		);
 		name = /Users/loganmoseley/Projects/FlashCard/Entitlements.plist;
 		rLen = 0;
 		rLoc = 9223372036854775807;
 	};
-	7026CA5B1258438A00D55D8D /* PlistBookmark */ = {
+	700F6846125D1D09003CA417 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 700F6842125D1CEE003CA417 /* Default.png */;
+	};
+	700F6847125D1D09003CA417 /* PlistBookmark */ = {
 		isa = PlistBookmark;
 		fRef = 7026CA551258436A00D55D8D /* Entitlements.plist */;
 		fallbackIsa = PBXBookmark;
 		isK = 0;
 		kPath = (
+			"get-task-allow",
 		);
 		name = /Users/loganmoseley/Projects/FlashCard/Entitlements.plist;
 		rLen = 0;
 		rLoc = 9223372036854775807;
 	};
-	7026CA661258440E00D55D8D /* PlistBookmark */ = {
+	700F6848125D1D09003CA417 /* PlistBookmark */ = {
 		isa = PlistBookmark;
 		fRef = 7026CA551258436A00D55D8D /* Entitlements.plist */;
 		fallbackIsa = PBXBookmark;
 		isK = 0;
 		kPath = (
+			"get-task-allow",
 		);
 		name = /Users/loganmoseley/Projects/FlashCard/Entitlements.plist;
 		rLen = 0;
 		rLoc = 9223372036854775807;
+	};
+	701ED4A21258469500B62320 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 7026CA551258436A00D55D8D /* Entitlements.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			"get-task-allow",
+		);
+		name = /Users/loganmoseley/Projects/FlashCard/Entitlements.plist;
+		rLen = 0;
+		rLoc = 9223372036854775808;
 	};
 	7026CA7B1258447200D55D8D /* PlistBookmark */ = {
 		isa = PlistBookmark;
@@ -210,20 +202,9 @@
 		);
 		name = "/Users/loganmoseley/Projects/FlashCard/FlashCard-Info.plist";
 		rLen = 0;
-		rLoc = 9223372036854775807;
+		rLoc = 9223372036854775808;
 	};
-	7026CA7C1258447200D55D8D /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 7026CA551258436A00D55D8D /* Entitlements.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-		);
-		name = /Users/loganmoseley/Projects/FlashCard/Entitlements.plist;
-		rLen = 0;
-		rLoc = 9223372036854775807;
-	};
-	7026CA7D1258447200D55D8D /* PlistBookmark */ = {
+	7026CA841258454600D55D8D /* PlistBookmark */ = {
 		isa = PlistBookmark;
 		fRef = 7026CA551258436A00D55D8D /* Entitlements.plist */;
 		fallbackIsa = PBXBookmark;
@@ -233,19 +214,7 @@
 		);
 		name = /Users/loganmoseley/Projects/FlashCard/Entitlements.plist;
 		rLen = 0;
-		rLoc = 9223372036854775807;
-	};
-	7026CA83125844C500D55D8D /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 7026CA551258436A00D55D8D /* Entitlements.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-			"get-task-allow",
-		);
-		name = /Users/loganmoseley/Projects/FlashCard/Entitlements.plist;
-		rLen = 0;
-		rLoc = 9223372036854775807;
+		rLoc = 9223372036854775808;
 	};
 	7027102511D16E4B0011EDCF /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -364,10 +333,6 @@
 			sepNavWindowFrame = "{{15, 4}, {970, 774}}";
 		};
 	};
-	70AE13FF12571E8600B72A85 /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = 70FD656B1256F29F003C0252 /* Icon.png */;
-	};
 	70AE146F125729FD00B72A85 /* PBXBookmark */ = {
 		isa = PBXBookmark;
 		fRef = 70AE1470125729FD00B72A85 /* Icon@2x.png */;
@@ -383,31 +348,9 @@
 		isa = PBXBookmark;
 		fRef = 70A0271D11CEFD46001796A4 /* notebook_paper.jpg */;
 	};
-	70AE1472125729FD00B72A85 /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 8D1107310486CEB800E47090 /* FlashCard-Info.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-		);
-		name = "/Users/loganmoseley/Projects/FlashCard/FlashCard-Info.plist";
-		rLen = 0;
-		rLoc = 9223372036854775808;
-	};
 	70AE14A11257306500B72A85 /* PBXBookmark */ = {
 		isa = PBXBookmark;
 		fRef = 70AE1461125729E800B72A85 /* Icon-72.png */;
-	};
-	70AE14A21257306500B72A85 /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 8D1107310486CEB800E47090 /* FlashCard-Info.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-		);
-		name = "/Users/loganmoseley/Projects/FlashCard/FlashCard-Info.plist";
-		rLen = 0;
-		rLoc = 9223372036854775808;
 	};
 	70D2A1C812123472009AE064 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -438,13 +381,6 @@
 		rType = 0;
 		vrLen = 921;
 		vrLoc = 0;
-	};
-	70FD656B1256F29F003C0252 /* Icon.png */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = image.png;
-		name = Icon.png;
-		path = /Users/loganmoseley/Projects/FlashCard/Icon.png;
-		sourceTree = "<absolute>";
 	};
 	70FD656F125709D7003C0252 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
