@@ -361,7 +361,7 @@
 			[self replaceWithPrevCard];
 		}
 		
-		touchBegan = touchMoved;
+		//touchBegan = touchMoved;  // Moved to touchesEnded:withEvent: below.
 	}
 	
 	// Swipe > 20 up or down flips the card
@@ -369,6 +369,17 @@
 		[self flipCard];
 		touchBegan = CGPointMake(0, 0);
 	}
+}
+
+- (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
+	CGPoint touchEnded = [[touches anyObject] locationInView:self.view];
+	
+	// These comparisons are "Is it a single touch?" because a finger touch represents more than 1 touch location.
+	if (abs(touchBegan.x-touchEnded.x) < 10
+		&& abs(touchBegan.y-touchEnded.y) < 10) {
+		[self flipCard];
+	}
+	touchBegan = CGPointMake(0, 0);
 }
 
 
