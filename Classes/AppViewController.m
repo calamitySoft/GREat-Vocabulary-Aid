@@ -352,9 +352,11 @@
 	
 	// Swipe > 30 left or right switches words
 	if (abs(touchMoved.x-touchBegan.x) > kSwipeXDistance) {
+		// Swiping right --> new card slides in from the left
 		if (touchMoved.x-touchBegan.x > 0) {
-			[self replaceWithNextCard];
+			[self replaceWithNextCard];		// This looks a little wonky, but it works AppDelegate:112.
 		}
+		// Swiping left --> new card slides in from the right
 		else {
 			[self replaceWithPrevCard];
 		}

@@ -327,24 +327,24 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>700F6848125D1D09003CA417</string>
+										<string>700F6876125D2543003CA417</string>
 										<key>history</key>
 										<array>
 											<string>7027102511D16E4B0011EDCF</string>
-											<string>709D7CD711F5398800F51481</string>
 											<string>709D7D0411F5415A00F51481</string>
 											<string>709D7D0511F5415A00F51481</string>
 											<string>70F7E930120A985300591A8A</string>
-											<string>70D2A1C812123472009AE064</string>
 											<string>70D2A1C912123472009AE064</string>
-											<string>703BBB631218DF2700AA4E4E</string>
-											<string>70FD656F125709D7003C0252</string>
 											<string>70AE146F125729FD00B72A85</string>
 											<string>70AE1471125729FD00B72A85</string>
 											<string>70AE14A11257306500B72A85</string>
 											<string>7026CA7B1258447200D55D8D</string>
-											<string>700F6846125D1D09003CA417</string>
-											<string>700F6847125D1D09003CA417</string>
+											<string>700F6870125D2543003CA417</string>
+											<string>700F6871125D2543003CA417</string>
+											<string>700F6872125D2543003CA417</string>
+											<string>700F6873125D2543003CA417</string>
+											<string>700F6874125D2543003CA417</string>
+											<string>700F6875125D2543003CA417</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -542,7 +542,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>700F6849125D1D09003CA417</string>
 		<string>700F683E125D1CB3003CA417</string>
 		<string>700F683F125D1CB3003CA417</string>
 		<string>1C78EAAD065D492600B07095</string>
@@ -875,6 +874,8 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>

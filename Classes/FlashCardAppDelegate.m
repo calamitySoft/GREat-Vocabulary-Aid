@@ -109,7 +109,7 @@
 		return @"Bad input to getCardText:forSide:";
 	}
 	
-	currentCard += whichDirection;
+	currentCard -= whichDirection;
 	if (currentCard < 0) {
 		currentCard = [cardArray count] - 1;
 	} else if (currentCard >= [cardArray count]) {
