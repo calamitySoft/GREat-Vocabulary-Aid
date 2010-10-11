@@ -1,10 +1,5 @@
-When you're getting ready for an exam, you want to be as prepared as possible.  When you're on your way to higher education, only the most direct and convenient study tools around can support you.
+When you're getting ready for an exam, you want to be as prepared as possible.  When you're on your way to higher education, only the most direct and convenient study tools around can support you.  A deck of 759 GRE vocabulary words is just that tool.
 
 The GREat Vocab Tutor is a small application designed around studying for the GRE, providing flash cards that quiz users on GRE vocabulary words and definitions.
 
-The no-frills interface gets right to business and is instant accessible to anyone who has ever used paper and pencil flash cards.  In addition, the deck can be shuffled with a single touch.
-
-/*
- * Do we need this? (below)
-*/
-Due to the nature of the Graduate Record Examination, the GREat Vocab Tutor's list does not claim to be exhaustive in which words are included, nor in which definitions are used.
+The no-frills interface gets right to business and is instant accessible to anyone who has ever used paper and pencil flash cards.  In addition, the whole 759-card deck can be shuffled with a single touch.
