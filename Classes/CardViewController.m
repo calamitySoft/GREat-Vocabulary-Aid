@@ -77,8 +77,9 @@
 
 - (NSString *)insertLineBreaks:(NSString *)textToChange{
 	
-	NSMutableString *process = [[NSMutableString alloc] init];
-	[process setString:textToChange];
+	NSMutableString *process = [[NSMutableString alloc] initWithString:textToChange];
+//	[process setString:textToChange];	// setString: may need to only be done on an NSMutableString that was
+										// initWithCapacity.  That's what happens in the sample project (from xcode docs).
 	NSInteger strLength = [process length];
 	if (strLength > 25) {
 		for (NSInteger i = 15; i < strLength; i++) {

@@ -58,11 +58,11 @@
 			NSLog(@"Could not load %@, error code: %d", soundURL, err);
 	}
 	// Create and set the frontside view controller
-	CardViewController *aController = [[CardViewController alloc] initWithNibName:@"FrontsideView" bundle:nil];
+	CardViewController *aController = [[CardViewController alloc] initWithNibName:@"FrontsideView" bundle:nil];	// refcount++
 	aController.delegate = self;
-	frontsideViewController.textStr = [self getCurrentCardForSide:kFront];
+	aController.textStr = [self getCurrentCardForSide:kFront];
 	self.frontsideViewController = aController;
-	[aController release];
+	[aController release];	// refcount--
 	
 	NSLog(@"card = %@", [self getCurrentCardForSide:kFront]);
 	
@@ -83,12 +83,12 @@
 		NSLog(@"Flipping to back");
 		
 		// Create and set the backside view controller		
-		CardViewController *bController = [[CardViewController alloc] initWithNibName:@"BacksideView" bundle:nil];
+		CardViewController *bController = [[CardViewController alloc] initWithNibName:@"BacksideView" bundle:nil];	// refcount++
 		bController.delegate = self;
 		bController.textStr = [self getCurrentCardForSide:kBack];
 		bController.textStr = [self insertLineBreaks:bController.textStr];
 		self.backsideViewController = bController;
-		[bController release];
+		[bController release];	// refcount--
 		
 		// Declare which controller to flip to/from
 		coming = backsideViewController;
@@ -102,11 +102,11 @@
 		NSLog(@"Flipping to front");
 		
 		// Create and set the frontside view controller		
-		CardViewController *fController = [[CardViewController alloc] initWithNibName:@"FrontsideView" bundle:nil];
+		CardViewController *fController = [[CardViewController alloc] initWithNibName:@"FrontsideView" bundle:nil];	// refcount++
 		fController.delegate = self;
 		fController.textStr = [self getCurrentCardForSide:kFront];
 		self.frontsideViewController = fController;
-		[fController release];
+		[fController release];	// refcount--
 		
 		// Declare which controller to flip to/from
 		coming = frontsideViewController;
@@ -166,10 +166,11 @@
 	// May remove this if text is stable.
 	if ([self isFrontShown]) {
 		[frontsideViewController replaceLabel:[self getCurrentCard]];
+		[backsideViewController release];
 	} else {
 		[backsideViewController replaceLabel:[self getCurrentCard]];
+		[frontsideViewController release];
 	}
-
 }
 
 - (BOOL)isFrontShown {
@@ -207,7 +208,7 @@
 
 - (NSString *)insertLineBreaks:(NSString *)textToChange{
 	
-	NSMutableString *process = [[NSMutableString alloc] init];
+	NSMutableString *process = [[[NSMutableString alloc] init] autorelease];
 	[process setString:textToChange];
 	NSInteger strLength = [process length];
 	if (strLength > 25) {
@@ -220,8 +221,7 @@
 			}
 		}
 	}
-	NSString *returnIt = process;
-	return returnIt;
+	return (NSString*) process;
 }
 
 

@@ -31,7 +31,7 @@
 
 - (void)loadCards {
 	NSLog(@"LOADING CARDS");
-	NSString *bundleStr = [[NSBundle mainBundle] bundlePath];
+	NSString *bundleStr = [[[NSBundle mainBundle] bundlePath] autorelease];
 	NSString *cardDictPath = [bundleStr stringByAppendingPathComponent:@"words.plist"];
 	self.cardArray = [NSMutableArray arrayWithContentsOfFile:cardDictPath];
 	
@@ -42,8 +42,8 @@
 - (void)printCards {
 	NSLog(@"PRINTING CARDS:");
 	
-	NSEnumerator *e = [cardArray objectEnumerator];
-	NSDictionary *tempDict;
+	NSEnumerator *e = [cardArray objectEnumerator];	// crashes if we "autorelease" this one. must do it itself when done with the array.
+	NSDictionary *tempDict = [[[NSDictionary alloc] init] autorelease];
 	
 	while (tempDict = [e nextObject]) {
 		NSString *frontStr = [tempDict objectForKey:@"Front"];
@@ -65,7 +65,7 @@
 		[cardArray exchangeObjectAtIndex:i withObjectAtIndex:n];
 	}
 	
-	//	[self printCards];
+//	[self printCards];
 }
 
 
@@ -102,7 +102,7 @@
  */
 - (NSString*)getCardText:(NSInteger)whichDirection forSide:(NSString*)whichSide {
 	
-//	NSLog(@"currentCard = %d", currentCard);
+	//	NSLog(@"currentCard = %d", currentCard);
 	
 	// Error check whichSide
 	if (whichSide != @"Front" && whichSide != @"Back") {
