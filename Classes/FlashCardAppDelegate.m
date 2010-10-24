@@ -61,7 +61,7 @@
 	
 	for (NSUInteger i = 0; i < count; ++i) {
 		int nElements = count - i;
-		int n = (random() % nElements) + i;
+		int n = (arc4random() % nElements) + i;
 		[cardArray exchangeObjectAtIndex:i withObjectAtIndex:n];
 	}
 	
