@@ -43,7 +43,7 @@
 	NSLog(@"PRINTING CARDS:");
 	
 	NSEnumerator *e = [cardArray objectEnumerator];	// crashes if we "autorelease" this one. must do it itself when done with the array.
-	NSDictionary *tempDict = [[[NSDictionary alloc] init] autorelease];
+	NSDictionary *tempDict = nil;//[[[NSDictionary alloc] init] autorelease];
 	
 	while (tempDict = [e nextObject]) {
 		NSString *frontStr = [tempDict objectForKey:@"Front"];

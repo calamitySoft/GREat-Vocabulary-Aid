@@ -80,19 +80,20 @@
 	NSMutableString *process = [[NSMutableString alloc] initWithString:textToChange];
 //	[process setString:textToChange];	// setString: may need to only be done on an NSMutableString that was
 										// initWithCapacity.  That's what happens in the sample project (from xcode docs).
+//	NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];	// collect the memory leak below
 	NSInteger strLength = [process length];
 	if (strLength > 25) {
 		for (NSInteger i = 15; i < strLength; i++) {
 			char c = [process characterAtIndex:i];
 			if( c == 32){				
 				NSLog(@"Found a space at %i", i);
-				[process insertString:@"\n" atIndex:i];
+				[process insertString:@"\n" atIndex:i];	// memory leak here. something about NSPlaceholderMutableString.
 				i += 15;
 			}
 		}
 	}
-	NSString *returnIt = process;
-	return returnIt;
+//	[pool release];
+	return (NSString*) process;
 }
 /*
  * Animate switching to the next label (word or definition).
